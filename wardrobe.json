@@ -7,6 +7,14 @@
   {
    "id": "c1791305205183",
    "name": "Nielle summer"
+  },
+  {
+   "id": "c1791305756137",
+   "name": "Nielle autumn"
+  },
+  {
+   "id": "c1791305909846",
+   "name": "Nielle winter"
   }
  ],
  "items": [
@@ -54,7 +62,7 @@
   },
   {
    "id": "i1791305170448",
-   "cat": "c1791305205183",
+   "cat": "c1791304657455",
    "desc": "Main color: White / pale blue / light grey. Outfit: White ribbed crop camisole with a bow at the neckline, light blue distressed denim shorts with side lace-up detail, and an oversized white open shirt sliding off the shoulders. Silhouette: Cropped fitted top with a loose off-shoulder layer and short shorts. Length: Mini shorts, bare legs, midriff visible. Sleeves: Long loose shirt sleeves hanging off the arms, one hand in a pocket. Footwear: White chunky platform slides with bows. Accessories: White leather satchel with buckle straps worn crossbody. Hairstyle: High ponytail tied with a white fluffy scrunchie, with long wavy strands falling loose at the sides.",
    "img": "images/i1791305170448.jpg",
    "fav": false
@@ -71,6 +79,55 @@
    "cat": "c1791305205183",
    "desc": "Main color: White / ivory. Dress: Sleeveless sundress with a square neckline, thin straps, and a fitted, seamed bodice with a defined waist, over a full flowing skirt. Silhouette: Hourglass shape with a flared, airy skirt. Length: Knee-length. Sleeves: None, bare shoulders and arms. Footwear: Tan platform espadrille sandals with ankle buckle straps. Accessories: Wide-brim straw hat with a long white ribbon trailing in the wind. Hairstyle: Extremely long loose pink hair in heavy curls and waves, with soft face-framing strands and curled ends pooling at the sides.",
    "img": "images/i1791305289493.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305804100",
+   "cat": "c1791305756137",
+   "desc": "Main color: Dark brown / burgundy / black. Outfit: Oversized dark brown coat with chest pockets and buttoned cuffs, worn over a dark turtleneck and a burgundy plaid fringe scarf, with a dark mini skirt with buckle straps and metal rings, and patterned dark brown tights. Silhouette: Layered, loose coat over a short fitted skirt. Length: Coat to mid-thigh, mini skirt, tights to the boots. Sleeves: Long, loose coat sleeves, one hand holding the scarf at the collar. Footwear: Brown knee-high leather boots with several buckle straps and chunky platform soles. Accessories: Large brown leather satchel with buckles, burgundy fringe scarf. Hairstyle: Long loose wavy hair with curled strands at the front.",
+   "img": "images/i1791305804100.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305816880",
+   "cat": "c1791305756137",
+   "desc": "Main color: Brown / cream / white. Outfit: Cropped brown jacket with balloon sleeves and buckle straps on the sleeves, over a cream cable-knit turtleneck sweater and a brown and cream plaid pleated mini skirt, with sheer brown tights. Silhouette: Rounded oversized sleeves with a fitted waist and pleated skirt. Length: Mini skirt, tights to the shoes. Sleeves: Very puffy balloon sleeves with leather straps, falling past the hands. Footwear: Dark brown chunky platform loafers with tassels, worn with cream knit leg warmers. Accessories: White beret, brown leather satchel with buckles on a chain strap worn crossbody. Hairstyle: Long loose wavy hair worn under the beret, with soft face-framing strands.",
+   "img": "images/i1791305816880.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305846732",
+   "cat": "c1791305756137",
+   "desc": "Main color: Dark brown / burgundy / black. Outfit: Oversized dark brown coat with chest pockets and buttoned cuffs, worn over a dark turtleneck and a burgundy plaid fringe scarf, with a dark mini skirt with buckle straps and metal rings, and patterned dark brown tights. Silhouette: Layered, loose coat over a short fitted skirt. Length: Coat to mid-thigh, mini skirt, tights to the boots. Sleeves: Long, loose coat sleeves, one hand holding the scarf at the collar. Footwear: Brown knee-high leather boots with several buckle straps and chunky platform soles. Accessories: Large brown leather satchel with buckles, burgundy fringe scarf. Hairstyle: Long loose wavy hair with curled strands at the front.",
+   "img": "images/i1791305846732.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305887784",
+   "cat": "c1791305756137",
+   "desc": "Main color: Black / dark grey / brown. Outfit: Black puffer jacket with a grey faux-fur-trimmed hood worn down, over a dark ribbed turtleneck sweater, with black cuffed belted shorts and sheer black tights. Silhouette: Puffy, boxy jacket over a fitted base with short shorts. Length: Jacket to the hips, shorts, tights to the boots. Sleeves: Long puffy sleeves, one hand in the pocket, the other holding the scarf. Footwear: Tall glossy black-brown leather boots with several buckle straps and chunky platform soles. Accessories: Grey plaid fringe scarf, black leather shoulder bag. Hairstyle: Long loose wavy hair, swept to one side, with curled strands at the front.",
+   "img": "images/i1791305887784.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305922675",
+   "cat": "c1791305909846",
+   "desc": "Main color: Ivory / cream / pale pink. Outfit: Fluffy cream sherpa jacket with puffy sleeves, worn over a cream cable-knit sweater mini dress and a pink plaid fringe scarf. Silhouette: Soft, rounded and cozy with a short fitted knit dress. Length: Mini dress, bare thighs. Sleeves: Very puffy fluffy sleeves, one hand raised near the scarf. Footwear: Cream platform lace-up boots with pom-poms, worn with cream knit leg warmers with pom-pom ties. Accessories: White fluffy beret with a small bow, pink shoulder bag with pom-pom and small character keychain charms. Hairstyle: Long loose wavy hair worn under the beret, with soft face-framing strands.",
+   "img": "images/i1791305922675.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305970944",
+   "cat": "c1791305909846",
+   "desc": "Main color: Ivory / cream / off-white. Outfit: Fluffy sherpa-style oversized jacket with puffed sleeves over a cream cable-knit sweater mini dress, worn with dark opaque tights. Silhouette: Soft, rounded and cozy, with voluminous sleeves and a fitted knit dress underneath. Length: Mini knit dress, tights to the boots. Sleeves: Long, puffed fluffy sleeves ending in white fuzzy mittens. Footwear: Brown leather buckle boots with chunky platform heels and white fur trim at the cuffs. Accessories: Chunky knit fringed scarf, white beret, white fluffy mittens. Hairstyle: Extremely long loose wavy hair worn down under the beret, falling in long soft waves.",
+   "img": "images/i1791305970944.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305996156",
+   "cat": "c1791305756137",
+   "desc": "Main color: Camel / beige / warm brown. Outfit: Oversized camel double-breasted coat with wide lapels and cuffed sleeves, worn open over a cream ribbed turtleneck and a brown plaid pleated mini skirt, with dark opaque tights. Silhouette: Boxy, layered outerwear over a fitted base, with a pleated skirt. Length: Coat to mid-thigh, mini skirt underneath. Sleeves: Long, loose coat sleeves with turned-back cuffs. Footwear: Brown leather ankle boots with a chunky block heel and a slouchy shaft. Accessories: Small brown leather top-handle bag with a thin chain strap worn across the body. Hairstyle: Extremely long loose wavy hair, parted near the center and falling in soft voluminous waves.",
+   "img": "images/i1791305996156.jpg",
    "fav": false
   }
  ]
