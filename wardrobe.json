@@ -3,6 +3,10 @@
   {
    "id": "c1791304657455",
    "name": "Nielle casual"
+  },
+  {
+   "id": "c1791305205183",
+   "name": "Nielle summer"
   }
  ],
  "items": [
@@ -25,6 +29,34 @@
    "cat": "c1791304657455",
    "desc": "Main color: Grey / white / black. Outfit: Oversized grey zip-up track jacket with white side stripes sliding off the shoulders, worn over a white spaghetti-strap crop top and grey baggy wide-leg track pants with white side stripes and a drawstring waist. Silhouette: Loose, relaxed streetwear with a cropped fitted top. Length: Full-length wide pants covering most of the shoes, cropped top showing the midriff. Sleeves: Long jacket sleeves hanging off the arms, hands in the pockets. Footwear: Grey and white chunky sneakers. Accessories: White over-ear headphones worn around the neck, black backpack hanging from one shoulder. Hairstyle: Long loose wavy hair, center part.",
    "img": "images/i1791304707402.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305102363",
+   "cat": "c1791304657455",
+   "desc": "Main color: Pink / white / cream. Outfit: Oversized pink knit cardigan hanging off the arms, over a white camisole with a small bow at the neckline and a white tiered ruffle mini skirt with a ribbon bow at the waist. Silhouette: Soft, feminine, slightly fitted top with a short layered skirt. Length: Mini skirt, bare thighs. Sleeves: Long loose cardigan sleeves slipping off the shoulders, hand touching the cheek. Footwear: Pink and white chunky platform sneakers with bows, worn with cream cable-knit leg warmers. Accessories: Small pink satchel with buckle straps held in the hand. Hairstyle: Long loose wavy hair, center part, soft strands falling over the shoulders.",
+   "img": "images/i1791305102363.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305114316",
+   "cat": "c1791304657455",
+   "desc": "Main color: Cream / light grey / white. Outfit: Oversized cream cable-knit sweater worn off one shoulder, with baggy light grey wide-leg sweatpants and a white drawstring waist. Silhouette: Loose, cozy and relaxed with an exposed shoulder. Length: Sweater reaches the hips, full-length pants pooling at the feet. Sleeves: Very long sweater sleeves covering the hands, arms folded in front of the chest. Footwear: White chunky sneakers. Accessories: White canvas tote bag with a teddy bear charm with a green bow. Hairstyle: Long loose wavy hair, swept to one side, center part.",
+   "img": "images/i1791305114316.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305157379",
+   "cat": "c1791305205183",
+   "desc": "Main color: Pale pink / white / cream. Outfit: Sheer pink floral babydoll dress with a plunging front-tie bodice, lace-trimmed hem, layered high-low skirt, and ribbon-tie shoulder straps. Silhouette: Empire waist with a flowing, airy skirt. Length: Short in front, longer and layered at the back and sides. Sleeves: None, ribbon straps tied in bows on the shoulders. Footwear: White platform sandals with long ribbon ankle ties. Accessories: Ribbon bow at the neck. Hairstyle: Long loose wavy hair, center part, soft strands framing the face.",
+   "img": "images/i1791305157379.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791305170448",
+   "cat": "c1791305205183",
+   "desc": "Main color: White / pale blue / light grey. Outfit: White ribbed crop camisole with a bow at the neckline, light blue distressed denim shorts with side lace-up detail, and an oversized white open shirt sliding off the shoulders. Silhouette: Cropped fitted top with a loose off-shoulder layer and short shorts. Length: Mini shorts, bare legs, midriff visible. Sleeves: Long loose shirt sleeves hanging off the arms, one hand in a pocket. Footwear: White chunky platform slides with bows. Accessories: White leather satchel with buckle straps worn crossbody. Hairstyle: High ponytail tied with a white fluffy scrunchie, with long wavy strands falling loose at the sides.",
+   "img": "images/i1791305170448.jpg",
    "fav": false
   }
  ]
