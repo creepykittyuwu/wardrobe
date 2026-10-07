@@ -2,7 +2,7 @@
  "cats": [
   {
    "id": "c1791304657455",
-   "name": "Nielle casual"
+   "name": "Nielle sport"
   },
   {
    "id": "c1791305205183",
@@ -15,19 +15,23 @@
   {
    "id": "c1791305909846",
    "name": "Nielle winter"
+  },
+  {
+   "id": "c1791369747075",
+   "name": "Nielle spring"
   }
  ],
  "items": [
   {
    "id": "i1791304678096",
-   "cat": "c1791304657455",
+   "cat": "c1791369747075",
    "desc": "Main color: Brown / cream / white. Outfit: Oversized brown hoodie with a large graphic print and drawstrings, sliding off one shoulder, worn over a white tiered ruffle mini skirt that peeks out from under the hem. Silhouette: Loose, boxy hoodie dress-style top over a short layered skirt. Length: Hoodie reaches mid-thigh, skirt just visible below. Sleeves: Long, extra-long sleeves that cover the hands, one hand held against the mouth. Footwear: Brown chunky lace-up sneakers, worn with white ribbed leg warmers. Accessories: Brown baseball cap with an embroidered butterfly, brown leather satchel with buckle straps worn crossbody. Hairstyle: Long loose wavy hair worn down under the cap, with soft face-framing strands.",
    "img": "images/i1791304678096.jpg",
    "fav": false
   },
   {
    "id": "i1791304694385",
-   "cat": "c1791304657455",
+   "cat": "c1791305205183",
    "desc": "Main color: White / pink / pale blue / cream. Outfit: Strapless white lace-trimmed bustier corset top with a lace-up front and ribbon bow, worn under an open pink plaid shirt that slides off the shoulders, with light blue distressed denim shorts. Silhouette: Fitted corset top with a defined waist, loose oversized shirt, short high-cut shorts. Length: Mini shorts, bare thighs. Sleeves: Long plaid shirt sleeves hanging off the shoulders, strapless top underneath. Footwear: Cream chunky lace-up platform boots, worn with cream cable-knit leg warmers. Accessories: Cream shoulder bag with a thin strap. Hairstyle: Long loose wavy hair with curled ringlets framing the face, center part.",
    "img": "images/i1791304694385.jpg",
    "fav": false
@@ -41,14 +45,14 @@
   },
   {
    "id": "i1791305102363",
-   "cat": "c1791304657455",
+   "cat": "c1791369747075",
    "desc": "Main color: Pink / white / cream. Outfit: Oversized pink knit cardigan hanging off the arms, over a white camisole with a small bow at the neckline and a white tiered ruffle mini skirt with a ribbon bow at the waist. Silhouette: Soft, feminine, slightly fitted top with a short layered skirt. Length: Mini skirt, bare thighs. Sleeves: Long loose cardigan sleeves slipping off the shoulders, hand touching the cheek. Footwear: Pink and white chunky platform sneakers with bows, worn with cream cable-knit leg warmers. Accessories: Small pink satchel with buckle straps held in the hand. Hairstyle: Long loose wavy hair, center part, soft strands falling over the shoulders.",
    "img": "images/i1791305102363.jpg",
    "fav": false
   },
   {
    "id": "i1791305114316",
-   "cat": "c1791304657455",
+   "cat": "c1791305909846",
    "desc": "Main color: Cream / light grey / white. Outfit: Oversized cream cable-knit sweater worn off one shoulder, with baggy light grey wide-leg sweatpants and a white drawstring waist. Silhouette: Loose, cozy and relaxed with an exposed shoulder. Length: Sweater reaches the hips, full-length pants pooling at the feet. Sleeves: Very long sweater sleeves covering the hands, arms folded in front of the chest. Footwear: White chunky sneakers. Accessories: White canvas tote bag with a teddy bear charm with a green bow. Hairstyle: Long loose wavy hair, swept to one side, center part.",
    "img": "images/i1791305114316.jpg",
    "fav": false
@@ -62,7 +66,7 @@
   },
   {
    "id": "i1791305170448",
-   "cat": "c1791304657455",
+   "cat": "c1791305205183",
    "desc": "Main color: White / pale blue / light grey. Outfit: White ribbed crop camisole with a bow at the neckline, light blue distressed denim shorts with side lace-up detail, and an oversized white open shirt sliding off the shoulders. Silhouette: Cropped fitted top with a loose off-shoulder layer and short shorts. Length: Mini shorts, bare legs, midriff visible. Sleeves: Long loose shirt sleeves hanging off the arms, one hand in a pocket. Footwear: White chunky platform slides with bows. Accessories: White leather satchel with buckle straps worn crossbody. Hairstyle: High ponytail tied with a white fluffy scrunchie, with long wavy strands falling loose at the sides.",
    "img": "images/i1791305170448.jpg",
    "fav": false
@@ -128,6 +132,62 @@
    "cat": "c1791305756137",
    "desc": "Main color: Camel / beige / warm brown. Outfit: Oversized camel double-breasted coat with wide lapels and cuffed sleeves, worn open over a cream ribbed turtleneck and a brown plaid pleated mini skirt, with dark opaque tights. Silhouette: Boxy, layered outerwear over a fitted base, with a pleated skirt. Length: Coat to mid-thigh, mini skirt underneath. Sleeves: Long, loose coat sleeves with turned-back cuffs. Footwear: Brown leather ankle boots with a chunky block heel and a slouchy shaft. Accessories: Small brown leather top-handle bag with a thin chain strap worn across the body. Hairstyle: Extremely long loose wavy hair, parted near the center and falling in soft voluminous waves.",
    "img": "images/i1791305996156.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791369475354",
+   "cat": "c1791305909846",
+   "desc": "Main color: Cream / ivory / pale blue / white. Outfit: Short fluffy cream faux-fur bolero jacket worn open over a fitted cream ribbed turtleneck sweater, paired with light blue baggy wide-leg jeans with a low-rise waistband, a white waistband and a front button. Figure: Full, rounded bust that the fitted ribbed knit clearly shows; narrow, defined waist visible between the sweater hem and the jeans; soft hourglass shape; slim shoulders and thin arms under the fur sleeves; hips and legs are hidden by the loose jeans. Silhouette: Fitted, snug top against loose, voluminous bottom, with an oversized fluffy bolero adding volume on the arms. Length: Bolero ends at the ribcage, sweater ends at the waist, jeans full-length, hems pooling over the shoes. Sleeves: Long, wide, very fluffy fur sleeves, cuffs reaching the knuckles. Footwear: White chunky platform sneakers. Accessories: White ribbed knit beanie, cream leather shoulder bag with a thin belt strap, small white bunny plush charm hanging from the strap. Hairstyle: Long loose wavy hair falling past the knees, soft curls at the ends, center part, worn under the beanie.",
+   "img": "images/i1791369475354.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791369498207",
+   "cat": "c1791305909846",
+   "desc": "Main color: Dark brown / black / charcoal grey. Outfit: Knee-length dark brown fitted coat with a wide belt cinched at the waist, large front toggle clasps, patch pockets and grey faux-fur cuffs, worn over a long layered sheer skirt with black lace trim along each tier, and a chunky grey knit scarf with fringe ends worn up to the chin. Figure: Full, high bust, clearly rounded under the buttoned coat; the belt marks a very narrow waist, which gives a strong hourglass shape; slim arms; the long skirt hides the legs completely. Silhouette: Fitted waist coat flaring slightly at the hips over a voluminous, tiered maxi skirt that widens toward the hem. Length: Coat to the knees, tiered lace skirt reaching the ankles. Sleeves: Long fitted sleeves with fluffy grey fur cuffs, black gloves. Footwear: Black chunky platform lace-up combat boots with buckle details. Accessories: Black fur ushanka hat with a silver and blue gem brooch, black leather satchel with two buckle straps worn crossbody, black gloves, chunky grey fringe scarf. Hairstyle: Long loose wavy hair, falling past the knees, center part, worn down under the hat.",
+   "img": "images/i1791369498207.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791369518000",
+   "cat": "c1791305909846",
+   "desc": "Main color: White / cream / dusty rose / pale grey. Outfit: Short oversized white puffer jacket with a high collar, ribbon bows and adjustable straps at the sides, unzipped over a fitted cream ribbed knit sweater, with white baggy wide-leg cargo pants with large flap pockets on the thighs and a thick dusty rose knit scarf with tassels worn over the chin. Figure: Full, round bust that stands out under the fitted ribbed sweater; the puffer jacket hides the waist and hips; thin arms in the puffy sleeves; legs hidden by the loose cargo pants; a soft, petite hourglass in the visible area. Silhouette: Boxy, rounded oversized jacket over a fitted base, loose straight wide pants. Length: Puffer ends at the hips, sweater at the waist, cargo pants full-length, hems covering the tops of the shoes. Sleeves: Long, very puffy quilted sleeves with ribbed cuffs, hands near the collar. Footwear: White chunky lace-up sneakers. Accessories: White faux-fur-trimmed hood worn up over the head, dusty rose knit tassel scarf, white backpack with ribbon bows on the straps. Hairstyle: Long wavy hair, mostly hidden under the hood, with soft curled strands framing the face and the rest falling over the shoulders and back.",
+   "img": "images/i1791369518000.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791369543613",
+   "cat": "c1791305909846",
+   "desc": "Main color: Cream / ivory / pink / brown. Outfit: Cream cable-knit sleeveless mini sweater dress with a scoop neckline and a tiered ruffled hem, worn under an open oversized cream puffer jacket, with a pink plaid fringe scarf worn around the neck. Figure: Very full, rounded bust that the fitted cable-knit shows clearly; narrow waist; wide hips and soft, thick thighs fully visible between the dress hem and the leg warmers; slim shoulders and thin arms; a soft, curvy hourglass shape. Silhouette: Fitted, snug knit dress with a ruffled flared hem, wide puffy jacket opening around it. Length: Mini dress ending at the upper thigh, bare thighs, knee-high leg warmers. Sleeves: Very puffy quilted jacket sleeves, wide and rounded with gathered cuffs, hands hidden. Footwear: Cream platform shoes with a rounded toe, worn with cream ribbed knit leg warmers fastened with two tan buckle straps at the calf. Accessories: Pink plaid fringe scarf, brown leather satchel with a buckle strap and a teddy bear charm. Hairstyle: Long loose wavy hair falling past the knees, center part, soft curled strands in front of the shoulders.",
+   "img": "images/i1791369543613.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791369762593",
+   "cat": "c1791369747075",
+   "desc": "Main color: Cream / ivory / soft beige / pale pink / muted green. Outfit: Cream fitted camisole-style bodice with thin spaghetti straps, a deep sweetheart neckline, delicate lace edging and tiny embroidered daisy flowers, with a large cream ribbon bow tied at the center of the bust. The bodice transitions into a high-waisted cream skirt with several wide gathered tiers and abundant ruffled hems, decorated with scattered tiny white and yellow flowers. An oversized soft cream cardigan is worn loosely off the shoulders, with voluminous sleeves and gathered cuffs. Figure: Very full, rounded bust emphasized by the fitted floral camisole; narrow waist; wide hips and soft rounded thighs; slim shoulders and delicate arms; soft feminine hourglass shape. Silhouette: Fitted floral camisole and defined waist transitioning into a voluminous layered ruffle skirt, softened by the oversized cardigan. Length: Short-to-mid-thigh skirt with multiple layered ruffles. Sleeves: Oversized long cardigan sleeves, loose and voluminous with gathered cuffs. Footwear: Cream platform sandals with rounded soles and large daisy-shaped floral decorations on the straps. Accessories: Large woven straw basket bag decorated with a cream ribbon bow and filled with a bouquet of white and pale-pink flowers; tiny floral hair accents. Hairstyle: Extremely long loose wavy pink hair falling far below the waist, center part, soft voluminous waves and curled strands framing the face and flowing around the body.",
+   "img": "images/i1791369762593.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791369812603",
+   "cat": "c1791305756137",
+   "desc": "Main color: Cream / ivory / warm beige / brown / soft pink. Outfit: Fitted white-ivory corset-style camisole with thin shoulder straps, a sweetheart neckline, delicate lace trim and a structured lace-up front with long cream ribbons. High-waisted warm brown tailored shorts with belt loops, a wide brown leather belt and subtle vertical seam detailing. An oversized long beige trench coat is worn open over the outfit, with very loose sleeves and a relaxed draped silhouette. A large pink-and-cream plaid scarf is wrapped loosely around the neck. Figure: Very full, rounded bust clearly defined by the fitted corset top; narrow waist; wide hips and soft rounded thighs; slim shoulders and delicate arms; soft curvy hourglass shape. Silhouette: Fitted corset top and high-waisted shorts contrasted with a long oversized open trench coat, creating a relaxed layered silhouette. Length: High-waisted shorts ending at the upper thigh; long trench coat falling to the lower calf. Sleeves: Long oversized trench-coat sleeves, wide and softly gathered around the wrists. Footwear: Brown leather platform Mary Jane shoes with rounded toes and chunky soles, worn with tall cream ribbed knit leg warmers scrunched around the calves. Accessories: Large brown leather shoulder satchel with multiple buckles and straps, pink plaid scarf, cream beret with a soft rounded shape. Hairstyle: Very long loose wavy pink hair falling well past the waist, soft center part, voluminous curled strands framing the face and flowing behind the coat.",
+   "img": "images/i1791369812603.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791369855487",
+   "cat": "c1791369747075",
+   "desc": "Main color: White / ivory / pastel pink / soft lavender / pale blue. Outfit: Fitted ivory floral camisole with thin spaghetti straps, a sweetheart neckline, delicate lace edging and tiny pastel floral embroidery. A large satin ribbon bow is tied at the center of the bust. The top flows into a very short high-waisted skirt composed of several extremely full gathered ruffle tiers, alternating ivory and very pale lavender layers with delicate lace edging and scattered tiny floral motifs. A cropped oversized pastel-pink cardigan is worn loosely over the shoulders, with long balloon sleeves and soft ribbed cuffs. Figure: Very full rounded bust emphasized by the fitted floral camisole; narrow waist; rounded hips and soft thighs; slim shoulders and delicate arms; soft feminine hourglass shape. Silhouette: Fitted bodice with a dramatically flared, multi-layered ruffle skirt and a cropped oversized cardigan, creating a cute doll-like silhouette. Length: Very short mini skirt ending high on the upper thigh, with the layered ruffles creating additional volume. Sleeves: Long oversized pink cardigan sleeves, loose and puffy with ribbed cuffs. Footwear: White platform shoes with chunky soles and large decorative bows, paired with tall white ribbed leg warmers with small ribbon details. Accessories: Small cream shoulder bag decorated with a cute white bunny plush/charm, delicate hair clip, small pastel accents. Hairstyle: Extremely long loose wavy pastel-pink hair reaching far below the waist, voluminous soft curls, side-swept front strands and flowing curled locks around the body.",
+   "img": "images/i1791369855487.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791369891987",
+   "cat": "c1791305756137",
+   "desc": "Main color: Pastel pink / cream / white / soft brown. Outfit: Fitted ivory corset-style camisole with thin straps, a sweetheart neckline, vertical boning, delicate lace edging and a long ribbon bow at the center. A high-waisted pastel-pink pleated mini skirt sits closely at the waist and flares into soft accordion pleats, with a subtle layered hem. A fluffy oversized pastel-pink cropped jacket is worn loosely over the shoulders, featuring very large rounded sleeves, plush cuffs and a soft fuzzy texture. A long pink-and-cream plaid scarf hangs around the neck. Figure: Very full rounded bust emphasized by the structured fitted corset; narrow waist; rounded hips and soft thick thighs; slim shoulders and delicate arms; soft curvy hourglass figure. Silhouette: Fitted corset and high-waisted pleated mini skirt contrasted with a cropped oversized fluffy jacket, creating a soft voluminous upper layer while keeping the waist defined. Length: Mini skirt ending at the upper thigh, with bare thighs between the skirt and leg warmers. Sleeves: Oversized plush jacket sleeves, extremely puffy and rounded with soft cuffs. Footwear: Pink-and-cream platform shoes with chunky soles and decorative bows, paired with white ribbed knit leg warmers gathered around the calves. Accessories: Pink plaid fringe scarf, small pastel-pink shoulder bag with a decorative bow and pearl-like chain, takeaway coffee cup. Hairstyle: Very long loose wavy pastel-pink hair falling far below the waist, center part, soft voluminous curls and long flowing strands framing the body.",
+   "img": "images/i1791369891987.jpg",
    "fav": false
   }
  ]
