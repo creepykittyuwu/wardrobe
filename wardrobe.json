@@ -19,6 +19,18 @@
   {
    "id": "c1791369747075",
    "name": "Nielle spring"
+  },
+  {
+   "id": "c1791370377078",
+   "name": "Nielle Sleep"
+  },
+  {
+   "id": "c1791370419407",
+   "name": "Nielle Office"
+  },
+  {
+   "id": "c1791370427205",
+   "name": "Nielle Party"
   }
  ],
  "items": [
@@ -188,6 +200,90 @@
    "cat": "c1791305756137",
    "desc": "Main color: Pastel pink / cream / white / soft brown. Outfit: Fitted ivory corset-style camisole with thin straps, a sweetheart neckline, vertical boning, delicate lace edging and a long ribbon bow at the center. A high-waisted pastel-pink pleated mini skirt sits closely at the waist and flares into soft accordion pleats, with a subtle layered hem. A fluffy oversized pastel-pink cropped jacket is worn loosely over the shoulders, featuring very large rounded sleeves, plush cuffs and a soft fuzzy texture. A long pink-and-cream plaid scarf hangs around the neck. Figure: Very full rounded bust emphasized by the structured fitted corset; narrow waist; rounded hips and soft thick thighs; slim shoulders and delicate arms; soft curvy hourglass figure. Silhouette: Fitted corset and high-waisted pleated mini skirt contrasted with a cropped oversized fluffy jacket, creating a soft voluminous upper layer while keeping the waist defined. Length: Mini skirt ending at the upper thigh, with bare thighs between the skirt and leg warmers. Sleeves: Oversized plush jacket sleeves, extremely puffy and rounded with soft cuffs. Footwear: Pink-and-cream platform shoes with chunky soles and decorative bows, paired with white ribbed knit leg warmers gathered around the calves. Accessories: Pink plaid fringe scarf, small pastel-pink shoulder bag with a decorative bow and pearl-like chain, takeaway coffee cup. Hairstyle: Very long loose wavy pastel-pink hair falling far below the waist, center part, soft voluminous curls and long flowing strands framing the body.",
    "img": "images/i1791369891987.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370463908",
+   "cat": "c1791370377078",
+   "desc": "Main color: Pale pink / white / cream. Outfit: Oversized pink gingham pajama shirt with a wide ruffled collar, front buttons, and a ruffled peplum hem, worn with matching baggy wide-leg gingham pajama pants. Small white and pink satin bows are tied along the outer seam of each pant leg, and the hems have a ruffle trim. Figure: Full, round bust that pulls the shirt buttons and checks slightly across the chest; narrow waist hidden under the loose peplum; soft, slim arms; hips and legs fully covered by the loose pants. Silhouette: Soft, voluminous and cozy, fitted at the chest and loose through the body and legs. Length: Shirt ends at the hips with a ruffled hem, pants are full-length and pool at the feet. Sleeves: Very long, loose sleeves that cover the hands, arms folded in front of the body. Footwear: Fluffy white bunny-face slippers. Accessories: Cream bear-face sleep mask with ears worn on the forehead, small bows along the pant legs. Hairstyle: Long loose wavy hair, center part, held back by the sleep mask on top of the head.",
+   "img": "images/i1791370463908.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370493332",
+   "cat": "c1791370377078",
+   "desc": "Main color: Cream / ivory / white / pink accents. Outfit: Oversized cream knit sweater dress with a large bunny graphic print on the chest, worn off one shoulder, with a wide ribbed hem. Worn with tall white cable-knit leg warmers with pink ribbon bows and white pom-poms on the sides. Figure: Very full, high bust that clearly lifts the front of the sweater and the bunny print; the loose knit hides the waist and hips; soft, thick thighs fully visible below the hem; slim shoulders with one bare shoulder and visible collarbone. Silhouette: Loose, relaxed knit dress, straight cut, with a slightly fitted look across the chest. Length: Mini dress reaching the upper thigh, bare thighs, leg warmers to the knees. Sleeves: Long, loose, wide sleeves with ribbed cuffs, one sleeve pulled down over the hand. Footwear: White fluffy pom-pom slippers. Accessories: Large white satin bow on the top of the head, pink bows and pom-poms on the leg warmers. Hairstyle: Long loose wavy hair, center part, with a large white bow pinned at the crown.",
+   "img": "images/i1791370493332.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370617228",
+   "cat": "c1791370377078",
+   "desc": "Main color: Pale pink / white / cream. Outfit: Open oversized pale pink knit cardigan with small bunny embroidery on the sleeve, sliding off the shoulders, over a fitted white lace-trim camisole crop top with a small bow at the neckline, and baggy low-rise pale pink pajama pants with a pink satin ribbon drawstring tied in a bow. Figure: Full, rounded bust visible above the lace edge of the camisole with soft cleavage; narrow waist and flat stomach showing in the gap between top and pants; slim arms; hips softly rounded under the loose pants. Silhouette: Fitted cropped top and loose, wide pants with an oversized cardigan wrapped around the arms. Length: Camisole ends above the navel, pants full-length covering the tops of the slippers. Sleeves: Long, wide cardigan sleeves with ribbed cuffs, one hand hidden in the sleeve near the face. Footwear: White fluffy bunny-face slippers. Accessories: Pink satin drawstring ribbon with a bow. Hairstyle: Long loose wavy hair, slightly tousled at the crown, center part.",
+   "img": "images/i1791370617228.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370633207",
+   "cat": "c1791370377078",
+   "desc": "Main color: White / cream / pale pink floral. Outfit: White floral nightgown with a plunging neckline, a ribbon bow at the center of the bodice, thin straps and a pink floral print, with detached off-the-shoulder puffed sleeves tied with white ribbons at the upper arms and wrists. The skirt has a high-low hem with a pink ruffled trim. Figure: Very full, high bust shaped by the gathered bodice and visible cleavage; small waist; slim shoulders and arms under the puffed sleeves; soft, rounded thighs visible in the front slit. Silhouette: Fitted bodice with an airy, flowing skirt, wider at the back. Length: Mini in the front to the upper thigh, longer train-like hem at the back reaching the floor. Sleeves: Detached puffy sleeves with ruffled cuffs, long loose lower sleeves hanging past the hands. Footwear: Fluffy white bunny-face slippers. Accessories: Frilly white lace bonnet headband around the head, ribbons tied at the sleeves. Hairstyle: Long loose wavy hair, center part, framed by the ruffled lace bonnet.",
+   "img": "images/i1791370633207.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370658671",
+   "cat": "c1791370377078",
+   "desc": "Main color: Cream / ivory / pale pink accents. Outfit: Fluffy cream hooded cardigan with long rabbit ears on the hood, worn open and falling off the shoulders, over a fitted cream lace crop top with short sleeves and a scalloped neckline, and cream ruffled pajama shorts with plush bunny-face pockets, a pink ribbon drawstring and small pom-poms. Figure: Full bust under the lace top with light cleavage; small waist and a visible midriff; slim shoulders and thin arms; long, slender legs and narrow thighs, a lighter and more delicate build in this look. Silhouette: Fitted lace top, loose fluffy cardigan, short ruffled shorts. Length: Crop top ends above the navel, shorts to the upper thigh, bare legs. Sleeves: Short sleeves on the lace top, very long, wide, fluffy cardigan sleeves covering the hands. Footwear: White fluffy bunny-face slippers with ears. Accessories: Plush bunny pockets on the shorts, pink pom-pom drawstring. Hairstyle: Long hair mostly tucked inside the hood, loose strands softly framing the face.",
+   "img": "images/i1791370658671.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370704588",
+   "cat": "c1791370377078",
+   "desc": "Main color: White / pale pink / cream. Outfit: White off-shoulder floral nightgown with a ruffled neckline, a front tie at the bodice, a pink blossom print, and loose long sleeves falling off the arms. The skirt is a short ruffled mini in the front with a long, open flowing overskirt behind it, with a pink ruffled hem. Figure: Very full bust, with deep cleavage above the ruffled neckline; slim shoulders and visible collarbone; soft waist; wide, soft hips and thick thighs visible in the front. Silhouette: Fitted bodice with a flowing high-low skirt that gets longer at the back. Length: Mini in the front to the upper thigh, floor-length at the back. Sleeves: Long, wide, flowing sleeves that fall over the hands. Footwear: Fluffy white slippers with pink satin bows. Accessories: Small pink butterfly hair clip. Hairstyle: Long loose wavy hair, center part, with a small butterfly clip pinned on one side near the temple.",
+   "img": "images/i1791370704588.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370721459",
+   "cat": "c1791370377078",
+   "desc": "Main color: Lavender / pale grey / white. Outfit: Lavender satin camisole with a small bow at the neckline and thin straps, with matching lavender ruffled shorts with satin ribbon ties on each side, worn under an open oversized grey robe sliding off the shoulders. Figure: Full, rounded bust with light cleavage above the camisole neckline; defined narrow waist; slim shoulders and arms; soft, rounded hips and thighs visible below the shorts. Silhouette: Fitted camisole and short shorts, wide, loose, floor-length robe. Length: Camisole to the hips, shorts to the upper thigh, robe to the floor. Sleeves: Wide, loose grey robe sleeves, one raised toward the head. Footwear: White fluffy slippers with bows, worn with white ribbed leg warmers with small bows on the sides. Accessories: Grey cat-face sleep mask with closed eyes on the forehead, ribbon ties on the shorts. Hairstyle: Long loose wavy hair, center part, swept back by the sleep mask on the top of the head.",
+   "img": "images/i1791370721459.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370737548",
+   "cat": "c1791370377078",
+   "desc": "Main color: Cream / beige / pink piping. Outfit: Oversized beige button-up pajama shirt with a notched collar, hot pink piping along the edges, cat-face buttons, and a chest pocket with a cat embroidery and a pink ribbon, worn with baggy wide-leg pajama pants with a pink drawstring. Figure: Full, round bust that pushes the shirt open slightly at the front and creates a visible curve under the fabric; the loose shirt hides the waist and hips; slim arms under the long sleeves; legs fully covered by the loose pants. Silhouette: Loose, boxy and cozy, a relaxed fit with a hint of the bust. Length: Shirt ends at the hips, pants full-length pooling at the feet. Sleeves: Long, loose sleeves with pink-trim cuffs rolled slightly at the wrist, one hand raised near the cheek. Footwear: Fluffy white bunny-face slippers. Accessories: Pink ribbon drawstring, cat embroidery on the pocket. Hairstyle: Long loose wavy hair, center part, falling over the shoulders.",
+   "img": "images/i1791370737548.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370759240",
+   "cat": "c1791370377078",
+   "desc": "Main color: Pale pink / white / rose. Outfit: Pale pink floral babydoll nightie with a deep V-neckline, a satin ribbon bow in the center, frilly lace edges, sheer layered skirt and a ruffled trim, worn under a glossy pink satin robe that hangs off the arms. Figure: Very full bust visible with cleavage in the plunging neckline; narrow waist under the empire cut; slim bare shoulders and arms; soft, thick thighs visible below the short hem. Silhouette: Fitted bodice with an A-line, flared mini skirt, a very loose, wide robe. Length: Nightie reaches the upper thigh, robe is floor-length with a train. Sleeves: Large, wide satin robe sleeves with deep cuffs, hanging at the sides. Footwear: White ruffled ankle socks, no shoes. Accessories: Satin ribbon bow at the bodice. Hairstyle: Long loose wavy hair, center part, falling forward over the shoulders.",
+   "img": "images/i1791370759240.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370776324",
+   "cat": "c1791370377078",
+   "desc": "Main color: Cream / ivory / pale pink accents. Outfit: Fluffy cream hooded cardigan with cat ears on the hood, hood up, worn open, over a fitted cream lace bralette-style crop top, with cream ruffled pajama shorts with cat-face pockets and a pink ribbon drawstring. Figure: Very full, round bust that fills the lace top and shows a deep cleavage; defined small waist and a visible midriff; slim shoulders and arms; soft, wide hips and thick thighs with long legs. Silhouette: Fitted lace top, short shorts, an oversized fluffy cardigan that frames the body. Length: Crop top ends above the navel, shorts to the upper thigh, bare legs. Sleeves: Long, wide, fluffy cardigan sleeves that cover the hands, one hand raised to the cheek. Footwear: Fluffy white cat-face slippers. Accessories: Plush cat-face pockets, pink ribbon drawstring. Hairstyle: Long loose wavy hair, mostly under the hood, with soft strands falling in front of the shoulders.",
+   "img": "images/i1791370776324.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370801089",
+   "cat": "c1791305205183",
+   "desc": "Main color: Sage green / white / cream. Outfit: Sage green floral camisole mini dress with a lace-trim sweetheart bodice, floral embroidery, a ribbon tie at the front and a tiered ruffle skirt, worn under an open oversized white cable-knit cardigan sliding off the shoulders. Figure: Very full bust, visible cleavage above the lace trim; narrow waist under the fitted bodice; slim bare shoulders and arms; wide hips and soft, thick thighs below the ruffled skirt. Silhouette: Fitted bodice with a full, tiered A-line mini skirt and a puffy, loose cardigan. Length: Mini dress to the mid-thigh, bare thighs. Sleeves: Wide, puffy cable-knit sleeves with ribbed cuffs, hands hidden. Footwear: White chunky platform mary janes with ankle straps, worn with white ruffled ankle socks. Accessories: Mint green tote bag with white bows and pearl details on the shoulder, green satin ribbon in the hair. Hairstyle: Long wavy hair, part braided on one side and tied with a green satin ribbon bow, the rest loose.",
+   "img": "images/i1791370801089.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791370821062",
+   "cat": "c1791304657455",
+   "desc": "Main color: White / pale blue-grey / light pink. Outfit: White fitted crop tank top, worn under an open oversized blue-grey track jacket with white stripes on the sleeves, sliding off the shoulders, with baggy white wide-leg track pants with two white stripes on the side and a low-rise elastic waistband. Figure: Very full, round bust that fills the fitted tank top, with deep cleavage; narrow waist with a visible midriff and belly button; slim shoulders and arms; wide hips under the loose pants; the legs are hidden. Silhouette: Fitted cropped top with a very loose, relaxed lower half and an oversized jacket. Length: Top ends above the navel, pants full-length and pooling over the shoes. Sleeves: Long, loose jacket sleeves, one raised to the cap, one falling off the shoulder. Footwear: White chunky sneakers. Accessories: White baseball cap with floral embroidery, white over-ear headphones around the neck, white pouch bag on the hip. Hairstyle: Long loose wavy hair worn under the cap, with a thin braid in the front on one side.",
+   "img": "images/i1791370821062.jpg",
    "fav": false
   }
  ]
