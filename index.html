@@ -8,8 +8,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
---bg:#fdf6f8;--card:#fff;--tx:#2b2226;--mut:#8a7a80;--ac:#d6578a;--ac2:#fbe1ec;--bd:#f0d9e2;--on:#fff}
+--tw:128px;--ar:9/20;--pbg:#fff;--gw:140px;--bg:#fdf6f8;--card:#fff;--tx:#2b2226;--mut:#8a7a80;--ac:#d6578a;--ac2:#fbe1ec;--bd:#f0d9e2;--on:#fff}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1619;--card:#272024;--tx:#f3e8ed;--mut:#b3a0a8;--ac:#ef7aa8;--ac2:#3a2530;--bd:#3d2d35;--on:#1c1619}}
+body[data-sz="s"]{--tw:128px;--ar:128/170;--pbg:var(--ac2);--gw:150px}
+body[data-sz="l"]{--tw:164px;--gw:190px}
 :root[data-theme="dark"]{--bg:#1c1619;--card:#272024;--tx:#f3e8ed;--mut:#b3a0a8;--ac:#ef7aa8;--ac2:#3a2530;--bd:#3d2d35;--on:#1c1619}
 *{box-sizing:border-box;scrollbar-width:none;-webkit-tap-highlight-color:transparent}
 *::-webkit-scrollbar{display:none}
@@ -28,24 +30,24 @@ button.lk{background:none;color:var(--ac);padding:6px 0;font-size:14px}
 .hd{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}
 .hd h2{font-size:26px}
 .rw{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px}
-.t{flex:none;width:128px;cursor:pointer}
-.p{height:170px;border-radius:16px;background:var(--ac2);position:relative;overflow:hidden;border:1px solid var(--bd)}
+.t{flex:none;width:var(--tw);cursor:pointer}
+.p{aspect-ratio:var(--ar);border-radius:16px;background:var(--pbg);position:relative;overflow:hidden;border:1px solid var(--bd)}
 .p img{width:100%;height:100%;object-fit:contain;display:block}
 .t span{display:block;font-size:13px;color:var(--mut);margin-top:6px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .hb{position:absolute;top:7px;right:7px;width:26px;height:26px;border-radius:50%;background:var(--bg);color:var(--ac);display:flex;align-items:center;justify-content:center}
 .hb .i{width:15px;height:15px;fill:currentColor}
-.addt{flex:none;width:128px;height:170px;border:2px dashed var(--ac);background:none;color:var(--ac);border-radius:16px}
+.addt{flex:none;width:var(--tw);aspect-ratio:var(--ar);border:2px dashed var(--ac);background:none;color:var(--ac);border-radius:16px}
 .addt .i{width:30px;height:30px}
 .newshelf{width:100%;height:76px;margin-top:24px;background:none;border:2px dashed var(--ac);color:var(--ac);border-radius:16px}
-.gr{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;margin-top:14px}
-.gr .t{width:auto}.gr .p,.gr .addt{height:200px;width:100%}
+.gr{display:grid;grid-template-columns:repeat(auto-fill,minmax(var(--gw),1fr));gap:14px;margin-top:14px}
+.gr .t{width:auto}.gr .p,.gr .addt{width:100%}
 .cb{display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap}
 .empty{color:var(--mut);text-align:center;padding:48px 16px;display:flex;flex-direction:column;align-items:center;gap:14px;grid-column:1/-1}
 nav{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--card);border-top:1px solid var(--bd);display:flex;justify-content:space-around;padding:8px 0 calc(8px + env(safe-area-inset-bottom,0px))}
 nav button{background:none;color:var(--mut);flex-direction:column;gap:3px;font-size:12px;min-width:90px;padding:6px}
 nav button.on{color:var(--ac)}nav .i{width:24px;height:24px}
 #det{position:fixed;inset:0;z-index:30;background:var(--bg);overflow-y:auto}
-.dp{height:52vh;min-height:300px;background:var(--ac2);position:relative}
+.dp{height:62vh;min-height:360px;background:#fff;position:relative}
 .dp img{width:100%;height:100%;object-fit:contain;display:block}
 .ov{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));background:var(--bg);color:var(--tx)}
 .ov.l{left:14px}.ov.r{right:14px;color:var(--ac)}.ov.on .i{fill:currentColor}
@@ -57,6 +59,23 @@ textarea{resize:none;overflow:hidden;line-height:1.45;min-height:90px}
 dialog{border:0;border-radius:20px;padding:16px;background:var(--card);color:var(--tx);width:min(92vw,440px)}
 dialog::backdrop{background:rgba(0,0,0,.55)}
 dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
+#bar{margin-top:6px}
+.sr{display:flex;gap:8px;align-items:center;position:relative}
+.sw{position:relative;flex:1;min-width:0}
+.sw input{margin:0;padding:11px 42px 11px 38px;width:100%}
+.sw .si{position:absolute;left:12px;top:50%;margin-top:-.575em;color:var(--mut);pointer-events:none}
+.clr{position:absolute;right:5px;top:50%;transform:translateY(-50%);width:34px;height:34px;padding:0;background:none;color:var(--mut);border-radius:50%;font-size:17px}
+.clr:hover{color:var(--ac)}
+.fa{width:1em;height:1em;flex:none;fill:currentColor;stroke:none}
+.mask{-webkit-text-security:disc;text-security:disc}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:2px 0 4px;margin-top:8px}
+.cc{flex:none;background:var(--card);color:var(--tx);border:1px solid var(--bd);padding:7px 12px;border-radius:20px;font-size:14px}
+.cc.on{background:var(--ac);color:var(--on);border-color:var(--ac)}
+.cc b{width:12px;height:12px;border-radius:50%;border:1px solid rgba(128,128,128,.45);display:inline-block}
+.nv{position:absolute;top:50%;transform:translateY(-50%);background:var(--bg);color:var(--tx);opacity:.85}
+.nv.l{left:10px}.nv.r{right:10px}
+.dp img.sl{animation:sl .22s ease}
+@keyframes sl{from{opacity:0;transform:translateX(var(--dx,30px))}to{opacity:1;transform:none}}
 #aPrev{width:100%;max-height:30vh;object-fit:contain;border-radius:12px;margin-top:6px}
 .note{font-size:12px;color:var(--mut);margin:6px 0 0}
 #st{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(92px + env(safe-area-inset-bottom,0px));background:var(--tx);color:var(--bg);padding:10px 16px;border-radius:20px;font-size:14px;opacity:0;transition:.3s;pointer-events:none;max-width:90vw;text-align:center;z-index:50}
@@ -77,6 +96,12 @@ dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
 <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></symbol>
 <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
 <symbol id="i-edit" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16v4zM13 7l4 4"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4-4"/></symbol>
+<symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></symbol>
+<symbol id="i-next" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+<!-- Font Awesome Free 6 (CC BY 4.0, fontawesome.com/license/free) -->
+<symbol id="fa-xmark" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></symbol>
+<symbol id="fa-circle-xmark" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></symbol>
 <symbol id="i-move" viewBox="0 0 24 24"><path d="M4 7h13M13 3l4 4-4 4M20 17H7M11 13l-4 4 4 4"/></symbol>
 </defs></svg>
 
@@ -87,6 +112,10 @@ dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
   <button class="ic ed" id="bPush" onclick="push()" aria-label="Сохранить на GitHub"><svg class="i"><use href="#i-up"/></svg></button>
   <button class="ghost ic" onclick="openGh()" aria-label="Настройки GitHub"><svg class="i"><use href="#i-gear"/></svg></button>
  </header>
+ <div id="bar">
+  <div class="sr"><div class="sw"><svg class="i si"><use href="#i-search"/></svg><input id="q" type="text" name="wd-filter" inputmode="search" enterkeyhint="search" placeholder="Поиск по описанию…" oninput="setQ(this.value)" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore data-bwignore data-form-type="other"><button class="clr" id="qc" onclick="clrQ()" aria-label="Очистить поиск" hidden><svg class="fa"><use href="#fa-circle-xmark"/></svg></button></div><button class="ghost ic" onclick="openSz()" aria-label="Размер карточек"><svg class="i"><use href="#i-grid"/></svg></button></div>
+  <div class="chips" id="chips" hidden></div>
+ </div>
  <div id="main"></div>
 </div>
 <nav>
@@ -96,18 +125,22 @@ dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
 
 <div id="det" hidden>
  <div class="dp"><img id="vImg" alt="">
+  <button class="ic nv l" id="nvL" onclick="step(-1)" aria-label="Предыдущий"><svg class="i"><use href="#i-back"/></svg></button>
+  <button class="ic nv r" id="nvR" onclick="step(1)" aria-label="Следующий"><svg class="i"><use href="#i-next"/></svg></button>
   <button class="ic ov l" onclick="closeDet()" aria-label="Назад"><svg class="i"><use href="#i-back"/></svg></button>
   <button class="ic ov r ed" id="bFav" onclick="toggleFav()" aria-label="В любимое"><svg class="i"><use href="#i-heart"/></svg></button>
  </div>
  <div class="db">
   <span class="chip" id="vCat"></span>
   <textarea id="vDesc" placeholder="Описание: что это, с чем носить…" rows="3"></textarea>
-  <div class="row"><button onclick="copyImg()"><svg class="i"><use href="#i-copy"/></svg> Копировать</button><button class="ghost" onclick="saveImg()"><svg class="i"><use href="#i-dl"/></svg> Скачать</button></div>
+  <div class="row"><button onclick="copyImg()"><svg class="i"><use href="#i-copy"/></svg> Копировать фото</button><button class="ghost" onclick="saveImg()"><svg class="i"><use href="#i-dl"/></svg> Скачать</button></div>
+  <div class="row"><button class="ghost" onclick="copyDesc()"><svg class="i"><use href="#i-copy"/></svg> Копировать описание</button></div>
   <div class="row ed"><button class="ghost" onclick="openMove()"><svg class="i"><use href="#i-move"/></svg> Перенести в…</button><button class="ghost ic" style="flex:none" onclick="delItem()" aria-label="Удалить"><svg class="i"><use href="#i-trash"/></svg></button></div>
   <p class="note">На телефоне можно зажать картинку и выбрать «Сохранить» или «Копировать».</p>
  </div>
 </div>
 
+<dialog id="dSz"><b>Размер карточек</b><div class="ml" id="szList"></div><div class="row"><button class="ghost" onclick="dSz.close()">Закрыть</button></div></dialog>
 <dialog id="dMove"><b>Перенести в категорию</b><div class="ml" id="mList"></div><div class="row"><button class="ghost" onclick="dMove.close()">Отмена</button></div></dialog>
 <dialog id="dAdd"><b>Новая вещь</b>
   <input type="file" id="aFile" accept="image/*" onchange="aPrev.src=URL.createObjectURL(this.files[0])">
@@ -116,9 +149,9 @@ dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
   <div class="row"><button onclick="addItem()">Добавить</button><button class="ghost" onclick="dAdd.close()">Отмена</button></div>
 </dialog>
 <dialog id="dGh"><b>Настройки GitHub</b>
-  <input id="gUser" placeholder="Твой логин GitHub">
-  <input id="gRepo" placeholder="Название репозитория">
-  <input id="gTok" type="password" placeholder="Токен (нужен только для сохранения)">
+  <input id="gUser" placeholder="Твой логин GitHub" autocomplete="off" data-lpignore="true" data-form-type="other">
+  <input id="gRepo" placeholder="Название репозитория" autocomplete="off" data-lpignore="true" data-form-type="other">
+  <input id="gTok" class="mask" type="text" name="wd-gh-key" placeholder="Токен (нужен только для сохранения)" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" data-lpignore="true" data-1p-ignore data-bwignore data-form-type="other">
   <p class="note">Токен хранится только в этом браузере. Без токена сайт работает в режиме просмотра: кнопки добавления и редактирования скрыты.</p>
   <div class="row"><button onclick="saveGh()">Сохранить</button><button class="ghost" onclick="dGh.close()">Закрыть</button></div>
 </dialog>
@@ -128,7 +161,9 @@ dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
 const $=id=>document.getElementById(id);
 const ICON=n=>`<svg class="i"><use href="#i-${n}"/></svg>`;
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let S={cats:[],items:[]},V='shelf',catId=null,addTo=null,openId=null,G={},dirty=false,lastPush=0;
+let F={q:'',c:new Set()},navL=[],SZ='m',S={cats:[],items:[]},V='shelf',catId=null,addTo=null,openId=null,G={},dirty=false,lastPush=0;
+try{SZ=localStorage.getItem('wds')||'m'}catch(e){}
+if(!['s','m','l'].includes(SZ))SZ='m';document.body.dataset.sz=SZ;
 try{const s=localStorage.getItem('wd');if(s)S=JSON.parse(s);G=JSON.parse(localStorage.getItem('wdg')||'{}');dirty=localStorage.getItem('wdd')==='1';lastPush=+localStorage.getItem('wdp')||0}catch(e){}
 function toast(t){const e=$('st');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),2800)}
 function save(){try{localStorage.setItem('wd',JSON.stringify(S))}catch(e){toast('Память браузера заполнена, сохрани на GitHub')}}
@@ -142,19 +177,57 @@ const addTile=c=>`<button class="addt ed" onclick="openAdd('${c}')" aria-label="
 const can=()=>!!(G.u&&G.r&&G.t);
 function mode(){document.body.classList.toggle('ro',!can())}
 function go(v,c){V=v;if(c)catId=c;render();scrollTo(0,0)}
+const COL=[
+ ['black','Чёрный','#222',/black|noir|чёрн|черн/i],
+ ['white','Светлый','#f3ecdf',/ivory|white|cream|beige|ecru|\bbone\b|белы|молочн|слонов|беж/i],
+ ['pink','Розовый','#ef7aa8',/pink|\brose\b|fuchsia|magenta|blush|розов|фукси/i],
+ ['red','Красный','#c0392b',/\bred\b|crimson|burgundy|\bwine\b|scarlet|красн|бордо/i],
+ ['green','Зелёный','#2e7d4f',/green|emerald|olive|\bsage\b|зелен|зелён|изумруд|олив/i],
+ ['blue','Синий','#3b6fb5',/blue|navy|teal|cyan|turquoise|син|голуб|бирюз/i],
+ ['purple','Фиолетовый','#7e57c2',/purple|violet|lavender|lilac|plum|фиолет|сирен|лаванд/i],
+ ['brown','Коричневый','#7b4a2d',/brown|chocolate|\btan\b|camel|coffee|коричн|шоколад/i],
+ ['gold','Золото/серебро','#c9a24b',/gold|silver|metallic|золот|серебр/i],
+ ['gray','Серый','#8a8a8a',/gr[ae]y|charcoal|серы|сера|серо/i]
+];
+const colSrc=d=>{d=d||'';const m=d.match(/main colou?r:\s*([^.]*)/i);return m?m[1]:d.slice(0,160)};
+const colorsOf=i=>{const t=colSrc(i.desc);return COL.filter(c=>c[3].test(t)).map(c=>c[0])};
+const filterOn=()=>!!(F.q||F.c.size);
+function match(i){
+  if(F.q&&!((i.desc||'')+' '+catName(i.cat)).toLowerCase().includes(F.q))return false;
+  if(F.c.size){const cs=colorsOf(i);for(const k of F.c)if(!cs.includes(k))return false}
+  return true;
+}
+function setQ(v){F.q=v.trim().toLowerCase();$('qc').hidden=!v;render()}
+function clrQ(){F.q='';$('q').value='';$('qc').hidden=true;render()}
+function toggleCol(k){F.c.has(k)?F.c.delete(k):F.c.add(k);render()}
+function resetF(){F={q:'',c:new Set()};$('q').value='';$('qc').hidden=true;render()}
+function chips(){
+  const has=new Set();S.items.forEach(i=>colorsOf(i).forEach(k=>has.add(k)));
+  let h=COL.filter(c=>has.has(c[0])).map(c=>`<button class="cc${F.c.has(c[0])?' on':''}" onclick="toggleCol('${c[0]}')"><b style="background:${c[2]}"></b>${c[1]}</button>`).join('');
+  if(h&&filterOn())h+=`<button class="cc" onclick="resetF()"><svg class="fa"><use href="#fa-xmark"/></svg> Сбросить</button>`;
+  $('chips').innerHTML=h;$('chips').hidden=!h;
+}
+const SIZES=[['s','Компактные','как раньше'],['m','Средние','под пропорции фото'],['l','Крупные','']];
+function openSz(){$('szList').innerHTML=SIZES.map(z=>`<button class="${SZ===z[0]?'':'ghost'}" onclick="setSz('${z[0]}')">${z[1]}${z[2]?' · '+z[2]:''}</button>`).join('');dSz.showModal()}
+function setSz(k){SZ=k;document.body.dataset.sz=k;try{localStorage.setItem('wds',k)}catch(e){}dSz.close()}
 function render(){
   mode();
   if(V==='cat'&&!S.cats.find(c=>c.id===catId))V='shelf';
   $('nShelf').classList.toggle('on',V!=='fav');$('nFav').classList.toggle('on',V==='fav');
-  const m=$('main');
+  chips();
+  const m=$('main'),on=filterOn(),none='<div class="empty">Ничего не нашлось.</div>';
   if(V==='fav'){
     $('title').textContent='Любимое';
-    const f=S.items.filter(i=>i.fav);
-    m.innerHTML=`<div class="gr">${f.length?f.map(tile).join(''):'<div class="empty">Здесь будут вещи, которые ты отметишь сердечком.</div>'}</div>`;
+    const f=S.items.filter(i=>i.fav&&match(i));
+    m.innerHTML=`<div class="gr">${f.length?f.map(tile).join(''):(on?none:'<div class="empty">Здесь будут вещи, которые ты отметишь сердечком.</div>')}</div>`;
   }else if(V==='cat'){
     $('title').textContent=catName(catId);
-    const its=S.items.filter(i=>i.cat===catId);
-    m.innerHTML=`<div class="cb"><button class="ghost" onclick="go('shelf')">${ICON('back')} Назад</button><button class="ghost ed" onclick="renCat()">${ICON('edit')} Переименовать</button><button class="ghost ic ed" onclick="delCat()" aria-label="Удалить категорию">${ICON('trash')}</button></div><div class="gr">${addTile(catId)}${its.map(tile).join('')}</div>`;
+    const its=S.items.filter(i=>i.cat===catId&&match(i));
+    m.innerHTML=`<div class="cb"><button class="ghost" onclick="go('shelf')">${ICON('back')} Назад</button><button class="ghost ed" onclick="renCat()">${ICON('edit')} Переименовать</button><button class="ghost ic ed" onclick="delCat()" aria-label="Удалить категорию">${ICON('trash')}</button></div><div class="gr">${on?'':addTile(catId)}${its.map(tile).join('')}</div>${on&&!its.length?none:''}`;
+  }else if(on){
+    $('title').textContent='Мой шкаф';
+    const r=S.items.filter(match);
+    m.innerHTML=`<p class="note" style="margin-top:14px">Найдено: ${r.length}</p><div class="gr">${r.length?r.map(tile).join(''):none}</div>`;
   }else{
     $('title').textContent='Мой шкаф';
     m.innerHTML=S.cats.length?S.cats.map(c=>{const its=S.items.filter(i=>i.cat===c.id);return `<section class="sh"><div class="hd"><h2>${esc(c.name)}</h2><button class="lk" onclick="go('cat','${c.id}')">Все (${its.length})</button></div><div class="rw">${addTile(c.id)}${its.map(tile).join('')}</div></section>`}).join('')+`<button class="newshelf ed" onclick="addCat()">${ICON('plus')} Новая полка</button>`
@@ -173,8 +246,41 @@ function addItem(){
 }
 const item=()=>S.items.find(x=>x.id===openId);
 function fit(){const t=$('vDesc');t.style.height='auto';t.style.height=Math.max(90,t.scrollHeight)+'px'}
-function paint(){const i=item();$('vDesc').readOnly=!can();$('vImg').src=i.img;$('vDesc').value=i.desc||'';$('vCat').textContent=catName(i.cat);$('bFav').classList.toggle('on',!!i.fav);fit()}
-function openItem(id){openId=id;$('det').hidden=false;document.body.style.overflow='hidden';paint();$('det').scrollTop=0}
+function paint(dir){
+  const i=item();$('vDesc').readOnly=!can();$('vImg').src=i.img;$('vDesc').value=i.desc||'';
+  const k=navL.indexOf(openId);
+  $('vCat').textContent=catName(i.cat)+(navL.length>1?' · '+(k+1)+'/'+navL.length:'');
+  $('bFav').classList.toggle('on',!!i.fav);
+  $('nvL').hidden=$('nvR').hidden=navL.length<2;
+  if(dir){const im=$('vImg');im.style.setProperty('--dx',(dir*40)+'px');im.classList.remove('sl');void im.offsetWidth;im.classList.add('sl')}
+  fit();
+}
+function navIds(id){
+  const i=S.items.find(x=>x.id===id);let l;
+  if(V==='fav')l=S.items.filter(x=>x.fav);
+  else if(V==='shelf'&&filterOn())l=S.items.slice();
+  else l=S.items.filter(x=>x.cat===i.cat);
+  l=l.filter(match).map(x=>x.id);
+  if(!l.includes(id))l.push(id);
+  return l;
+}
+function openItem(id){openId=id;navL=navIds(id);$('det').hidden=false;document.body.style.overflow='hidden';paint();$('det').scrollTop=0}
+function flush(){const i=item(),v=$('vDesc').value.trim();if(i&&can()&&v!==(i.desc||'')){i.desc=v;commit()}}
+function step(d){
+  if(navL.length<2)return;
+  flush();
+  const k=(navL.indexOf(openId)+d+navL.length)%navL.length;
+  openId=navL[k];paint(d);$('det').scrollTop=0;
+}
+let tx=0,ty=0;
+$('det').addEventListener('touchstart',e=>{if(e.target.closest('textarea,input'))return;tx=e.touches[0].clientX;ty=e.touches[0].clientY},{passive:true});
+$('det').addEventListener('touchend',e=>{if(!tx)return;const t=e.changedTouches[0],dx=t.clientX-tx,dy=t.clientY-ty;tx=0;if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5)step(dx<0?1:-1)},{passive:true});
+addEventListener('keydown',e=>{if($('det').hidden||e.target.matches('textarea,input')||dMove.open)return;if(e.key==='ArrowRight')step(1);else if(e.key==='ArrowLeft')step(-1);else if(e.key==='Escape')closeDet()});
+async function copyDesc(){
+  const t=$('vDesc').value.trim();if(!t)return toast('Описания пока нет');
+  try{await navigator.clipboard.writeText(t)}catch(e){try{const a=$('vDesc');a.select();document.execCommand('copy')}catch(_){return toast('Не вышло, выдели текст и скопируй вручную')}}
+  toast('Описание скопировано');
+}
 function closeDet(){$('det').hidden=true;document.body.style.overflow='';render()}
 $('vDesc').addEventListener('input',fit);
 $('vDesc').addEventListener('change',()=>{const i=item();if(i){i.desc=$('vDesc').value.trim();commit()}});
