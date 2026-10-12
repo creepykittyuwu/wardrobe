@@ -4,6 +4,11 @@
    "id": "ch1",
    "name": "Nielle",
    "img": "images/ch1.jpg"
+  },
+  {
+   "id": "ch1791830474154",
+   "name": "Zion",
+   "img": "images/ch1791830474154.jpg"
   }
  ],
  "cats": [
@@ -86,6 +91,16 @@
    "id": "c1791827068250",
    "name": "BLYADKI",
    "char": "ch1"
+  },
+  {
+   "id": "c1791830577434",
+   "name": "Canon",
+   "char": "ch1791830474154"
+  },
+  {
+   "id": "c1791831184970",
+   "name": "потом чет рассортирую",
+   "char": "ch1791830474154"
   }
  ],
  "items": [
@@ -1683,6 +1698,62 @@
    "cat": "c1791827068250",
    "desc": "Main color: Burgundy red / black / charcoal grey, with silver accents. Outfit: A sheer black mesh high-collar blouse with burgundy lace embroidery and ruffle trim, a black-and-burgundy lace-up corset with a satin ruffled mini skirt, black ribbon ties, garter straps holding sheer black stockings with burgundy lace tops, and a silver spider brooch at the collar. Fabric / transparency: Sheer mesh and chiffon, burgundy floral lace, satin ruffles, sheer thigh-high stockings, patent leather boots. Cutouts / straps: Sheer top with visible underlayer, side leg exposure between the mini skirt and garters, lace-up front and back. Figure: Extremely voluptuous exaggerated bust, tiny waist, wide hips, long legs. Silhouette: Strict corseted hourglass, balloon sheer sleeves, short frilly skirt, long stockinged legs. Length: Skirt at the upper thigh, stockings to the thighs. Sleeves: Wide sheer balloon sleeves with burgundy lace bell cuffs and black ribbon bows at the shoulders. Footwear: Black patent platform lace-up ankle boots with burgundy ribbon laces. Accessories: Silver spider brooch at the collar, black hair ribbons, pearl drop earrings, silver pendant hanging from the corset, black lace-up ribbons. Hairstyle: Pastel-pink hair in a loose updo with curled tendrils and a black ribbon bow. Face: Very pale porcelain skin, light-blue eyes, muted pink lips, blush, a calm aloof expression.",
    "img": "images/i1791826718838.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791830722408",
+   "cat": "c1791830577434",
+   "desc": "Main color: Black / charcoal gray / silver. Outfit: Gothic office ensemble with a sheer gray blouse, voluminous sleeves, high ruffled collar, elaborate black jabot, high-waisted wide-leg trousers, flowing translucent overskirt, and black leather suspenders with silver buckles. Fabric / transparency: Semi-sheer gray chiffon, matte black tailoring, glossy leather, translucent charcoal fabric. Cutouts / straps: Double suspender straps, structured waistband, subtle skirt slits, gathered cuffs. Figure: Defined waist, elongated legs. Silhouette: Elegant, flowing gothic tailoring. Length: Floor-length overskirt, full-length trousers. Sleeves: Voluminous bishop sleeves with ruffled cuffs. Footwear: Black pointed-toe high heels. Accessories: Black leather gloves, silver buckles, dark clipboard. Hairstyle: Extremely long platinum-white hair, straight bangs, flowing waves.",
+   "img": "images/i1791830722408.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791830738574",
+   "cat": "c1791830577434",
+   "desc": "Main color: White / black / charcoal gray / silver. Outfit: Oversized white floor-length trench coat with broad lapels and large pockets, black high-neck ruffled blouse, tailored black trousers, and fitted suspender-style waist. Fabric / transparency: Smooth white coat fabric, matte black tailoring, soft ruffles, glossy leather accessories. Cutouts / straps: Black suspenders with silver buckles, structured waistband, oversized lapels, buttoned cuffs. Figure: Defined waist, elongated legs. Silhouette: Dramatic oversized coat contrasting with fitted inner layers. Length: Floor-length trailing coat, full-length trousers. Sleeves: Wide oversized sleeves with buttoned cuffs. Footwear: Glossy black pointed-toe heels. Accessories: Black leather gloves, clipboard, silver buckles and buttons. Hairstyle: Long platinum-white hair with straight bangs and soft waves.",
+   "img": "images/i1791830738574.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791830751741",
+   "cat": "c1791830577434",
+   "desc": "Main color: Black / white / gray / silver. Outfit: Crisp white button-up shirt, fitted black waistcoat, black high-neck undershirt, and high-waisted charcoal-gray wide-leg trousers with deep pleats. Fabric / transparency: White cotton, structured matte suiting, flowing gray fabric, polished leather. Cutouts / straps: Deep V-shaped vest neckline, waistcoat buttons, high waistband with circular silver buckle. Figure: Defined waist, elongated legs. Silhouette: Clean tailored upper body with dramatically wide trousers. Length: Full-length trousers. Sleeves: White shirt sleeves rolled below the elbows. Footwear: Black polished lace-up Oxford shoes. Accessories: Circular silver belt buckle, minimal jewelry. Hairstyle: Very long platinum-white hair, straight bangs, soft waves over the shoulders.",
+   "img": "images/i1791830751741.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791830774540",
+   "cat": "c1791830577434",
+   "desc": "Main color: Black / charcoal gray / white / silver with small red accents. Outfit: White button-up shirt, narrow black tie, oversized angular charcoal trench coat, fitted black trousers, layered leather harnesses, multiple belts, and knee-high lace-up combat boots. Fabric / transparency: Matte coat fabric, crisp cotton, heavy black leather, fitted trousers, glossy boots. Cutouts / straps: Multiple torso harness straps, layered buckled belts, double thigh straps, adjustable coat cuffs. Figure: Structured upper body, cinched waist, fitted hips, elongated legs. Silhouette: Severe military-inspired gothic style with a long angular coat. Length: Ankle-length trailing coat, full-length trousers, knee-high boots. Sleeves: Oversized sleeves with adjustable buckle straps. Footwear: Black knee-high combat boots with intricate lacing and thick soles. Accessories: Leather harnesses, silver rings and buckles, thigh straps, black tie, subtle red waist accents. Hairstyle: Long platinum-white hair, straight bangs, slightly tousled waves.",
+   "img": "images/i1791830774540.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791831192516",
+   "cat": "c1791831184970",
+   "desc": "Main color: Black / ivory / silver. Outfit: Victorian maid-inspired gown with a fitted black bodice, ivory ruffled bib, layered lace trim, puffed black sleeves, and a voluminous ivory floor-length skirt framed by black fabric panels. Fabric / transparency: Matte black satin, ivory cotton, delicate lace, layered ruffles. Cutouts / straps: Fitted bodice with decorative lace-up detailing and thin black ribbon bows. Figure: Defined waist, full bell-shaped skirt. Silhouette: Romantic, elaborate Victorian gothic. Length: Floor-length. Sleeves: Black puff sleeves with fitted forearms and ivory ruffled cuffs. Footwear: Black Mary Jane heels with ankle straps. Accessories: Ivory frilled bonnet, black ribbon bows, lace collar, decorative apron-like front panel. Hairstyle: Long platinum-white wavy hair with straight bangs and loose curls.",
+   "img": "images/i1791831192516.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791831220288",
+   "cat": "c1791831184970",
+   "desc": "Main color: Black / charcoal gray / silver. Outfit: Short black gothic dress with a fitted waist, large satin bow at the collar, ruffled bodice, voluminous sheer sleeves, pleated miniskirt, and a long translucent gray overskirt. Fabric / transparency: Sheer black chiffon, glossy satin, transparent gray tulle, layered ruffles. Cutouts / straps: Fitted waist sash, decorative neckline brooch, layered skirt panels. Figure: Defined waist, short flared skirt. Silhouette: Delicate gothic doll aesthetic with dramatic trailing fabric. Length: Above-knee dress with a floor-length sheer overskirt. Sleeves: Voluminous translucent bishop sleeves with ruffled cuffs. Footwear: Black lace-up ankle boots with chunky heels. Accessories: Black satin bow, silver jeweled brooch, ruffled wrist cuffs. Hairstyle: Long platinum-white hair with straight bangs and loose flowing waves",
+   "img": "images/i1791831220288.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791831240907",
+   "cat": "c1791831184970",
+   "desc": "Main color: Black / charcoal gray / white / silver. Outfit: Cropped black double-breasted jacket with oversized lapels, white ribbed high-neck top, fitted black shorts, layered leather belts, and thigh-high black leather boots. Fabric / transparency: Structured leather, ribbed knit, glossy black material, fluffy gray fur trim. Cutouts / straps: Cropped jacket exposing the waist, multiple buckled belts, wide decorative cuffs. Figure: Fitted waist, streamlined hips and legs. Silhouette: Edgy, powerful, modern gothic fashion. Length: Cropped jacket, short bottoms, thigh-high boots. Sleeves: Extra-wide sleeves with oversized gray fur cuffs. Footwear: Glossy pointed-toe thigh-high boots with high heels. Accessories: Silver buckles, layered belts, black gloves, fur-trimmed cuffs. Hairstyle: Long platinum-white hair with straight bangs and soft waves.",
+   "img": "images/i1791831240907.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791831256387",
+   "cat": "c1791831184970",
+   "desc": "Main color: Ivory / black / silver. Outfit: Elegant ivory Chinese-inspired qipao with a high mandarin collar, delicate floral embroidery, fitted silhouette, short cap sleeves, and long black lace side panels over a flowing ivory underlayer. Fabric / transparency: Ivory embroidered silk, translucent layered fabric, intricate black floral lace. Cutouts / straps: Traditional knotted frog closures at the collar and upper chest, high side slits with black lace inserts. Figure: Fitted waist, long streamlined silhouette. Silhouette: Refined, elegant, fusion of traditional Chinese fashion and gothic romanticism. Length: Ankle-length with a long flowing underlayer. Sleeves: Short cap sleeves with clean edges. Footwear: Black pointed-toe heeled ankle boots. Accessories: Black lace wrist cuffs, silver frog closures, delicate embroidered details. Hairstyle: Extremely long platinum-white hair with straight bangs and flowing waves.",
+   "img": "images/i1791831256387.jpg",
    "fav": false
   }
  ]
