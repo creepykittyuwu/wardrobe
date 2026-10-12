@@ -1,40 +1,56 @@
 {
+ "chars": [
+  {
+   "id": "ch1",
+   "name": "Nielle",
+   "img": "images/ch1.jpg"
+  }
+ ],
  "cats": [
   {
    "id": "c1791304657455",
-   "name": "Nielle sport"
+   "name": "Nielle sport",
+   "char": "ch1"
   },
   {
    "id": "c1791305205183",
-   "name": "Nielle summer"
+   "name": "Nielle summer",
+   "char": "ch1"
   },
   {
    "id": "c1791305756137",
-   "name": "Nielle autumn"
+   "name": "Nielle autumn",
+   "char": "ch1"
   },
   {
    "id": "c1791305909846",
-   "name": "Nielle winter"
+   "name": "Nielle winter",
+   "char": "ch1"
   },
   {
    "id": "c1791369747075",
-   "name": "Nielle spring"
+   "name": "Nielle spring",
+   "char": "ch1"
   },
   {
    "id": "c1791370377078",
-   "name": "Nielle Sleep"
+   "name": "Nielle Sleep",
+   "char": "ch1"
   },
   {
    "id": "c1791370419407",
-   "name": "Nielle Office"
+   "name": "Nielle Office",
+   "char": "ch1"
   },
   {
    "id": "c1791370427205",
-   "name": "Nielle Party"
+   "name": "Nielle Party",
+   "char": "ch1"
   },
   {
    "id": "c1791373394177",
-   "name": "тематическое"
+   "name": "тематическое",
+   "char": "ch1"
   }
  ],
  "items": [
