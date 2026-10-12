@@ -71,6 +71,11 @@
    "id": "c1791813914912",
    "name": "Halloween",
    "char": "ch1"
+  },
+  {
+   "id": "c1791814172668",
+   "name": "East Asian",
+   "char": "ch1"
   }
  ],
  "items": [
@@ -636,21 +641,21 @@
   },
   {
    "id": "i1791374704115",
-   "cat": "c1791373394177",
+   "cat": "c1791814172668",
    "desc": "Main color: Pale pink / cream / gold. Outfit: Soft pink kimono-style dress with wide sleeves, a floral obi belt, a fitted wrap-style skirt with a front slit and a long train. Fabric / transparency: Smooth matte silk-like fabric with soft folds, opaque. White embroidered flowers and vines run along the sleeves and the skirt. The obi is cream lace-like brocade with a floral pattern. The lining is cream satin. Cutouts / straps: Classic crossed V collar closed high on the chest, no cleavage. The wide obi covers the waist and the underbust. The skirt is tight through the hips and splits at the front, showing a bit of the leg and the cream lining. No other cutouts. Figure: Full bust under the closed collar; narrow waist at the obi; round hips; legs partly seen through the slit. Silhouette: Elegant and modest, a wide-sleeved top with a sleek column skirt and a train. Length: Floor-length with a long train spread behind. Sleeves: Very wide, long kimono sleeves that hang to the knees. Footwear: Gold strappy platform sandals with ankle ties. Accessories: Cream obi with flowers, pale flower hairpiece with a tassel, small drop earrings, thin bracelet. Hairstyle: High messy bun with loose curled strands at the temples, with a cluster of cream flowers and a hanging tassel on the left side.",
    "img": "images/i1791374704115.jpg",
    "fav": false
   },
   {
    "id": "i1791374721423",
-   "cat": "c1791373394177",
+   "cat": "c1791814172668",
    "desc": "Main color: Pink / cream / red / black. Outfit: Pink-to-cream gradient kimono with a cherry blossom branch print, a red obi, a deep plunging collar, a front slit and a long train. Fabric / transparency: Smooth silk-like fabric, opaque, with the pink fading into cream toward the hem. Dark branches and pink blossoms are printed on the skirt and sleeve hems, with scattered petals. The inner collar is cream satin. The obi is red brocade. Cutouts / straps: Wide open V collar pulled low, showing deep cleavage and bare collarbones. The obi sits at the waist, tied with red cords and pearl strings with a small white flower. A front slit in the skirt shows the leg. No other cutouts. Figure: Full, round bust in the open collar; narrow waist at the obi; soft hips; one leg seen through the slit. Silhouette: Romantic and graceful, a wide-sleeved robe with a long flowing train. Length: Floor-length with a very long train and a trailing hem. Sleeves: Very wide, long kimono sleeves with blossoms on the cuffs. Footwear: White tabi socks with black platform geta-style sandals and bow straps. Accessories: Red obi with pearl strings and a white flower, kanzashi hairpin with dangling pink flowers, small flower at the bun, pearl bracelets. Hairstyle: Elegant updo with a bun on top and loose curled strands at the temples, with a long kanzashi hairpin and a small flower on the right side.",
    "img": "images/i1791374721423.jpg",
    "fav": false
   },
   {
    "id": "i1791374738456",
-   "cat": "c1791373394177",
+   "cat": "c1791814172668",
    "desc": "Main color: Pink / cream / red / white. Outfit: Pink kimono with white cranes and cherry blossoms, a red obi with silver beads, an off-shoulder plunging collar, a high slit and a long train. Fabric / transparency: Soft silk-like fabric, opaque, with large white cranes embroidered on the skirt and scattered blossoms on the sleeves and hem. The lining and the wide inner border are cream satin with a sheen. The obi is red damask with a bead cord. Cutouts / straps: Very wide V collar pulled off the shoulders, leaving them bare, with deep cleavage. The obi is tied with an ornate knot in the front and decorated with silver beads. A high front slit shows the leg and the cream lining. No other cutouts. Figure: Full, heavy bust with deep cleavage; narrow waist at the obi; soft hips; legs seen through the slit. Silhouette: Luxurious and elegant, a wide-sleeved robe with a slim column skirt and a long train. Length: Floor-length with a wide train. Sleeves: Wide, long kimono sleeves, cream on the outer edge, with blossoms on the cuffs. Footwear: White tabi socks with black platform zori sandals with white bow straps. Accessories: Red obi with silver beads and a knotted cord, kanzashi hairpin with dangling crystal drops, thin beaded necklace, bracelet, small earrings. Hairstyle: High bun with soft curled strands at the temples and a long hairpin with hanging crystals on the left side.",
    "img": "images/i1791374738456.jpg",
    "fav": false
@@ -951,7 +956,7 @@
   },
   {
    "id": "i1791533101055",
-   "cat": "c1791373394177",
+   "cat": "c1791814172668",
    "desc": "Main color: White / gold / pearl / pale blue. Outfit: Lotus-inspired goddess outfit: white bandeau top with gold lotus embroidery, a sheer white wrap skirt with a high slit and gold lotus motifs, and long flowing pale-blue ribbon scarves. Fabric / transparency: Light chiffon and organza with iridescent sheen, sheer overlay skirt. Cutouts / straps: Strapless bustier, bare shoulders, deep cleavage, open midriff with pearl chains, a high front slit. Figure: Full bust, narrow waist, soft hips, long bare legs. Silhouette: Airy and ethereal with floating ribbons. Length: Floor-length at the back, thigh-high slit at the front. Sleeves: None, with sheer ribbon sleeves draped from the arms. Footwear: Barefoot with gold coil anklets. Accessories: Gold leaf crown with pearls and a curved pale-blue ornament, blue dot marks on the forehead, pearl drop earrings, gold lotus choker, layered pearl necklaces, jeweled gold armlets, stacked gold bangles, a gold flower at the hip with a gold chain and pearl strands. Hairstyle: Half-up with a thick side braid wound with pearl strands, loose waves at the front.",
    "img": "images/i1791533101055.jpg",
    "fav": false
@@ -1000,7 +1005,7 @@
   },
   {
    "id": "i1791533294362",
-   "cat": "c1791373394177",
+   "cat": "c1791814172668",
    "desc": "Main color: Teal / mint / white / red / gold. Outfit: Dancer-style outfit: a teal puff-sleeve cropped top with white lace trim, a sheer mint overskirt with gold branch embroidery over full white harem trousers, and a red satin sash with a jade ornament. Fabric / transparency: Light chiffon, satin sash, sheer layered overskirt, soft cotton harem pants. Cutouts / straps: Sweetheart neckline with cleavage, bare midriff, a jade belt medallion with gold tassels and chains, long floating red and mint ribbons. Figure: Full bust, narrow waist, soft hips. Silhouette: Flowing and dynamic, with billowy pants. Length: Full-length harem pants gathered at the ankles. Sleeves: Short puffed sleeves with white ruffled trim and gold armbands. Footwear: Barefoot with gold bell anklets and turquoise beads. Accessories: Golden branch-shaped crown with leaves and a flower, jade and gold forehead chain, dangling earrings, layered gold necklace with a jade pendant, stacked gold bangles, jade belt ornament with tassels, anklets with small gold bells. Hairstyle: Long side braid with loose face-framing strands.",
    "img": "images/i1791533294362.jpg",
    "fav": false
@@ -1273,7 +1278,7 @@
   },
   {
    "id": "i1791810204077",
-   "cat": "c1791373394177",
+   "cat": "c1791814172668",
    "desc": "Main color: Red / gold / black / white. Outfit: Fitted sleeveless qipao-style long dress with a high collar and a high side slit. Fabric / transparency: Red jacquard silk with gold floral embroidery, black lace collar inset, sheer white lace sleeves and leg lining. Cutouts / straps: Keyhole lace chest panel, bare shoulders under structured shoulder caps, tall side slit with gold chain trim. Figure: Full bust, narrow waist, soft hips, long legs. Silhouette: Sleek, elongated Chinese-style column dress. Length: Ankle-length. Sleeves: Sheer white lace long sleeves ending in black fingerless gloves. Footwear: Black pointed heels with red beaded flowers and chain ankle straps. Accessories: Red tassel earrings, hanging red beaded tassels on the hip, gold floral embroidery with chain details, red-beaded wrist chains on the gloves, red flowers on the shoes, black fingerless gloves with red nails. Hairstyle: Loose long waves with a swept front, a red flower and gold bead hairpin with hanging tassels, a small braid at the side.",
    "img": "images/i1791810204077.jpg",
    "fav": false
@@ -1357,7 +1362,7 @@
   },
   {
    "id": "i1791811443413",
-   "cat": "c1791373394177",
+   "cat": "c1791814172668",
    "desc": "Main color: Black / gold / grey. Outfit: Black short-sleeve qipao-style mini dress with a keyhole bust cutout and a gold-embroidered floral skirt. Fabric / transparency: Matte stretch cotton, gold thread embroidery, sheer grey thigh-high stockings. Cutouts / straps: Teardrop keyhole at the bust, high mandarin collar, a wide corset-style waist band. Figure: Very full bust, narrow waist, wide hips, thick thighs. Silhouette: Fitted modern qipao mini. Length: Mini. Sleeves: Short puffed black sleeves with gold piping, separate black flared gauntlet cuffs with gold trim. Footwear: Black glossy pointed pumps. Accessories: Black embroidered flower frog-knot closure at the collar, gold-piped keyhole edge and hem, gold-trimmed flared wrist cuffs, wide black sash at the waist, stud earrings. Hairstyle: Loose low updo with soft curled wisps at the temples and nape.",
    "img": "images/i1791811443413.jpg",
    "fav": false
