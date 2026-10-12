@@ -66,6 +66,11 @@
    "id": "c1791813571305",
    "name": "Middle Eastern",
    "char": "ch1"
+  },
+  {
+   "id": "c1791813914912",
+   "name": "Halloween",
+   "char": "ch1"
   }
  ],
  "items": [
@@ -659,28 +664,28 @@
   },
   {
    "id": "i1791390583337",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: Black / red. Outfit: Black strapless corset bodysuit with a red lace-up panel at the front and a row of black heart-shaped buttons down the center, high-cut black bottom, and heart-ring garter straps attached to thigh-high stockings. Fabric / transparency: The corset is glossy leather-like material, opaque. The red corset lacing is satin. The gloves are sheer black tulle. The stockings are semi-sheer black with wide lace tops. The wings are semi-translucent red membrane. Cutouts / straps: Strapless sweetheart neckline with deep cleavage, red ribbon ties at the sides of the waist, garter straps with heart-shaped rings on both thighs. Figure: Full, round bust; very narrow waist emphasized by the corset; wide hips and soft thighs. Silhouette: Fitted gothic-glam silhouette with a wide stance and bat wings behind. Length: Bodysuit ends at the hip, stockings reach the upper thigh. Sleeves: Detached sheer black opera gloves reaching above the elbow. Footwear: Black glossy platform combat boots with several buckled straps, over sheer black stockings. Accessories: Small red devil horns, red bat wings attached at the back, thin red tail ending in a heart tip, heart-shaped garter rings, lace stocking tops. Hairstyle: Very long, loose, center-parted hair with soft waves and voluminous curls falling over the shoulders, with the red horns sitting on top of the head.",
    "img": "images/i1791390583337.jpg",
    "fav": false
   },
   {
    "id": "i1791390625877",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: White / black. Outfit: White lace wedding dress with a fitted bodice, a plunging neckline, a high thigh-length side slit, and a long flowing train with a torn, ragged hem, worn with a long layered lace veil. Fabric / transparency: The bodice is white lace over opaque lining with corset-style boning at the waist. The skirt is sheer, light chiffon that is semi-transparent. The veil is sheer tulle with scalloped lace edges across several layers. Cutouts / straps: Thin shoulder straps, deep plunging neckline with visible cleavage, high slit up the leg on one side. Figure: Full, round bust; narrow waist; soft hips and thighs. Silhouette: Elegant mermaid-like A-line with a long train and a veil falling behind the body. Length: Floor-length with a long train. Sleeves: Sleeveless. Footwear: White lace-up strappy high heels with small bows at the ankle. Accessories: Bouquet of black roses with black ribbons, a black rose hair flower, lace thigh garter on one leg. Hairstyle: Long, soft wavy hair worn loose with twisted spiral locks at the front, a side-swept front section and the veil attached over the top of the head, with a black rose pinned at the upper right side of the head (viewer's right).",
    "img": "images/i1791390625877.jpg",
    "fav": false
   },
   {
    "id": "i1791390638706",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: Black / red. Outfit: Black witch outfit made of a lace-up corset top with puffed sheer off-shoulder sleeves and a short pleated mini skirt with a long sheer asymmetrical train behind. Fabric / transparency: The corset is matte opaque fabric. The sleeves and the skirt overlay are sheer black tulle. The short skirt layer is thin chiffon with slight transparency. The socks are opaque black. Cutouts / straps: Off-shoulder neckline with a ruffled edge and cleavage, red satin criss-cross lacing at the front of the corset, red ribbon bows at both hips. Figure: Full, round bust; narrow waist; long bare legs. Silhouette: Short in front and long in the back (high-low), fitted on top and airy below. Length: Front skirt ends at the upper thigh, the sheer train reaches the floor. Sleeves: Short puffed sheer sleeves, off the shoulders. Footwear: Black chunky platform lace-up boots with red ribbon bows at the ankles, over short black socks. Accessories: Wide-brimmed black witch hat with red roses, dangling charms, beads, bows and star pendants; red ribbon bows with heart-lock pendants and tassels at the hips; lace thigh garter with a chain and cross charms; straw broom tied with a red bow; vintage lantern in the other hand; black cat on the shoulder. Hairstyle: Very long, loose, center-parted hair with soft waves and curls, partly covered by the large witch hat.",
    "img": "images/i1791390638706.jpg",
    "fav": false
   },
   {
    "id": "i1791390654663",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: White / red. Outfit: White fitted nurse mini dress with a square sweetheart neckline, short puffed sleeves and red ribbon lacing on both sides, worn with long white opera gloves. Fabric / transparency: The dress is smooth glossy fabric, opaque. The gloves are satin-like, opaque. The thigh-high stockings are opaque white. Cutouts / straps: Square neckline with cleavage, two small red-cross patches on the chest, red satin lacing and bows at the sides of the waist, no skin cutouts. Figure: Full, large bust; narrow waist; wide hips and soft thighs. Silhouette: Tight bodycon nurse dress. Length: Dress ends at the upper thigh. Sleeves: Short puffed sleeves with long opera gloves above them, and a white armband with a red cross on one arm. Footwear: Red glossy pointed ankle-strap pumps over opaque white thigh-high stockings. Accessories: Nurse cap with a red cross and white bunny ears, red ribbon bows tied on the thighs over the stockings, a syringe held in one hand, small white bunny plush hanging at the hip. Hairstyle: Very long, loose hair with a center part, soft waves and big curly ends, with the bunny-ear nurse cap on top of the head.",
    "img": "images/i1791390654663.jpg",
    "fav": false
@@ -792,14 +797,14 @@
   },
   {
    "id": "i1791391091333",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: Black / purple / silver. Outfit: Black strapless mini dress with a sweetheart bust decorated with silver ornamental embroidery, puffed off-shoulder sleeve caps, a torn asymmetrical hem and a long sheer purple cape-train falling behind the legs. Fabric / transparency: The dress is matte opaque fabric with a boned bodice. The cape-train is sheer purple tulle, semi-transparent. The gloves are smooth opaque purple fabric. The tights are black fishnet. Cutouts / straps: Strapless sweetheart neckline with cleavage, jagged torn edges on the hem exposing the fishnet-covered thighs. Figure: Very full, large bust; narrow waist; wide hips and soft thighs. Silhouette: Short fitted dress with a long flowing sheer train behind. Length: Dress ends at the upper thigh, the train reaches the floor. Sleeves: Puffed off-shoulder sleeve caps plus long purple opera gloves. Footwear: Black glossy thigh-high boots with pointed toes over black fishnet tights. Accessories: Very large wide-brimmed witch hat with a silver buckle belt and a purple ribbon hanging from the brim; black choker with a silver star pendant; purple opera gloves; silver ornament on the bust. Hairstyle: Very long, loose, center-parted hair with big voluminous waves, with face-framing front locks and a huge witch hat on top of the head.",
    "img": "images/i1791391091333.jpg",
    "fav": false
   },
   {
    "id": "i1791391105264",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: White / red. Outfit: Fitted white zip-front nurse mini dress with a small collar, short puffed sleeves and princess seams, with the zipper pulled low to show deep cleavage. Fabric / transparency: The dress is glossy, slightly shiny fabric, opaque. The stockings are opaque white. Cutouts / straps: Open zip neckline with deep cleavage, no skin cutouts. Figure: Very full, large bust; narrow waist; wide hips and soft thighs. Silhouette: Tight bodycon nurse dress. Length: Dress ends at the upper thigh. Sleeves: Short puffed sleeves with a small cuff. Footwear: White pointed pumps over opaque white thigh-high stockings. Accessories: Small white nurse cap with a red cross; small red cross pins on the collar and the zipper pull; a stethoscope around the neck; a dark clipboard held in one hand. Hairstyle: Very long, loose, center-parted hair with soft waves and curls at the ends, with a small nurse cap pinned on top of the head.",
    "img": "images/i1791391105264.jpg",
    "fav": false
@@ -813,7 +818,7 @@
   },
   {
    "id": "i1791391131346",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: Black / burgundy / pink. Outfit: Black halter bra top with burgundy lace trim and a heart-shaped cutout at the center, a low-slung black leather mini pencil skirt, garter straps connected to thigh-high stockings and long black opera gloves with burgundy lace trim. Fabric / transparency: The top is satin with lace edging, opaque. The skirt is glossy leather-like material, opaque. The gloves are smooth opaque black. The stockings are semi-sheer black. The wings are dark leathery membrane with a slight translucent sheen. Cutouts / straps: Halter neck straps, heart-shaped cutout on the bust, bare midriff, thin garter straps at the hips. Figure: Very full, large bust; narrow waist; wide hips and long slim legs. Silhouette: Gothic, fitted with a short skirt and bat wings behind. Length: Skirt ends at the upper thigh, stockings reach the upper thigh. Sleeves: Detached long opera gloves reaching above the elbow, bare shoulders. Footwear: Black glossy pointed platform heels over semi-sheer black thigh-high stockings. Accessories: Small black curved horns, dark grey-black bat wings, a thin black tail ending in a heart tip, a black choker with silver spikes, a glowing pink heart-and-wings tattoo on the lower abdomen. Hairstyle: Very long, loose, soft-parted hair with big waves and curls, with small black horns on both sides on top of the head and face-framing locks.",
    "img": "images/i1791391131346.jpg",
    "fav": false
@@ -862,7 +867,7 @@
   },
   {
    "id": "i1791391231938",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: White / black / red. Outfit: White halter lace wedding dress with a boned lace corset bodice, a deep neckline, a skirt with high slits on both sides and a long torn train, worn with a long veil with ragged edges. Fabric / transparency: The bodice is white lace over opaque lining. The skirt is sheer, light chiffon, semi-transparent. The veil is sheer lace tulle with torn, frayed edges. Red beads and drops run from the chest down the front of the dress like streams. Cutouts / straps: Halter neck, deep neckline with cleavage, high slits up both sides of the skirt. Figure: Very full, large bust; narrow waist; soft hips and long legs. Silhouette: Elegant gothic wedding gown with a long ragged train and veil. Length: Floor-length with a long ragged train. Sleeves: Sleeveless. Footwear: White pointed ankle-strap heels with small bows. Accessories: Large bouquet of black roses with long black ribbons; black rose hair flower; lace thigh garter; red bead streams on the chest and skirt. Hairstyle: Long, wavy hair worn loose with a side-swept front section and twisted spiral locks, a long lace veil attached over the top of the head, and a black rose pinned at the upper right side (viewer's right).",
    "img": "images/i1791391231938.jpg",
    "fav": false
@@ -918,7 +923,7 @@
   },
   {
    "id": "i1791533038191",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: Black / white / red / silver. Outfit: Gothic floor-length mermaid gown with a white ruffled jabot blouse, black leather corset with buckles, a heavy black feather shoulder mantle with red spider-lily flowers, and a feathered train. Fabric / transparency: Matte black satin skirt, sheer black chiffon sleeves, lace-up lace panel on the thigh, feathers along the mantle and hem. Cutouts / straps: Plunging blouse neckline, triple buckle straps on the corset, buckled cuffs, a high side slit with silver cross-lacing over sheer lace. Figure: Full, heavy bust, very narrow corseted waist, wide hips. Silhouette: Dramatic fitted column that flares into a feathered train. Length: Floor-length with a long train. Sleeves: Wide, sheer puffed sleeves gathered at buckled cuffs. Footwear: Black pointed shoes with silver cross ornaments. Accessories: Curled black horn-shaped hair ornaments, black gloves with long pointed claw tips, silver web-like belt with hanging black beads and a red gem, silver filigree brooch at the collar, dangling gold-and-crystal earrings, red bloody-tear makeup lines, dark red lips, red flowers on the shoulders and hem. Hairstyle: High updo with a loose top knot, soft face-framing strands, and a few thin strands falling over the chest.",
    "img": "images/i1791533038191.jpg",
    "fav": false
@@ -1002,7 +1007,7 @@
   },
   {
    "id": "i1791533310035",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: White / lavender / blue / silver. Outfit: Bridal-style gown with off-shoulder lavender ruffles, a chain waist belt, a long jagged layered skirt with teal glowing edges, and a long veil over the face. Fabric / transparency: Layered torn chiffon and organza, translucent sleeves, lace-edged veil, a burn mark on the skirt. Cutouts / straps: Off-shoulder ruffled neckline with deep cleavage, a front slit in the skirt, a silver chain belt with a pocket watch and gear charms. Figure: Very full bust, narrow waist, soft hips. Silhouette: Ethereal and ragged, with a very long layered train. Length: Floor-length with a long trailing hem. Sleeves: Long, sheer, wide flowing sleeves with fingerless gauze cuffs. Footwear: Silver glittering pointed heels with blue flowers and vine straps. Accessories: Crown of candles with blue flames over a leaf wreath, white beaded veil with blue flower details, blue bell-flower accents at the shoulders and skirt, a pocket watch with gears on the belt, a beaded chain. Hairstyle: Long loose curled hair flowing under the veil, hidden bangs, and veil covering the eyes.",
    "img": "images/i1791533310035.jpg",
    "fav": false
@@ -1093,7 +1098,7 @@
   },
   {
    "id": "i1791534023760",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: Black / white / pink / gold. Outfit: Gothic maid dress with a square-neck black bodice, a white apron with black ribbon ties and bow trims, and a tiered black skirt with white stripes and white lace hem. Fabric / transparency: Matte black cotton, crisp white apron, sheer black puffed sleeves, lace petticoat, opaque white tights. Cutouts / straps: Square neckline, black ribbon ties at the waist, ribbon bows on the apron ruffle, white stripe trims on the tiers. Figure: Full bust, narrow waist, soft hips. Silhouette: Cute classic maid, fitted top with a bell-shaped skirt. Length: Knee-length. Sleeves: Long sheer black puffed sleeves with pearl-trimmed lace cuffs. Footwear: Black ankle-strap Mary Janes with black bows, white tights. Accessories: White lace maid headdress with black ribbons, black curved horn-shaped headpieces, a black bow choker with a pink gem and a silver cross pendant, a gold heart-shaped bracelet charm with pearls, black bows on the apron. Hairstyle: Center-parted hair with front ringlet curls and voluminous curls, under the headdress.",
    "img": "images/i1791534023760.jpg",
    "fav": false
@@ -1128,7 +1133,7 @@
   },
   {
    "id": "i1791536840880",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: Black / white, with pink and silver accents. Outfit: Gothic Lolita maid dress with a fitted black bodice, low square neckline trimmed with white lace, a pink gemstone brooch, sheer black puff sleeves, and a white ruffled apron with black ribbon bows. Fabric / transparency: Opaque black fabric with white lace trim, sheer translucent sleeves, soft white apron fabric, glossy black patent leather shoes. Cutouts / straps: Low square neckline revealing cleavage, fitted bodice with decorative buttons and a central jeweled brooch. Figure: Full bust, narrow waist, rounded hips, slender legs. Silhouette: Fitted corset-like bodice with a short, voluminous, layered flared skirt. Length: Skirt ends at the upper thighs, with multiple tiers of white lace underneath. Sleeves: Voluminous sheer black puff sleeves with gathered shoulders, white lace cuffs, black ribbon bows, and heart-shaped gold brooches with pearls. Footwear: Black glossy Mary Jane platform heels with ankle straps and small decorative bows, opaque white thigh-high stockings. Accessories: White frilled maid headdress with black ribbon bows, large curved black ram horns on both sides of the head, black velvet choker with a pink gemstone and dangling cross pendant, matching jeweled brooches, pearl details, and black ribbons. Hairstyle: Very long, voluminous pastel-pink hair styled in soft curls and loose ringlets, with curled strands framing the face and cascading over the shoulders, partially tucked beneath the headdress.",
    "img": "images/i1791536840880.jpg",
    "fav": false
@@ -1163,7 +1168,7 @@
   },
   {
    "id": "i1791538875447",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: White / crimson red / pale lavender, with pastel pink accents. Outfit: Gothic bridal mini dress with a fitted white corset bodice, sweetheart neckline, red splatter stains, layered ruffled skirt, white lace petticoat, and a large white satin bow at the waist. Fabric / transparency: Opaque white satin and lace, delicate translucent chiffon train in white and pale lavender, intricate floral lace overlays. Cutouts / straps: Deep sweetheart neckline emphasizing the bust, fitted lace-up bodice, exposed shoulders. Figure: Full bust, narrow waist, rounded hips, slender legs. Silhouette: Fitted bridal bodice with a short, voluminous layered skirt and a dramatic flowing train. Length: Mini skirt ending at the upper thighs, with a long high-low veil and train trailing to the floor. Sleeves: Asymmetrical sleeves — one long sheer white floral lace sleeve, the other covered in red diamond-patterned fabric with a large cluster of crimson roses at the shoulder. Footwear: Glossy crimson pointed heels with ankle straps and large white rose appliqués. Accessories: White lace bridal veil with ruffled edges, dark red roses and thorny stems decorating one side of the head, red rose choker with a small bow, dangling red teardrop earrings, white lace-up neck detail. Hairstyle: Very long, voluminous pastel-pink hair with soft waves, loose curls, and face-framing strands falling over one eye, partially covered by the veil. Overall aesthetic: Romantic gothic ghost bride, combining delicate white lace, dramatic crimson roses, thorny details, and a hauntingly elegant bridal silhouette.",
    "img": "images/i1791538875447.jpg",
    "fav": false
@@ -1324,14 +1329,14 @@
   },
   {
    "id": "i1791811359259",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: Slate grey / orange / yellow / white. Outfit: Cropped long-sleeve qipao jacket with a high mandarin collar over a long, narrow front-panel dress, with side bow ties. Fabric / transparency: Matte slate grey cotton, orange silk lining, white crochet lace trim, yellow paper talismans. Cutouts / straps: Open-front bolero with bare chest, high mandarin collar with frog knots, a narrow front panel with high open sides, side-tie bows at the hips. Figure: Very full bust, narrow waist, wide hips, long legs. Silhouette: Stylized jiangshi-inspired robe with huge sleeves and a narrow front panel. Length: A front panel to the knee with long open back panels to the calf. Sleeves: Extremely wide bell sleeves lined with orange silk and edged with wide white crochet lace, decorated with orange knot ornaments and tassels. Footwear: Black glossy pointed pumps. Accessories: Round black official-style hat with an orange pom on top and a yellow talisman with red calligraphy, small green frog-shaped clasps on the talismans, two large yellow calligraphy talismans over the chest, orange Chinese knot buttons on the collar, orange diamond-shaped appliqués down the front panel, orange bows with hanging cords, tassels with jade beads at the hips, orange knot-and-tassel ornaments on the sleeves, a small orange clip in the hair. Hairstyle: Short soft hair with two small side buns under the hat and a swept side front.",
    "img": "images/i1791811359259.jpg",
    "fav": false
   },
   {
    "id": "i1791811373887",
-   "cat": "c1791373394177",
+   "cat": "c1791813914912",
    "desc": "Main color: Black / red / gold / yellow. Outfit: High-collar black cropped qipao jacket with a strapless bodycon mini dress, side slits and thigh-high boots. Fabric / transparency: Glossy latex-like patent material, red piping, gold edge trim, red silk cuff lining, a yellow paper talisman. Cutouts / straps: Sweetheart strapless bust with a keyhole cutout, bare chest and collarbones, high mandarin collar with a keyhole, side slits. Figure: Full bust, narrow waist, wide hips, long legs. Silhouette: Sleek glossy jiangshi-inspired mini dress with huge flared sleeves. Length: Mini dress with thigh-high boots. Sleeves: Very wide long black bell sleeves with wide red-lined cuffs and gold trim. Footwear: Black glossy thigh-high boots with a block heel. Accessories: Black official-style hat with red trim, a pointed top and a yellow calligraphy talisman hanging in front, red frog-knot buttons on the collar and keyhole, a red gem button on the bust cutout, red piped hem and slits, gold-trimmed cuffs. Hairstyle: Two side buns with face-framing straight strands under the hat.",
    "img": "images/i1791811373887.jpg",
    "fav": false
