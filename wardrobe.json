@@ -51,6 +51,21 @@
    "id": "c1791373394177",
    "name": "тематическое",
    "char": "ch1"
+  },
+  {
+   "id": "c1791813140694",
+   "name": "historical",
+   "char": "ch1"
+  },
+  {
+   "id": "c1791813381414",
+   "name": "Steampunk",
+   "char": "ch1"
+  },
+  {
+   "id": "c1791813571305",
+   "name": "Middle Eastern",
+   "char": "ch1"
   }
  ],
  "items": [
@@ -455,35 +470,35 @@
   },
   {
    "id": "i1791373533384",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: Black / gold / smoky gray. Outfit: Black twisted bandeau with criss-cross wrap, a gold chain harness, a black wrap maxi skirt with a high slit, and a sheer open robe with gold trim. Fabric / transparency: Satin-like opaque black for the bandeau and skirt. The robe is thin smoky gauze, semi-transparent, with a gold ribbon trim along the edges, and the body can be seen through it. Cutouts / straps: Strapless, held by gold chains that run from the neck around the chest. Black fabric strips criss-cross over the midriff, leaving bare skin between them. A gold chain belt with hanging chain swags sits at the hips. The skirt slit runs from the hip. Figure: Full, round bust; bare midriff and navel; wide hips; long leg through the slit. Silhouette: Dark, exotic and elegant, fitted wrap with a flowing see-through robe and a train. Length: Skirt is floor-length with a train, robe reaches the floor with a wide train. Sleeves: Very wide, loose, sheer kimono-style robe sleeves. Footwear: Black pointed pumps with gladiator-style lace-up straps and gold clover charms. Accessories: Black choker, gold chain necklace, gold chain belt, green gem hairpin. Hairstyle: Half-up with the top section pinned back, a gem pin on one side, and thick drill curls at the front.",
    "img": "images/i1791373533384.jpg",
    "fav": false
   },
   {
    "id": "i1791373559944",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: White / gold / cream. Outfit: White twisted-halter crop top, a gold studded belt with chains, a white wrap skirt with a high slit, and detached sheer sleeves. Fabric / transparency: The top is soft opaque cotton-like jersey. The skirt and the side drapes are thin chiffon, semi-transparent, so the thighs and legs show faintly through. The sleeves are airy sheer white and slip off the shoulders. Cutouts / straps: A halter neckline with a twisted keyhole opening at the chest. A wide gold bandeau band sits under the bust, with bare midriff between it and the belt. Thin gold chains hang across the hips. Shoulders are bare. Figure: Very full, heavy bust with deep cleavage; narrow waist; wide hips and thick thighs. Silhouette: Goddess-like, a fitted top with a light flowing skirt and a long train. Length: Skirt is floor-length at the sides with a slit rising to the hip, a sheer train drags behind. Sleeves: Detached loose sheer sleeves that hang over the arms. Footwear: Gold strappy flat sandals with ankle straps. Accessories: Double gold choker, gold armlets, gold bangle, gold hairpin with a blue gem. Hairstyle: Very long, loose wavy hair, swept back on one side with a small gem pin near the temple.",
    "img": "images/i1791373559944.jpg",
    "fav": false
   },
   {
    "id": "i1791373577436",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: White / gold / pale blue. Outfit: White bandeau with an underbust cutout, a gold chain-and-tassel midriff, and a white wrap skirt with a V-shaped gold waistband and a train. Fabric / transparency: The top is opaque matte cotton. The skirt is thick, soft, opaque white with a slightly sheer edge at the slit. The veil is thin transparent pale blue tulle. Cutouts / straps: Strapless bandeau with an open crescent cutout under the bust. Gold halter chains with teardrop charms run from a collar to the top. A gold band and a chain with tassels sit across the stomach. The slit on the skirt runs from the hip. Figure: Full, round bust; bare midriff and navel; soft wide hips; long bare leg through the slit. Silhouette: Ancient goddess or dancer style, short fitted top with a long, flowing wrap skirt. Length: Skirt is floor-length with a trailing hem. Sleeves: None. Footwear: Gold heeled strappy sandals with twisted ankle straps. Accessories: Gold collar choker, gold armlets, gold bracelets, gold circlet headpiece with a drop, long pale blue veil. Hairstyle: Very long, loose hair with a center part, covered by a blue veil on top, with spiral curls at the front.",
    "img": "images/i1791373577436.jpg",
    "fav": false
   },
   {
    "id": "i1791373606188",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: Black / gold / blue. Outfit: Black twisted bandeau with a heart-shaped keyhole cutout, gold chains and coin charms, and a low-rise black satin wrap skirt with a gold waistband. Fabric / transparency: Smooth, shiny satin on the skirt and top, opaque and heavy with long drapes. No sheer fabric. Cutouts / straps: Strapless, with the keyhole opening between the cups. Thin gold chains run from the choker over the chest. A gold band and a chain with dangling coins sit under the bust. The gold-embossed waistband sits low on the hips. The skirt slit runs from the hip to the floor. Figure: Full, round bust; soft bare stomach; wide hips; long leg through the slit. Silhouette: Exotic dancer or fantasy style, a fitted top with a low skirt and a long train. Length: Skirt is floor-length with a long trailing train. Sleeves: None. Footwear: Gold flat strappy sandals with chain-like ankle wraps. Accessories: Gold choker, gold armlets, gold coin charms, gold hair ornaments with blue ribbons. Hairstyle: Very long, voluminous hair with thick spiral curls at the sides, blue ribbons tied with gold ornaments on both sides of the head.",
    "img": "images/i1791373606188.jpg",
    "fav": false
   },
   {
    "id": "i1791373633394",
-   "cat": "c1791373394177",
+   "cat": "c1791813140694",
    "desc": "Main color: Navy / cream / brown / gold. Outfit: Cream off-shoulder ruffle blouse, wide brown leather corset belt with a pouch, and a navy asymmetrical high-low skirt with gold embroidery. Fabric / transparency: The blouse is lightweight ribbed cotton with ruffled cuffs, opaque. The skirt is heavy matte navy fabric with gold floral embroidery. The belt is thick leather. Cutouts / straps: A deep V neckline with a ruffled collar that sits off the shoulders. A high slit on the left side of the skirt shows the thigh. A leather belt with a small pouch and gold chain hangs at the hip. Figure: Full, round bust; narrow waist cinched by the corset belt; wide hips; bare legs through the slit. Silhouette: Fantasy adventurer, fitted waist with a loose blouse and an asymmetrical skirt. Length: Skirt is knee-length on the right and ankle-length at the back and the left front. Sleeves: Three-quarter puffed sleeves with double ruffle cuffs. Footwear: Brown lace-up gladiator sandals with gold studs. Accessories: Navy beret with a gold brooch and a blue ribbon, long gold pendant necklace, belt pouch with chain. Hairstyle: Very long, loose wavy hair with a center part, curls at the front, a beret on top tilted to one side.",
    "img": "images/i1791373633394.jpg",
    "fav": false
@@ -511,7 +526,7 @@
   },
   {
    "id": "i1791373778196",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: Royal blue / navy / gold / pale blue. Outfit: Blue twisted bandeau with a keyhole, a gold chain harness, a low-rise sheer navy skirt with a front panel and long trailing panels, and a head veil. Fabric / transparency: The top is opaque satin. The skirt is thin navy chiffon, almost fully transparent, with a narrow, slightly denser panel at the center front, and the legs are clearly visible through it. The long train panels on the floor are sheer with a faint sparkle. The veil is transparent pale blue tulle. Cutouts / straps: Strapless, with an opening between the cups. Gold chains run from the choker over the chest and across the stomach. Bare midriff. A gold belt sits low on the hips with chains hanging at the sides. High slits on both sides of the skirt. Figure: Full, round bust; soft bare stomach; wide hips; bare thighs and legs. Silhouette: Fantasy dancer or princess, a short fitted top with a light, see-through skirt and long trails. Length: Front panel ends at the knee, sheer side panels reach the floor and trail behind. Sleeves: None. Footwear: Gold platform ankle-cuff sandals with strap wraps. Accessories: Gold collar, gold armlets, gold head chain with a leaf pattern, pale blue veil, gold belt chains. Hairstyle: Very long, loose voluminous waves with a center part, covered by a veil on top, a gold head chain across the forehead.",
    "img": "images/i1791373778196.jpg",
    "fav": false
@@ -770,7 +785,7 @@
   },
   {
    "id": "i1791391074657",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: White / gold. Outfit: A costume made entirely of white linen bandages: a criss-cross wrapped bandeau across the chest, wide bandage wraps around the hips and a loose bandage belt at the waist, spiral wraps over both thighs, calves, feet and forearms, with long loose bandage tails trailing on the ground. Fabric / transparency: Thin matte cloth bandages, opaque where wrapped, with bare skin showing between the wraps. Cutouts / straps: Bare shoulders, bare midriff, open gaps between the bandage layers at the waist and thighs, one eye covered by a bandage. Figure: Very full, large bust; narrow waist; wide hips and soft, thick thighs. Silhouette: Wrapped, body-hugging silhouette with long loose bandage ends dragging behind. Length: Bandages cover the legs down to the feet; the toes are bare. Sleeves: No sleeves; bandage wraps on the forearms with gold cuffs. Footwear: Barefoot, with bandage wraps on the feet and ankles, standing on sand. Accessories: Golden cobra (uraeus) crown with red and blue gems and curled gold side ornaments; wide Egyptian gold collar with blue, red and gold inlay and an ankh pendant; gold hoop earrings; gold upper-arm bands; wide gold wrist cuffs; a thin gold line of eye makeup under the visible eye. Hairstyle: Very long, loose hair with a center-ish part, big waves and spiral curls at the front, a bandage tied across the forehead and over one eye (viewer's left) with a hair strand falling over it, and the golden cobra crown on top of the head.",
    "img": "images/i1791391074657.jpg",
    "fav": false
@@ -868,14 +883,14 @@
   },
   {
    "id": "i1791391308589",
-   "cat": "c1791370427205",
+   "cat": "c1791813140694",
    "desc": "Main color: Pink / pearl / cream. Outfit: Off-shoulder pink princess dress with a lace corset bodice edged with pearls, a short layered ruffled front skirt and a long sheer high-low skirt with a train behind. Fabric / transparency: The bodice is lace over opaque lining with pearl trim. The sleeves are puffy, sheer, with pearl decorations. The skirt is layers of pleated chiffon, semi-transparent, with ruffled edges. Cutouts / straps: Off-the-shoulder neckline with deep cleavage, no straps. Figure: Very full, large bust; narrow waist; soft hips and long legs. Silhouette: Romantic princess dress, fitted on top, short and frilly at the front and long at the back. Length: Front skirt ends at the upper thigh, the train reaches the floor. Sleeves: Short puffed sheer sleeves worn off the shoulders. Footwear: Pink glossy pointed ankle-strap high heels with big bows. Accessories: Small silver tiara; multi-strand pearl necklace. Hairstyle: Very long, loose, center-parted hair with soft waves and thick curls, with a small silver tiara on top of the head.",
    "img": "images/i1791391308589.jpg",
    "fav": false
   },
   {
    "id": "i1791391349448",
-   "cat": "c1791370427205",
+   "cat": "c1791813140694",
    "desc": "Main color: Pink / white / pearl. Outfit: Pink off-shoulder gown with a ruffle-edged sweetheart bodice, a button-front lace corset, an asymmetrical wrap skirt with a white ruffle trim, a high front slit and a long pleated train with pearls along the hem. Fabric / transparency: The bodice is matte opaque fabric with lace corset panel. The sleeves are semi-sheer with ruffles. The skirt is soft chiffon, pleated and semi-transparent at the train. Cutouts / straps: Off-the-shoulder neckline with deep cleavage, no straps, a high slit exposing the leg. Figure: Very full, large bust; narrow waist; soft hips and long legs. Silhouette: Romantic gown, fitted on top with a flowing asymmetric skirt and train. Length: Front slit reaches the upper thigh, the back train reaches the floor. Sleeves: Short puffed ruffled sleeves worn off the shoulders. Footwear: Pink pointed high heels with ankle ribbon bows. Accessories: Small silver tiara; multi-strand pearl necklace; pearls scattered on the hem. Hairstyle: Very long, loose, center-parted hair with big spiral curls and waves, with a small silver tiara on top of the head.",
    "img": "images/i1791391349448.jpg",
    "fav": false
@@ -910,7 +925,7 @@
   },
   {
    "id": "i1791533049771",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: White / cream / gold / turquoise / black. Outfit: Ancient Egyptian-style wrapped dress made of torn bandages, with a wide gold-and-turquoise collar necklace and a broad gold belt with a long hanging panel. Fabric / transparency: Aged linen bandages, torn and frayed, with black tar-like drips on the hem and arms. Cutouts / straps: Strapless wrapped bust, bare shoulders, deep cleavage, crisscross bandages over the hips with open gaps showing the legs. Figure: Very full bust, narrow waist, wide hips, long bare legs. Silhouette: Slender and fluid, with ragged tiers. Length: Mid-calf at the longest tatters, short at the front. Sleeves: None. Black-dipped bandage wraps cover the forearms and hands like gloves. Footwear: Barefoot, black tar stains on the feet, gold toe rings. Accessories: Gold-and-turquoise beaded headpiece with forehead chains, long dangling earrings, wide jeweled collar, gold armlets and bracelets, beaded chains hanging from the belt. Hairstyle: Perfectly straight, sleek hair parted in the center, with thin gold-beaded braids framing the face.",
    "img": "images/i1791533049771.jpg",
    "fav": false
@@ -1001,14 +1016,14 @@
   },
   {
    "id": "i1791533339744",
-   "cat": "c1791373394177",
+   "cat": "c1791813140694",
    "desc": "Main color: Black / charcoal / silver / teal / deep blue. Outfit: Black long studded-collar coat with teal-and-blue crystalline lining and a pleated deep-blue hem, over a black shirt, tie, and fitted waistcoat, with slim black trousers. Fabric / transparency: Matte leather-like coat, satin waistcoat and shirt, iridescent geometric crystal-print lining, opaque trousers. Cutouts / straps: High pointed collar with studs, buckled cuffs, silver buckle clasps along the hem, a chain on the vest, a high-necked collar with a face mask. Figure: Full bust, narrow waist, long slim legs. Silhouette: Sharp and elegant, with a long open coat. Length: Floor-length coat, ankle-length trousers. Sleeves: Long, with buckled leather cuff straps. Footwear: Black pointed boots with silver toe caps. Accessories: Black face mask with ear loops, black leather gloves, silver chain with a blue gem pendant on the tie, silver rose brooch on the collar, silver buckle clasps on the coat hem. Hairstyle: High ponytail with a few loose strands framing the face.",
    "img": "images/i1791533339744.jpg",
    "fav": false
   },
   {
    "id": "i1791533513725",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: White / cream / mint / gold / brown. Outfit: Greek-style draped white wrap dress with a very deep plunging neckline, a brown leather belt with a buckle, a sheer mint shawl over one shoulder, and a train with a geometric border. Fabric / transparency: Soft matte linen-like draped fabric, sheer chiffon shawl, leather belt and pouch. Cutouts / straps: Deep plunge to the waist with deep cleavage, a high front slit, a thin leather strap across the hip with a small pouch and a hanging blue gem-and-teardrop pendant. Figure: Full, heavy bust, narrow waist at the belt, soft hips, legs visible through the slit. Silhouette: Elegant and flowing, fitted wrap with a long trailing hem. Length: Floor-length with a train. Sleeves: Short, wide, loose elbow-length sleeves. Footwear: Brown strappy lace-up sandals with crisscross straps up the ankle. Accessories: Mint chiffon blindfold ribbon tied in a bow at the side, black choker with a small silver charm, layered gold teardrop chain necklaces, gold winged brooch with a blue gem and hanging ribbon charms on the shoulder, mint shawl with gold geometric pattern and cream tassel fringe, small brown leather hip pouch. Hairstyle: Loose, smooth hair swept back from the face with soft curled ends and a blindfold ribbon tied at the side.",
    "img": "images/i1791533513725.jpg",
    "fav": false
@@ -1022,42 +1037,42 @@
   },
   {
    "id": "i1791533544215",
-   "cat": "c1791373394177",
+   "cat": "c1791813140694",
    "desc": "Main color: Red / cream / white / gold. Outfit: Strapless red corset dress with gold frog-button knot closures and a black gem drop, a large red satin bow with a rose at the waist, and a high-low tiered ruffle skirt trimmed with white lace. Fabric / transparency: Glossy satin, layered lace trim, sheer lace underlayers, pearl chains. Cutouts / straps: Strapless sweetheart neckline with bare shoulders, detached sleeves, a long hanging sash with small gold bows on a gold chain, pearl strands draped across the waist. Figure: Full bust, narrow waist, soft hips, bare legs in front. Silhouette: Romantic and voluminous, short front and a long train at the back. Length: Mini at the front, floor-length train at the back. Sleeves: Detached wide red sleeves with white ruffle layers, bows and pearl cuffs. Footwear: Red bow-front Mary Janes with ankle ribbons, white lace ankle socks. Accessories: Red ribbon choker with a black gem brooch, red bow hairpin with gold beaded sticks, cream gloves with pearl bracelets, pearl chains, lace-edged train. Hairstyle: High ponytail with a swept front, curled face-framing strands and loose ringlet curls at the sides.",
    "img": "images/i1791533544215.jpg",
    "fav": false
   },
   {
    "id": "i1791533580551",
-   "cat": "c1791373394177",
+   "cat": "c1791813381414",
    "desc": "Main color: Brown / white / gold / blue. Outfit: Steampunk look with a white puff-sleeve blouse with a black ribbon bow, a brown leather underbust corset with gold buckles, and a high-low tiered brown skirt with white lace petticoats. Fabric / transparency: Cotton blouse, aged leather corset and belt, layered chiffon skirt, lace trim, sheer dark stockings. Cutouts / straps: Leather suspender straps over the shoulders, a thigh garter strap on one leg, a belt with side pouches, a gold chain with a pocket watch. Figure: Full bust, narrow corseted waist, soft hips, slim legs. Silhouette: Victorian adventurer with a layered asymmetrical skirt. Length: Knee-length at the front, longer at the back. Sleeves: Short puffed sleeves with ruffled cuffs. Footwear: Brown lace-up heeled boots, black thigh-high stockings. Accessories: Small blue mini top hat with brown feathers, a red flower and gears, steampunk goggles with gold gears on the head, brown fingerless gloves with buckled cuffs, hanging glass potion bottles on the belt, a pocket watch on a chain, brass buckle details, side belt pouches. Hairstyle: Braided sections at the temples joined at the back, with voluminous ringlet curls.",
    "img": "images/i1791533580551.jpg",
    "fav": false
   },
   {
    "id": "i1791533596027",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: Red / gold / cream / green. Outfit: Chinese-style wedding robe with a high collar and gold phoenix embroidery on the chest, a wide ornate gold waist corset with a knot and tassel, a red brocade open robe, and full cream bloomers. Fabric / transparency: Red damask brocade, sheer red veil, gold metalwork, lace cuffs, soft cotton bloomers with lace. Cutouts / straps: Keyhole cutout at the collar, a gold chain-and-gem bead fringe at the waist, a large gold knot with a long tassel, a gold-trimmed scalloped front panel. Figure: Full bust, narrow waist at the gold belt, soft hips. Silhouette: Regal and layered, a wide-sleeved robe with a long train. Length: Floor-length robe with a long train, ankle-length bloomers. Sleeves: Very wide long sleeves with gold peony embroidery and white lace cuffs. Footwear: Red pointed slippers with gold trim and green gems. Accessories: Red-and-gold crown with red and green gems, a gold coin-bead mask covering the eyes, red veil falling over the head, green drop earrings with gold chains, gold waist belt, jade-and-ruby pendants, gold knot ornament with tassel. Hairstyle: Smooth center-parted straight hair falling under the veil.",
    "img": "images/i1791533596027.jpg",
    "fav": false
   },
   {
    "id": "i1791533616158",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: Red / gold / cream / green. Outfit: Chinese-style wedding robe with a gold phoenix on the chest, a wide ornate gold waist belt with knots and tassels, a red brocade open robe with a long train, and full cream bloomers with ruffled cuffs. Fabric / transparency: Red damask brocade, sheer red veil, gold beadwork, lace cuffs, soft cotton bloomers. Cutouts / straps: High collar with a jade drop pendant, a front panel with a scalloped gold edge, jade-and-red bead tassels at the waist, a large gold knot with a long jade tassel. Figure: Full bust, narrow waist at the belt, soft hips. Silhouette: Majestic and layered, a wide robe with a long train. Length: Floor-length with a long train. Sleeves: Wide long sleeves with gold peony embroidery and white lace cuffs. Footwear: Red pointed slippers with gold trim. Accessories: Red-and-gold crown with red and green gems and gold coins, a forehead chain, a gold beaded face veil covering the lower face, green gem earrings with gold chains, jade pendants, gold waist belt, tassel and knot ornaments, embroidered flowers on the train. Hairstyle: Smooth center-parted straight hair with side strands falling in front of the shoulders, under the veil.",
    "img": "images/i1791533616158.jpg",
    "fav": false
   },
   {
    "id": "i1791533849753",
-   "cat": "c1791373394177",
+   "cat": "c1791813140694",
    "desc": "Main color: Black / purple / pink / silver. Outfit: Gothic lolita ball gown with an off-shoulder black corset bodice with purple lacing, a huge tiered ruffle skirt with purple ruffle trims, a large pink satin bow at the waist with a star charm, and a heart-shaped purple satin pocket on the front. Fabric / transparency: Black tulle and chiffon tiers, glossy satin ruffles and ribbons, sheer puff sleeves, black lace gloves, fishnet stockings. Cutouts / straps: Off-the-shoulder lace-trimmed neckline, purple cross-lacing on the bodice, long pink ribbons with bows and hanging star charms down the skirt, black arrow-shaped ornaments around the hem. Figure: Full bust, narrow corseted waist, wide skirt hiding the hips. Silhouette: Voluminous bell-shaped doll-like ball gown. Length: Floor-length. Sleeves: Short sheer puffed sleeves with lace trim and purple bows, plus long black lace opera gloves. Footwear: Black pointed shoes with fishnet stockings. Accessories: Black lace headband with a large purple bow and a pink round ornament, black lace choker with a purple ribbon and a dark charm pendant, star-shaped earrings, pink satin bow with a silver star, silver star charms on the ribbons, purple bows all over the skirt. Hairstyle: High half-up style with straight blunt bangs, front strands in ringlet drill curls, and loose waves down the back.",
    "img": "images/i1791533849753.jpg",
    "fav": false
   },
   {
    "id": "i1791533867044",
-   "cat": "c1791373394177",
+   "cat": "c1791813140694",
    "desc": "Main color: Red / white / gold / cream. Outfit: Ornate red long coat with a ruffled shoulder capelet and a gold-embroidered floral collar, over a white diamond-quilted vest with gold buttons and slim white trousers with pleated flared hems. Fabric / transparency: Glossy red satin-velvet coat, torn gold brocade lining, quilted cotton vest, pleated white chiffon trouser flares. Cutouts / straps: High collar with a red triangle gem, gold chain draped at the neck, gold cross ornaments on the sleeves, a long red diamond-patterned stole with gold trim hanging at the front, a ragged gold-edged hem. Figure: Full bust, narrow waist, long slim legs. Silhouette: Regal clerical-inspired long coat with a slim lower body. Length: Floor-length coat, full-length trousers. Sleeves: Wide long sleeves with double-layer white ruffled cuffs. Footwear: Dark red pointed heels. Accessories: Red gloves, gold floral embroidery on the collar, gold chain at the collar, gold cross-shaped sleeve ornaments, gold four-point star studs down the coat front, a red-and-gold diamond-patterned stole. Hairstyle: Center-parted loose hair with soft curled face-framing strands and gentle waves.",
    "img": "images/i1791533867044.jpg",
    "fav": false
@@ -1071,7 +1086,7 @@
   },
   {
    "id": "i1791533995086",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: White / cream / gold / mint / brown. Outfit: Cropped white textured top with a brocade gold center panel, a white wrap maxi skirt with gold geometric trim and a high slit, and a sheer mint shawl with gold tassel fringe. Fabric / transparency: Shell-pattern cotton knit top, smooth white skirt, gold jacquard trim, sheer mint chiffon shawl, leather belt. Cutouts / straps: Bare midriff, a brown leather belt with a buckle and a diagonal strap, a brown leather pouch with a purple gem charm, a front slit showing the leg. Figure: Full bust, narrow waist with exposed navel, soft hips. Silhouette: Elegant and slim with a trailing hem and shawl. Length: Floor-length with a short train. Sleeves: Short sleeves with gold fringe cuffs. Footwear: White pointed heels. Accessories: Black buckled choker, layered gold chain necklaces with blue square gem pendants, a gold winged brooch with a large blue gem and hanging gold teardrop charms, a gold-tassel mint shawl, white gloves, a brown leather pouch with a purple gem charm. Hairstyle: Center-parted loose hair with soft face-framing waves and voluminous curls.",
    "img": "images/i1791533995086.jpg",
    "fav": false
@@ -1092,21 +1107,21 @@
   },
   {
    "id": "i1791534069555",
-   "cat": "c1791373394177",
+   "cat": "c1791813381414",
    "desc": "Main color: Red / dark gray / purple / teal / black. Outfit: Fitted dark turtleneck with a flame print on the sleeves, a harness with a round pulse-line badge over a bandage-wrapped torso, baggy red harem pants with a flame print at the hem, and a torn red half-apron sash. Fabric / transparency: Stretch jersey top, matte cotton harem pants, torn distressed apron, bandage wrap, knit cuffs. Cutouts / straps: Black harness straps with buckles over the chest, a belt with a square buckle, a thigh strap with a padlock and a red pouch, vertical buckled straps on the trousers, a ragged torn apron edge. Figure: Full bust, narrow waist, soft hips under baggy pants. Silhouette: Edgy workwear with baggy bottoms and a fitted top. Length: Ankle-length pants with knit cuffs. Sleeves: Long fitted sleeves with flame patterns. Footwear: Dark gray socks, no shoes. Accessories: Goggles with red flower lenses and spikes on the head, glowing teal thorned vine armbands wrapped around both arms, purple gloves, a round pulse badge on the harness, a padlock on the thigh strap, red thigh pouch, silver belt buckle. Hairstyle: Center-parted loose waves with goggles resting on the head.",
    "img": "images/i1791534069555.jpg",
    "fav": false
   },
   {
    "id": "i1791534083063",
-   "cat": "c1791373394177",
+   "cat": "c1791813381414",
    "desc": "Main color: Black / purple / silver / gold. Outfit: Black lace-up corset crop top with halter straps, black cuffed shorts, one-sided thigh-high torn stocking, and a pleated asymmetrical side skirt with purple ruffle edges. Fabric / transparency: Matte leather-like corset, cotton shorts, sheer torn stocking, black lace sleeve, pleated chiffon with ruffled purple trim. Cutouts / straps: Cross-lacing on the bust and a keyhole cutout, bare shoulders, bare midriff, harness straps over the shoulders, buckled arm straps, a studded belt with chains, metal O-rings along the skirt hem. Figure: Full bust, narrow waist with exposed navel, soft hips, long legs. Silhouette: Edgy punk-steampunk with an asymmetrical side skirt. Length: Mini shorts with a side skirt to the knee. Sleeves: None, a single black lace arm sleeve with buckled leather bands. Footwear: Black chunky platform lace-up boots with a buckle strap. Accessories: Black flat cap with a purple band and pointed corners, steampunk goggles with glowing purple lenses and gold gears, black studded choker with a purple heart pendant, layered silver chain necklaces, a gold-and-purple heart gem brooch on the belt with hanging chains, a mechanical glove with gears and a purple glow with lightning, arm bands. Hairstyle: Loose voluminous waves with a swept front, under the cap.",
    "img": "images/i1791534083063.jpg",
    "fav": false
   },
   {
    "id": "i1791536631287",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: Crimson red / ivory white / antique gold, with jade green accents. Outfit: Traditional Chinese-inspired bridal gown with a fitted embroidered red bodice, deep cleavage-revealing neckline, high mandarin collar, long red tunic dress, ornate gold waist belt, hanging gold tassels and gemstones, layered ivory-white skirt and long embroidered front panel. Fabric / transparency: Luxurious opaque red brocade with intricate gold phoenix and floral embroidery, sheer red bridal veil, ivory fabric with delicate white lace ruffles. Cutouts / straps: Small keyhole opening at the collar, deep rounded neckline exposing cleavage. Figure: Very full prominent bust, narrow cinched waist, rounded hips, slender legs. Silhouette: Fitted upper bodice, hourglass waist, voluminous bell sleeves, long layered flowing skirt. Length: Floor-length gown with ivory underlayers and a long embroidered red front panel. Sleeves: Wide flared crimson bell sleeves with gold embroidery, ivory lace cuffs, sheer red draping and dangling gold ornaments. Footwear: Red pointed bridal shoes with gold embroidery and gemstone details. Accessories: Red bridal hood, translucent red veil, ornate gold tiara with red and jade gemstones, dense gold coin curtain completely covering both eyes and the upper half of the face, dangling gold chains, large gold earrings, layered gold-and-jade collar, bracelets and long tassels. Hairstyle: Long pastel-pink hair with loose curls framing the face and falling over the shoulders, mostly hidden beneath the hood. Face: Pale delicate face, small nose, soft pink lips, rosy cheeks; eyes entirely hidden behind overlapping gold coins, lower face visible with a calm mysterious expression.",
    "img": "images/i1791536631287.jpg",
    "fav": false
@@ -1225,21 +1240,21 @@
   },
   {
    "id": "i1791809110016",
-   "cat": "c1791373394177",
+   "cat": "c1791813140694",
    "desc": "Main color: Cream / sage green / white / gold. Outfit: Fitted mid-calf qipao-style dress with a high stand collar, wrap-like green sash at the waist, side slit. Fabric / transparency: Sheer cream tulle over a nude lining, green lace trim and embroidered vines, lace hem. Cutouts / straps: Sweetheart neckline under a lace collar, a scalloped lace edge, a side slit to the mid-thigh. Figure: Full bust, narrow waist, soft hips. Silhouette: Sleek elegant qipao with floral embroidery. Length: Mid-calf. Sleeves: Short sheer flutter sleeves with green lace edging. Footwear: White opaque tights, cream and gold ankle-strap heels with daisy clusters on the straps. Accessories: Long pearl necklace with a small gold pendant, gold drop earrings, daisy-and-vine wrist cuff, daisies and trailing green vines sewn along the sash and skirt, a ribbon bow tied at the waist side. Hairstyle: High elegant updo with loose face-framing spiral curls, a tiny ruffled cream mini hat with a daisy and black ribbon bow.",
    "img": "images/i1791809110016.jpg",
    "fav": false
   },
   {
    "id": "i1791809139956",
-   "cat": "c1791373394177",
+   "cat": "c1791813381414",
    "desc": "Main color: Brown / cream / black / gold. Outfit: Cream ruffled high-neck blouse under a brown leather underbust corset vest, black tiered ruffled mini skirt. Fabric / transparency: Feathery textured fluffy puff sleeves, matte leather corset with brass fastenings, sheer layered tulle skirt with lace hem, semi-sheer striped tights. Cutouts / straps: Suspender-style vest straps, buckled corset front, thigh garter strap. Figure: Full bust, cinched waist, soft hips, long legs. Silhouette: Cozy steampunk with a puffed upper half and a flared tiered skirt. Length: Mini. Sleeves: Big feathery puff sleeves ending in ribbed knit cuffs. Footwear: Brown lace-up heeled ankle boots with brass toe caps and fluffy fur cuffs with small tassels. Accessories: Cream ruffled mini hat with a black ribbon and gear charm, black bow-and-brass brooch at the collar, gold drop earrings, belt hung with pocket watches, a small leather pouch with a clock face, brass bell-shaped charm and purple crystal vials, fingerless brown leather gloves with buckled brass cuffs, rings. Hairstyle: High bun with loose side curls and a swept front.",
    "img": "images/i1791809139956.jpg",
    "fav": false
   },
   {
    "id": "i1791809172539",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: Gold / ivory / jade green / brown. Outfit: Embroidered ivory-and-gold crop blouse with lotus motifs, a wrapped brocade mini skirt with a draped front panel. Fabric / transparency: Jacquard brocade with damask pattern, leather and metal belt plates, beaded chain trim. Cutouts / straps: Sweetheart bust cutout, bare midriff, a chain of jade drops across the waist. Figure: Full bust, narrow waist with exposed navel, soft hips, long legs. Silhouette: Ornate ceremonial two-piece with an asymmetrical wrap. Length: Mini wrap skirt. Sleeves: Short fitted sleeves with studded black bands. Footwear: Brown strappy gladiator sandals wrapping up the calf with pearl-studded gold ankle rings. Accessories: Ornate gold headdress with jade and pearl cabochons and hanging beaded tassels, wide gold collar necklace with an amethyst center, large pearl-and-jade drop earrings, wide jeweled belt with a round multicolored gem buckle, gold cuff bracelets, black henna-style patterns covering one arm and one leg. Hairstyle: Braided coiled updo under the headdress with soft face-framing wisps.",
    "img": "images/i1791809172539.jpg",
    "fav": false
@@ -1260,7 +1275,7 @@
   },
   {
    "id": "i1791810751478",
-   "cat": "c1791373394177",
+   "cat": "c1791813381414",
    "desc": "Main color: Black / brown / lilac / white. Outfit: Black studded sleeveless vest over an iridescent lilac turtleneck crop top, distressed brown cargo shorts. Fabric / transparency: Matte leather vest with gold star studs, holographic shimmer crop top with torn edges, distressed cotton shorts, knitted leg warmers, sheer lace arm sleeves. Cutouts / straps: Keyhole cutout on the top, bare midriff, buckled thigh and hip straps, layered belts. Figure: Full bust, narrow waist with exposed navel, soft hips, long legs. Silhouette: Rugged grunge-steampunk with layered belts. Length: Mini shorts. Sleeves: Detached off-white torn lace sleeves with buckled bands. Footwear: Brown chunky lace-up boots with metal toe caps, buckled straps and fluffy white knit leg warmers, a lilac patterned sock on one leg. Accessories: Black peaked cap with a brass blue-gem badge and a star charm, brass belts with buckles, a leather belt pouch, fingerless black gloves with dark nails, metal arm bands. Hairstyle: Long loose curly waves with a few thin pale braids pinned under the cap.",
    "img": "images/i1791810751478.jpg",
    "fav": false
@@ -1281,7 +1296,7 @@
   },
   {
    "id": "i1791811291409",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: Olive green / turquoise / cream / gold. Outfit: Olive halter crop top with a teardrop keyhole cutout, sheer turquoise harem pants with a scrolling damask print, a wide embroidered olive sash knotted at the hip. Fabric / transparency: Matte cotton-like top, sheer printed chiffon harem pants, sheer cream puff sleeves, embroidered brocade sash with gold filigree. Cutouts / straps: Teardrop keyhole with criss-cross lacing at the bust, bare shoulders, bare midriff, halter neckline with a cream draped scarf collar. Figure: Very full bust, narrow waist with exposed navel, soft hips. Silhouette: Flowing Arabian-dancer harem set with trailing side panels. Length: Full-length harem pants gathered at the ankle. Sleeves: Detached sheer cream puff sleeves with ruffled cuffs and long trailing ruffled panels ending in pink tassels, turquoise upper-arm bands. Footwear: Cream curled-toe slippers with stitched seams and gold anklets with small bells. Accessories: Gold chain head ornament with a turquoise teardrop gem on the forehead, a cluster of gold coins pinned at the crown, turquoise-and-gold drop earrings with tassels, turquoise bead trim along the top neckline, double belly chain with gold beads, wide turquoise bead belt with a gold bow buckle, hanging turquoise beads and gold teardrop coins along the sash, turquoise-and-gold bangles, purple-and-gold embroidered side panels with gold tassels, a gold ring with a pink tassel at the end of the braid. Hairstyle: Side braid woven with turquoise beads over one shoulder, soft loose curls at the front, gold coins pinned at the crown.",
    "img": "images/i1791811291409.jpg",
    "fav": false
@@ -1295,14 +1310,14 @@
   },
   {
    "id": "i1791811320634",
-   "cat": "c1791373394177",
+   "cat": "c1791813140694",
    "desc": "Main color: Tan / cream / olive / gold. Outfit: Floor-length Renaissance gown with a square-neck corset bodice, a cream front panel in the skirt and separate lattice-laced sleeves. Fabric / transparency: Heavy silk-like tan skirt, brocade gold trim, cream satin panel, olive sleeves with gold lattice lacing, white linen chemise and lace. Cutouts / straps: Wide square neckline with a ruffled white chemise edge, bare shoulders and collarbones, small bow lacing at the bust. Figure: Very full bust, narrow corseted waist, soft hips. Silhouette: Historical full-skirted gown with a V-shaped waist. Length: Floor-length with a slight train. Sleeves: Long, tapered olive sleeves with gold lattice lacing and grey ribbon bows, white puffed shoulder caps, white lace undersleeves flaring out at the cuffs. Footwear: Cream pointed slippers, barely visible. Accessories: Layered fine gold chain necklaces with a small pearl pendant, pearl drop earrings, gold-trimmed jeweled bodice edging with a gold bow, pearl-studded hood edge, small grey bows on the sleeves, lace cuffs. Hairstyle: Long thick braid over one shoulder woven with pearls, soft curls at the temples, a pearl-edged gold brocade French hood.",
    "img": "images/i1791811320634.jpg",
    "fav": false
   },
   {
    "id": "i1791811338110",
-   "cat": "c1791373394177",
+   "cat": "c1791813571305",
    "desc": "Main color: Olive / teal / cream / purple. Outfit: Olive sleeveless tunic with a fringed hem over wide teal harem pants, a layered draped fringe hip scarf and a long purple embroidered sash. Fabric / transparency: Matte cotton tunic, damask-printed teal harem pants, cream puff blouse, layered brocade and gauze scarves with fringe. Cutouts / straps: None, a diagonal leather strap across the chest, a wide teal belt. Figure: Very full bust, defined waist, soft hips. Silhouette: Practical layered desert-traveler look with a voluminous lower half. Length: Full-length pants gathered at the ankle. Sleeves: Cream puffed blouse sleeves with turquoise bead bands above the elbow and gathered cuffs. Footwear: Cream curled-toe slippers with stitched seams and gold bell anklets. Accessories: A large cream wrap scarf around the neck, a diagonal brown leather strap with turquoise studs and small hanging vials, a wide teal belt with a silver buckle and hanging charms, turquoise-and-gold bangles, long purple-and-gold embroidered cape panels with tassels, tasseled fringe on the hip scarf with hanging beads, a gold forehead chain with a turquoise gem, turquoise-and-gold drop earrings, gold coins in the hair. Hairstyle: Long braid with turquoise beads, tied with a gold ring and tassel at the end, loose spiral curls framing the face, gold coins pinned on both sides of the crown.",
    "img": "images/i1791811338110.jpg",
    "fav": false
@@ -1365,21 +1380,21 @@
   },
   {
    "id": "i1791811517199",
-   "cat": "c1791373394177",
+   "cat": "c1791813140694",
    "desc": "Main color: Cream / brown / charcoal / silver. Outfit: Billowy cream open-collar shirt with a wide leather underbust corset, slim charcoal trousers and tall boots. Fabric / transparency: Soft linen-like shirt, studded leather corset, wool trousers, brown leather boots. Cutouts / straps: Deep open collar, three-buckle corset front, crossed double leather hip straps. Figure: Very full bust, narrow waist, long legs. Silhouette: Adventurer-swashbuckler with a puffed top and slim legs. Length: Full-length trousers tucked into boots. Sleeves: Puffed blouse sleeves with button cuffs. Footwear: Tall brown knee-high leather boots. Accessories: Wide brown corset with three silver buckles and rivets, crossed leather hip straps with silver buckles, layered thin silver chain necklaces, a polished silver bracer on one wrist, button cuffs on the shirt. Hairstyle: Loose voluminous waves with a swept side part.",
    "img": "images/i1791811517199.jpg",
    "fav": false
   },
   {
    "id": "i1791811529752",
-   "cat": "c1791373394177",
+   "cat": "c1791370377078",
    "desc": "Main color: Nude beige / cream / pearl / blush. Outfit: Off-shoulder gown with a deep plunging neckline, a pearl-trimmed corset bodice and a sheer floor-length skirt with large lace flower appliqués. Fabric / transparency: Fine sheer tulle skirt over a nude lining, embroidered corset, pearl bead trim, lace flowers, ruched sleeves. Cutouts / straps: Deep plunging neckline down to the navel with pearl-lined edges, bare shoulders, bare collarbones. Figure: Very full bust, narrow waist, soft hips. Silhouette: Romantic sheer gown with a flowing train. Length: Floor-length with a short train. Sleeves: Long ruched off-shoulder sleeves with ruffled lace edges and bell-shaped lace cuffs. Footwear: Nude pointed pumps. Accessories: Thin gold chain necklace with a small pendant, pearl stud earrings, a cream ribbon tied in the braid, pearl beading along the neckline, scalloped lace trim at the shoulders and cuffs, large 3D lace flower appliqués scattered across the skirt. Hairstyle: Loose side braid with a ribbon bow, soft face-framing curls and swept side bangs.",
    "img": "images/i1791811529752.jpg",
    "fav": false
   },
   {
    "id": "i1791811545807",
-   "cat": "c1791373394177",
+   "cat": "c1791813140694",
    "desc": "Main color: Cream / beige / blush / pearl. Outfit: Off-shoulder empire-waist gown with a gathered bodice and a sheer flowing floor-length skirt with lace flower appliqués. Fabric / transparency: Pleated chiffon bodice, sheer layered tulle skirt, lace flowers, pearl beading, lace-edged sleeves. Cutouts / straps: Wide off-shoulder neckline, bare shoulders and collarbones, a ribbon tie at the bust. Figure: Very full bust, high elastic waist, soft hips. Silhouette: Soft romantic fairy-tale gown with a flowing train. Length: Floor-length with a train. Sleeves: Sheer balloon sleeves gathered at the elbow with wide scalloped lace-trimmed bell cuffs and lace flowers. Footwear: Cream pointed flats. Accessories: Thin gold necklace with a tiny pendant, pearl stud earrings, long cream satin ribbon laced down the front with small pearl ends, pearl beading along the neckline, ruffled lace trim at the shoulders, large lace flower appliqués on the sleeves and skirt. Hairstyle: Loose side braid tied with a cream ribbon bow, soft curls at the face and swept side bangs.",
    "img": "images/i1791811545807.jpg",
    "fav": false
