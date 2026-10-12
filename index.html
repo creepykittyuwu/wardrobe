@@ -76,11 +76,21 @@ dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
 .nv.l{left:10px}.nv.r{right:10px}
 .dp img.sl{animation:sl .22s ease}
 @keyframes sl{from{opacity:0;transform:translateX(var(--dx,30px))}to{opacity:1;transform:none}}
-#aPrev{width:100%;max-height:30vh;object-fit:contain;border-radius:12px;margin-top:6px}
+#aPrev,#chPrev{width:100%;max-height:30vh;object-fit:contain;border-radius:12px;margin-top:6px}
 .note{font-size:12px;color:var(--mut);margin:6px 0 0}
 #st{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(92px + env(safe-area-inset-bottom,0px));background:var(--tx);color:var(--bg);padding:10px 16px;border-radius:20px;font-size:14px;opacity:0;transition:.3s;pointer-events:none;max-width:90vw;text-align:center;z-index:50}
 #st.on{opacity:1}
 .i{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+/* персонажи */
+.cgr{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px;margin-top:18px}
+.ch{cursor:pointer}
+.cv{aspect-ratio:3/4;border-radius:20px;overflow:hidden;background:var(--ac2);border:1px solid var(--bd);display:flex;align-items:center;justify-content:center}
+.cv img{width:100%;height:100%;object-fit:cover;display:block}
+.cv b{font-family:'Cormorant Garamond',Georgia,serif;font-size:64px;color:var(--ac)}
+.ch span{display:block;font-family:'Cormorant Garamond',Georgia,serif;font-weight:700;font-size:22px;margin-top:8px;line-height:1.15}
+.ch small{color:var(--mut);font-size:13px}
+.addc{aspect-ratio:3/4;width:100%;border:2px dashed var(--ac);background:none;color:var(--ac);border-radius:20px}
+.addc .i{width:30px;height:30px}
 </style>
 </head>
 <body>
@@ -99,6 +109,7 @@ dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
 <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4-4"/></symbol>
 <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></symbol>
 <symbol id="i-next" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 5.2a3.2 3.2 0 0 1 0 5.6M17.5 14.3c2.2.7 3.5 2.7 3.5 5.7"/></symbol>
 <!-- Font Awesome Free 6 (CC BY 4.0, fontawesome.com/license/free) -->
 <symbol id="fa-xmark" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></symbol>
 <symbol id="fa-circle-xmark" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></symbol>
@@ -107,18 +118,19 @@ dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
 
 <div class="wrap">
  <header>
-  <h1 id="title">Мой шкаф</h1>
+  <h1 id="title">Мои персонажи</h1>
   <button class="ghost ic" onclick="pull()" aria-label="Обновить с GitHub"><svg class="i"><use href="#i-down"/></svg></button>
   <button class="ic ed" id="bPush" onclick="push()" aria-label="Сохранить на GitHub"><svg class="i"><use href="#i-up"/></svg></button>
   <button class="ghost ic" onclick="openGh()" aria-label="Настройки GitHub"><svg class="i"><use href="#i-gear"/></svg></button>
  </header>
- <div id="bar">
+ <div id="bar" hidden>
   <div class="sr"><div class="sw"><svg class="i si"><use href="#i-search"/></svg><input id="q" type="text" name="wd-filter" inputmode="search" enterkeyhint="search" placeholder="Поиск по описанию…" oninput="setQ(this.value)" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore data-bwignore data-form-type="other"><button class="clr" id="qc" onclick="clrQ()" aria-label="Очистить поиск" hidden><svg class="fa"><use href="#fa-circle-xmark"/></svg></button></div><button class="ghost ic" onclick="openSz()" aria-label="Размер карточек"><svg class="i"><use href="#i-grid"/></svg></button></div>
   <div class="chips" id="chips" hidden></div>
  </div>
  <div id="main"></div>
 </div>
 <nav>
+ <button id="nChars" onclick="go('chars')"><svg class="i"><use href="#i-users"/></svg>Персонажи</button>
  <button id="nShelf" onclick="go('shelf')"><svg class="i"><use href="#i-hanger"/></svg>Шкаф</button>
  <button id="nFav" onclick="go('fav')"><svg class="i"><use href="#i-heart"/></svg>Любимое</button>
 </nav>
@@ -148,6 +160,14 @@ dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
   <textarea id="aDesc" rows="3" placeholder="Описание: что это, с чем носить…"></textarea>
   <div class="row"><button onclick="addItem()">Добавить</button><button class="ghost" onclick="dAdd.close()">Отмена</button></div>
 </dialog>
+<dialog id="dCh"><b id="chHead">Новый персонаж</b>
+  <input id="chName" placeholder="Имя персонажа" autocomplete="off" data-lpignore="true" data-form-type="other">
+  <input type="file" id="chFile" accept="image/*" onchange="chPrev.src=URL.createObjectURL(this.files[0])">
+  <img id="chPrev" alt="">
+  <p class="note">Обложка по желанию. Лучше вертикальное фото.</p>
+  <div class="row"><button onclick="saveCh()">Сохранить</button><button class="ghost" onclick="dCh.close()">Отмена</button></div>
+  <div class="row" id="chDelRow"><button class="ghost" onclick="delCh()"><svg class="i"><use href="#i-trash"/></svg> Удалить персонажа</button></div>
+</dialog>
 <dialog id="dGh"><b>Настройки GitHub</b>
   <input id="gUser" placeholder="Твой логин GitHub" autocomplete="off" data-lpignore="true" data-form-type="other">
   <input id="gRepo" placeholder="Название репозитория" autocomplete="off" data-lpignore="true" data-form-type="other">
@@ -161,7 +181,7 @@ dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
 const $=id=>document.getElementById(id);
 const ICON=n=>`<svg class="i"><use href="#i-${n}"/></svg>`;
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let F={q:'',c:new Set()},navL=[],SZ='m',S={cats:[],items:[]},V='shelf',catId=null,addTo=null,openId=null,G={},dirty=false,lastPush=0;
+let F={q:'',c:new Set()},navL=[],SZ='m',S={chars:[],cats:[],items:[]},V='chars',charId=null,chEdit=null,catId=null,addTo=null,openId=null,G={},dirty=false,lastPush=0;
 try{SZ=localStorage.getItem('wds')||'m'}catch(e){}
 if(!['s','m','l'].includes(SZ))SZ='m';document.body.dataset.sz=SZ;
 try{const s=localStorage.getItem('wd');if(s)S=JSON.parse(s);G=JSON.parse(localStorage.getItem('wdg')||'{}');dirty=localStorage.getItem('wdd')==='1';lastPush=+localStorage.getItem('wdp')||0}catch(e){}
@@ -170,13 +190,33 @@ function save(){try{localStorage.setItem('wd',JSON.stringify(S))}catch(e){toast(
 function mark(v){dirty=v;try{localStorage.setItem('wdd',v?'1':'0')}catch(e){}$('bPush').classList.toggle('dot',v)}
 function commit(){save();mark(true)}
 function clean(){const n=S.items.length+S.cats.length;S.items=S.items.filter(i=>i.id!=='i1'&&i.id!=='i2');S.cats=S.cats.filter(c=>!['c1','c2','c3'].includes(c.id)||S.items.some(i=>i.cat===c.id));return n!==S.items.length+S.cats.length}
+// старые данные без персонажей: всё уходит к первому персонажу
+function migrate(){
+  if(!Array.isArray(S.chars))S.chars=[];
+  if(!Array.isArray(S.cats))S.cats=[];
+  if(!Array.isArray(S.items))S.items=[];
+  if(S.cats.some(c=>!c.char)){
+    if(!S.chars.length)S.chars.push({id:'ch1',name:'Персонаж 1',img:''});
+    const f=S.chars[0].id;S.cats.forEach(c=>{if(!c.char)c.char=f});
+    return true;
+  }
+  return false;
+}
 function retry(el){const n=+el.dataset.n||0;if(n>6)return;el.dataset.n=n+1;setTimeout(()=>{el.src=el.src.split('?')[0]+'?r='+Date.now()},10000)}
 const catName=id=>(S.cats.find(c=>c.id===id)||{}).name||'';
+const charName=id=>(S.chars.find(c=>c.id===id)||{}).name||'';
+const catsOf=ch=>S.cats.filter(c=>c.char===ch);
+const itemsOf=ch=>{const ids=new Set(catsOf(ch).map(c=>c.id));return S.items.filter(i=>ids.has(i.cat))};
 const tile=i=>`<div class="t" onclick="openItem('${i.id}')"><div class="p"><img src="${i.img}" alt="" loading="lazy" onerror="retry(this)">${i.fav?`<div class="hb">${ICON('heart')}</div>`:''}</div><span>${esc(i.desc||'Без описания')}</span></div>`;
 const addTile=c=>`<button class="addt ed" onclick="openAdd('${c}')" aria-label="Добавить вещь">${ICON('plus')}</button>`;
 const can=()=>!!(G.u&&G.r&&G.t);
 function mode(){document.body.classList.toggle('ro',!can())}
-function go(v,c){V=v;if(c)catId=c;render();scrollTo(0,0)}
+function go(v,c){
+  if(v==='chars')clearF();
+  else if(!charId){toast('Сначала выбери персонажа');v='chars'}
+  V=v;if(c)catId=c;render();scrollTo(0,0)
+}
+function enterChar(id){charId=id;clearF();V='shelf';render();scrollTo(0,0)}
 const COL=[
  ['black','Чёрный','#222',/black|noir|чёрн|черн/i],
  ['white','Светлый','#f3ecdf',/ivory|white|cream|beige|ecru|\bbone\b|белы|молочн|слонов|беж/i],
@@ -197,12 +237,13 @@ function match(i){
   if(F.c.size){const cs=colorsOf(i);for(const k of F.c)if(!cs.includes(k))return false}
   return true;
 }
+function clearF(){F={q:'',c:new Set()};$('q').value='';$('qc').hidden=true}
 function setQ(v){F.q=v.trim().toLowerCase();$('qc').hidden=!v;render()}
 function clrQ(){F.q='';$('q').value='';$('qc').hidden=true;render()}
 function toggleCol(k){F.c.has(k)?F.c.delete(k):F.c.add(k);render()}
-function resetF(){F={q:'',c:new Set()};$('q').value='';$('qc').hidden=true;render()}
+function resetF(){clearF();render()}
 function chips(){
-  const has=new Set();S.items.forEach(i=>colorsOf(i).forEach(k=>has.add(k)));
+  const has=new Set();(V==='chars'?[]:itemsOf(charId)).forEach(i=>colorsOf(i).forEach(k=>has.add(k)));
   let h=COL.filter(c=>has.has(c[0])).map(c=>`<button class="cc${F.c.has(c[0])?' on':''}" onclick="toggleCol('${c[0]}')"><b style="background:${c[2]}"></b>${c[1]}</button>`).join('');
   if(h&&filterOn())h+=`<button class="cc" onclick="resetF()"><svg class="fa"><use href="#fa-xmark"/></svg> Сбросить</button>`;
   $('chips').innerHTML=h;$('chips').hidden=!h;
@@ -210,39 +251,76 @@ function chips(){
 const SIZES=[['s','Компактные','как раньше'],['m','Средние','под пропорции фото'],['l','Крупные','']];
 function openSz(){$('szList').innerHTML=SIZES.map(z=>`<button class="${SZ===z[0]?'':'ghost'}" onclick="setSz('${z[0]}')">${z[1]}${z[2]?' · '+z[2]:''}</button>`).join('');dSz.showModal()}
 function setSz(k){SZ=k;document.body.dataset.sz=k;try{localStorage.setItem('wds',k)}catch(e){}dSz.close()}
+const charTile=c=>{const n=itemsOf(c.id).length;const l=[...(c.name||'?')][0].toUpperCase();
+  return `<div class="ch" onclick="enterChar('${c.id}')"><div class="cv">${c.img?`<img src="${c.img}" alt="" loading="lazy" onerror="retry(this)">`:`<b>${esc(l)}</b>`}</div><span>${esc(c.name)}</span><small>${n} ${n===1?'вещь':'вещей'}</small></div>`};
 function render(){
   mode();
-  if(V==='cat'&&!S.cats.find(c=>c.id===catId))V='shelf';
-  $('nShelf').classList.toggle('on',V!=='fav');$('nFav').classList.toggle('on',V==='fav');
+  if(V!=='chars'&&!S.chars.find(c=>c.id===charId)){V='chars';charId=null}
+  if(V==='cat'&&!S.cats.find(c=>c.id===catId&&c.char===charId))V='shelf';
+  const home=V==='chars';
+  $('nChars').classList.toggle('on',home);
+  $('nShelf').hidden=$('nFav').hidden=home;
+  $('nShelf').classList.toggle('on',V==='shelf'||V==='cat');$('nFav').classList.toggle('on',V==='fav');
+  $('bar').hidden=home;
   chips();
   const m=$('main'),on=filterOn(),none='<div class="empty">Ничего не нашлось.</div>';
-  if(V==='fav'){
-    $('title').textContent='Любимое';
-    const f=S.items.filter(i=>i.fav&&match(i));
+  if(home){
+    $('title').textContent='Мои персонажи';
+    m.innerHTML=`<div class="cgr"><button class="addc ed" onclick="openCh()" aria-label="Добавить персонажа">${ICON('plus')}</button>${S.chars.map(charTile).join('')}</div>${S.chars.length?'':'<div class="empty">Пока нет ни одного персонажа.</div>'}`;
+  }else if(V==='fav'){
+    $('title').textContent='Любимое · '+charName(charId);
+    const f=itemsOf(charId).filter(i=>i.fav&&match(i));
     m.innerHTML=`<div class="gr">${f.length?f.map(tile).join(''):(on?none:'<div class="empty">Здесь будут вещи, которые ты отметишь сердечком.</div>')}</div>`;
   }else if(V==='cat'){
     $('title').textContent=catName(catId);
-    const its=S.items.filter(i=>i.cat===catId&&match(i));
+    const its=itemsOf(charId).filter(i=>i.cat===catId&&match(i));
     m.innerHTML=`<div class="cb"><button class="ghost" onclick="go('shelf')">${ICON('back')} Назад</button><button class="ghost ed" onclick="renCat()">${ICON('edit')} Переименовать</button><button class="ghost ic ed" onclick="delCat()" aria-label="Удалить категорию">${ICON('trash')}</button></div><div class="gr">${on?'':addTile(catId)}${its.map(tile).join('')}</div>${on&&!its.length?none:''}`;
   }else if(on){
-    $('title').textContent='Мой шкаф';
-    const r=S.items.filter(match);
+    $('title').textContent=charName(charId);
+    const r=itemsOf(charId).filter(match);
     m.innerHTML=`<p class="note" style="margin-top:14px">Найдено: ${r.length}</p><div class="gr">${r.length?r.map(tile).join(''):none}</div>`;
   }else{
-    $('title').textContent='Мой шкаф';
-    m.innerHTML=S.cats.length?S.cats.map(c=>{const its=S.items.filter(i=>i.cat===c.id);return `<section class="sh"><div class="hd"><h2>${esc(c.name)}</h2><button class="lk" onclick="go('cat','${c.id}')">Все (${its.length})</button></div><div class="rw">${addTile(c.id)}${its.map(tile).join('')}</div></section>`}).join('')+`<button class="newshelf ed" onclick="addCat()">${ICON('plus')} Новая полка</button>`
-     :`<div class="empty" style="margin-top:40px">Пока нет ни одной полки.<button class="ed" onclick="addCat()">${ICON('plus')} Создать полку</button></div>`;
+    $('title').textContent=charName(charId);
+    const cs=catsOf(charId);
+    const top=`<div class="cb"><button class="ghost" onclick="go('chars')">${ICON('back')} Персонажи</button><button class="ghost ed" onclick="openCh('${charId}')">${ICON('edit')} Изменить</button></div>`;
+    m.innerHTML=top+(cs.length?cs.map(c=>{const its=S.items.filter(i=>i.cat===c.id);return `<section class="sh"><div class="hd"><h2>${esc(c.name)}</h2><button class="lk" onclick="go('cat','${c.id}')">Все (${its.length})</button></div><div class="rw">${addTile(c.id)}${its.map(tile).join('')}</div></section>`}).join('')+`<button class="newshelf ed" onclick="addCat()">${ICON('plus')} Новая полка</button>`
+     :`<div class="empty" style="margin-top:40px">Пока нет ни одной полки.<button class="ed" onclick="addCat()">${ICON('plus')} Создать полку</button></div>`);
   }
 }
-function addCat(){const n=prompt('Название категории:');if(!n||!n.trim())return null;const id='c'+Date.now();S.cats.push({id,name:n.trim()});commit();render();return id}
+/* персонажи */
+function shrink(f,max,cb){const im=new Image();im.onload=()=>{const k=Math.min(1,max/Math.max(im.width,im.height));const c=document.createElement('canvas');c.width=im.width*k;c.height=im.height*k;c.getContext('2d').drawImage(im,0,0,c.width,c.height);cb(c.toDataURL('image/jpeg',.85))};im.src=URL.createObjectURL(f)}
+function openCh(id){
+  chEdit=id||null;const c=S.chars.find(x=>x.id===chEdit);
+  $('chHead').textContent=c?'Изменить персонажа':'Новый персонаж';
+  $('chName').value=c?c.name:'';$('chFile').value='';
+  if(c&&c.img)$('chPrev').src=c.img;else $('chPrev').removeAttribute('src');
+  $('chDelRow').hidden=!c;
+  dCh.showModal();
+}
+function saveCh(){
+  const name=$('chName').value.trim();if(!name)return toast('Введи имя');
+  const f=$('chFile').files[0];
+  const done=img=>{
+    if(chEdit){const c=S.chars.find(x=>x.id===chEdit);c.name=name;if(img!==undefined)c.img=img}
+    else S.chars.push({id:'ch'+Date.now(),name,img:img||''});
+    commit();dCh.close();render();
+  };
+  if(f)shrink(f,700,done);else done();
+}
+function delCh(){
+  const c=S.chars.find(x=>x.id===chEdit);if(!c)return;
+  if(!confirm(`Удалить «${c.name}» вместе со всеми полками и вещами?`))return;
+  const ids=new Set(catsOf(c.id).map(x=>x.id));
+  S.items=S.items.filter(i=>!ids.has(i.cat));S.cats=S.cats.filter(x=>x.char!==c.id);S.chars=S.chars.filter(x=>x.id!==c.id);
+  commit();dCh.close();charId=null;go('chars');
+}
+function addCat(){const n=prompt('Название категории:');if(!n||!n.trim())return null;const id='c'+Date.now();S.cats.push({id,name:n.trim(),char:charId});commit();render();return id}
 function renCat(){const c=S.cats.find(c=>c.id===catId);const n=prompt('Новое название:',c.name);if(!n||!n.trim())return;c.name=n.trim();commit();render()}
 function delCat(){if(!confirm(`Удалить «${catName(catId)}» вместе со всеми вещами?`))return;S.cats=S.cats.filter(x=>x.id!==catId);S.items=S.items.filter(i=>i.cat!==catId);commit();V='shelf';render()}
 function openAdd(c){addTo=c;$('aFile').value='';$('aDesc').value='';$('aPrev').removeAttribute('src');dAdd.showModal()}
 function addItem(){
   const f=$('aFile').files[0];if(!f)return toast('Выбери фото');
-  const im=new Image();im.onload=()=>{const k=Math.min(1,900/Math.max(im.width,im.height));const c=document.createElement('canvas');c.width=im.width*k;c.height=im.height*k;c.getContext('2d').drawImage(im,0,0,c.width,c.height);
-   S.items.push({id:'i'+Date.now(),cat:addTo,desc:$('aDesc').value.trim(),img:c.toDataURL('image/jpeg',.85)});commit();dAdd.close();render();toast('Добавлено')};
-  im.src=URL.createObjectURL(f);
+  shrink(f,900,url=>{S.items.push({id:'i'+Date.now(),cat:addTo,desc:$('aDesc').value.trim(),img:url});commit();dAdd.close();render();toast('Добавлено')});
 }
 const item=()=>S.items.find(x=>x.id===openId);
 function fit(){const t=$('vDesc');t.style.height='auto';t.style.height=Math.max(90,t.scrollHeight)+'px'}
@@ -256,10 +334,10 @@ function paint(dir){
   fit();
 }
 function navIds(id){
-  const i=S.items.find(x=>x.id===id);let l;
-  if(V==='fav')l=S.items.filter(x=>x.fav);
-  else if(V==='shelf'&&filterOn())l=S.items.slice();
-  else l=S.items.filter(x=>x.cat===i.cat);
+  const i=S.items.find(x=>x.id===id),base=itemsOf(charId);let l;
+  if(V==='fav')l=base.filter(x=>x.fav);
+  else if(V==='shelf'&&filterOn())l=base.slice();
+  else l=base.filter(x=>x.cat===i.cat);
   l=l.filter(match).map(x=>x.id);
   if(!l.includes(id))l.push(id);
   return l;
@@ -285,7 +363,7 @@ function closeDet(){$('det').hidden=true;document.body.style.overflow='';render(
 $('vDesc').addEventListener('input',fit);
 $('vDesc').addEventListener('change',()=>{const i=item();if(i){i.desc=$('vDesc').value.trim();commit()}});
 function toggleFav(){const i=item();i.fav=!i.fav;commit();$('bFav').classList.toggle('on',i.fav);toast(i.fav?'Добавлено в любимое':'Убрано из любимого')}
-function openMove(){const i=item();$('mList').innerHTML=S.cats.map(c=>`<button class="${c.id===i.cat?'':'ghost'}" ${c.id===i.cat?'disabled':''} onclick="moveTo('${c.id}')">${esc(c.name)}</button>`).join('')+`<button class="ghost" onclick="moveNew()">${ICON('plus')} Новая категория…</button>`;dMove.showModal()}
+function openMove(){const i=item();$('mList').innerHTML=catsOf(charId).map(c=>`<button class="${c.id===i.cat?'':'ghost'}" ${c.id===i.cat?'disabled':''} onclick="moveTo('${c.id}')">${esc(c.name)}</button>`).join('')+`<button class="ghost" onclick="moveNew()">${ICON('plus')} Новая категория…</button>`;dMove.showModal()}
 function moveTo(id){const i=item();i.cat=id;commit();dMove.close();paint();toast(`Перенесено в «${catName(id)}»`)}
 function moveNew(){dMove.close();const id=addCat();if(id)moveTo(id)}
 function delItem(){if(!confirm('Удалить эту вещь?'))return;S.items=S.items.filter(i=>i.id!==openId);commit();closeDet()}
@@ -306,7 +384,13 @@ async function put(path,content64,msg){
 async function push(){
   if(!G.u||!G.r||!G.t){openGh();return toast('Сначала заполни настройки GitHub')}
   try{
-    const out={cats:S.cats,items:[]},paths={};let n=0;
+    const out={chars:[],cats:S.cats,items:[]},paths={},cpaths={};let n=0;
+    for(const c of S.chars){
+      let img=c.img||'';
+      if(img.startsWith('data:image/jpeg')){img='images/'+c.id+'.jpg';toast('Загружаю обложку '+c.name+'…');await put(img,c.img.split(',')[1],'Cover '+c.id);cpaths[c.id]=img}
+      else if(img.startsWith('data:'))img='';
+      out.chars.push({id:c.id,name:c.name,img});
+    }
     for(const i of S.items){
       let img=i.img;
       if(img.startsWith('data:image/jpeg')){img='images/'+i.id+'.jpg';toast(`Загружаю фото ${++n}…`);await put(img,i.img.split(',')[1],'Add '+i.id);paths[i.id]=img}
@@ -315,6 +399,7 @@ async function push(){
     }
     await put('wardrobe.json',b64(JSON.stringify(out,null,1)),'Update wardrobe');
     S.items.forEach(i=>{if(paths[i.id])i.img=paths[i.id]});
+    S.chars.forEach(c=>{if(cpaths[c.id])c.img=cpaths[c.id]});
     lastPush=Date.now();try{localStorage.setItem('wdp',lastPush)}catch(e){}
     save();mark(false);render();toast('Всё сохранено на GitHub')
   }catch(e){toast('Ошибка GitHub: '+e.message)}
@@ -325,10 +410,10 @@ async function pull(silent){
     let d;
     if(G.u&&G.r&&G.t){const r=await fetch(api('wardrobe.json'),{headers:hd()});if(!r.ok)throw new Error('файл не найден');d=JSON.parse(decodeURIComponent(escape(atob((await r.json()).content.replace(/\n/g,'')))))}
     else{const r=await fetch('wardrobe.json?t='+Date.now());if(!r.ok)throw new Error('файл не найден');d=await r.json()}
-    S=d;const ch=clean();save();mark(ch);render();if(silent!==true)toast('Обновлено')
+    S=d;const a=migrate(),b=clean();save();mark(a||b);render();if(silent!==true)toast('Обновлено')
   }catch(e){if(silent!==true)toast('Ошибка: '+e.message)}
 }
-if(clean())mark(true);
+{const a=migrate(),b=clean();if(a||b)mark(true)}
 mark(dirty);render();
 if(!dirty&&Date.now()-lastPush>600000)pull(true);
 </script>
