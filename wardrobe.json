@@ -24,42 +24,42 @@
  "cats": [
   {
    "id": "c1791304657455",
-   "name": "Nielle sport",
+   "name": "sport",
    "char": "ch1"
   },
   {
    "id": "c1791305205183",
-   "name": "Nielle summer",
+   "name": "summer",
    "char": "ch1"
   },
   {
    "id": "c1791305756137",
-   "name": "Nielle autumn",
+   "name": "autumn",
    "char": "ch1"
   },
   {
    "id": "c1791305909846",
-   "name": "Nielle winter",
+   "name": "winter",
    "char": "ch1"
   },
   {
    "id": "c1791369747075",
-   "name": "Nielle spring",
+   "name": "spring",
    "char": "ch1"
   },
   {
    "id": "c1791370377078",
-   "name": "Nielle Sleep",
+   "name": "Sleep",
    "char": "ch1"
   },
   {
    "id": "c1791370419407",
-   "name": "Nielle Office",
+   "name": "Office",
    "char": "ch1"
   },
   {
    "id": "c1791370427205",
-   "name": "Nielle Party",
+   "name": "Party",
    "char": "ch1"
   },
   {
