@@ -59,7 +59,7 @@
   },
   {
    "id": "c1791370427205",
-   "name": "Party",
+   "name": "GALA",
    "char": "ch1"
   },
   {
@@ -111,6 +111,11 @@
    "id": "c1791831184970",
    "name": "потом чет рассортирую",
    "char": "ch1791830474154"
+  },
+  {
+   "id": "c1792782402599",
+   "name": "OLD MONEY",
+   "char": "ch1"
   }
  ],
  "items": [
@@ -508,7 +513,7 @@
   },
   {
    "id": "i1791373489368",
-   "cat": "c1791370419407",
+   "cat": "c1791305205183",
    "desc": "Main color: White / pearl / pink. Outfit: White satin ruffle-trim camisole crop top and a high-waisted satin maxi pencil skirt with a side slit. Fabric / transparency: Smooth glossy satin, opaque, with a soft sheen. The ruffles are light chiffon. Cutouts / straps: Thin spaghetti straps, sweetheart neckline edged with a ruffle. A band of bare midriff shows between the crop top and the skirt. A slit up the right side of the skirt to the mid-calf. Figure: Full, round bust; narrow waist; wide hips; slim legs. Silhouette: Clean, feminine and resort-like, a cropped top with a sleek long skirt. Length: Top ends above the navel, skirt is ankle-length with a ruffled hem. Sleeves: None, thin straps. Footwear: White platform sandals with jeweled straps and chain anklets. Accessories: Gold seashell pendant necklace, pink shell-shaped chain bag, jeweled anklets. Hairstyle: Very long, loose wavy hair with a center part and thick curls.",
    "img": "images/i1791373489368.jpg",
    "fav": false
@@ -543,7 +548,7 @@
   },
   {
    "id": "i1791373633394",
-   "cat": "c1791813140694",
+   "cat": "c1791814494130",
    "desc": "Main color: Navy / cream / brown / gold. Outfit: Cream off-shoulder ruffle blouse, wide brown leather corset belt with a pouch, and a navy asymmetrical high-low skirt with gold embroidery. Fabric / transparency: The blouse is lightweight ribbed cotton with ruffled cuffs, opaque. The skirt is heavy matte navy fabric with gold floral embroidery. The belt is thick leather. Cutouts / straps: A deep V neckline with a ruffled collar that sits off the shoulders. A high slit on the left side of the skirt shows the thigh. A leather belt with a small pouch and gold chain hangs at the hip. Figure: Full, round bust; narrow waist cinched by the corset belt; wide hips; bare legs through the slit. Silhouette: Fantasy adventurer, fitted waist with a loose blouse and an asymmetrical skirt. Length: Skirt is knee-length on the right and ankle-length at the back and the left front. Sleeves: Three-quarter puffed sleeves with double ruffle cuffs. Footwear: Brown lace-up gladiator sandals with gold studs. Accessories: Navy beret with a gold brooch and a blue ribbon, long gold pendant necklace, belt pouch with chain. Hairstyle: Very long, loose wavy hair with a center part, curls at the front, a beret on top tilted to one side.",
    "img": "images/i1791373633394.jpg",
    "fav": false
@@ -578,7 +583,7 @@
   },
   {
    "id": "i1791373867204",
-   "cat": "c1791813140694",
+   "cat": "c1792782402599",
    "desc": "Main color: Black / white pearl. Outfit: Black tea-length dress with a fitted sweetheart bodice, a wide belt and a very full tulle skirt, worn with short black gloves. Fabric / transparency: The bodice and sleeves are matte opaque fabric. The skirt is made of several layers of sheer black tulle, so the shape of the legs and the inner layers show faintly through it, and the outer layer hangs lower than the inner one with a thin transparent edge. The gloves are smooth opaque fabric. Cutouts / straps: Sweetheart neckline with a soft cleavage dip, no straps. Wide black belt with a flat rectangular buckle at the waist. Metal studs or tabs on the sleeve caps. No skin cutouts. Figure: Full, round bust; narrow waist emphasized by the belt; hips hidden under the bell skirt. Silhouette: Retro 50s tea dress, fitted on top and wide and airy below. Length: Skirt ends at the mid-calf. Sleeves: Short puffed sleeves with a gathered cuff. Footwear: Black patent pointed flats with a bow on the toe and a thin ankle strap with a bow. Accessories: Single-strand pearl necklace, pearl earrings, black headband with bows, black wrist gloves with small bows. Hairstyle: Very long, loose hair with side-swept bangs, held by a black fabric headband with bows on both sides, thick spiral drill curls at the front and sides.",
    "img": "images/i1791373867204.jpg",
    "fav": false
@@ -599,14 +604,14 @@
   },
   {
    "id": "i1791373978898",
-   "cat": "c1791369747075",
+   "cat": "c1791827068250",
    "desc": "Main color: Black / pink / silver. Outfit: Black off-shoulder cat-print top with sheer lace sleeves, a black pleated mini skirt with a studded belt, garter stockings and platform buckle boots. Fabric / transparency: The top is opaque soft jersey with a pink cat-face print on the chest. The long sleeves are black floral lace, sheer, with the skin visible between the patterns. The skirt is opaque matte pleated fabric. The stockings are thin sheer black nylon with a glossy shine. Cutouts / straps: Off-the-shoulder neckline held by thin spaghetti straps, shoulders bare. Pink ribbons are laced criss-cross along the upper sleeves and tied in bows. Studded belt with a heart-shaped buckle and a hanging chain. Black garter straps attach to the stockings, with pink bows on the thigh bands. Figure: Full, round bust; narrow waist; wide hips and thick thighs. Silhouette: Gothic-cute, fitted top with a short flared skirt and heavy boots. Length: Skirt ends at the upper thigh, stockings reach the upper thigh, boots reach below the knee. Sleeves: Long fitted lace sleeves, fingerless, with ruffled lace cuffs. Footwear: Black patent platform knee-high boots with criss-cross lacing, many buckles and heart charms. Accessories: Black choker with a small heart, heart-shaped quilted crossbody bag with a silver chain, studded belt with chains. Hairstyle: Very long, loose voluminous hair with a center part, soft waves on top and thick curls at the ends, no hair accessories.",
    "img": "images/i1791373978898.jpg",
    "fav": false
   },
   {
    "id": "i1791374015180",
-   "cat": "c1791369747075",
+   "cat": "c1791827068250",
    "desc": "Main color: Pink / cream / brown. Outfit: Pink ribbed corset-style top with sheer ruffle sleeves, a pink plaid pleated mini skirt, a leather belt, lace stockings and leg warmers. Fabric / transparency: The top is fitted ribbed knit, opaque, with a corset-like structure. The sleeves are sheer organza ruffles through which the arms show. The skirt is opaque plaid with sharp pleats. The thigh-highs are sheer cream lace with a floral pattern, so the skin shows through. The leg warmers are thick ribbed knit. Cutouts / straps: Sweetheart neckline with a front lace-up closure and a lace ribbon. Thin shoulder straps tied with small bows, and off-the-shoulder sheer sleeves hang below them. Wide brown leather belt with a heart-shaped buckle and a chain. Shoulders are bare. Figure: Full, round bust lifted by the corset top; narrow waist; wide hips and thick thighs. Silhouette: Cute and layered, fitted on top with a short flared skirt and chunky legs. Length: Skirt ends at the upper thigh, stockings at the upper thigh with a bow top, leg warmers at the shins. Sleeves: Short, puffy, sheer ruffle sleeves off the shoulders. Footwear: Black patent platform Mary Janes with pink bows on the straps. Accessories: Layered silver pendant necklaces, a brown leather shoulder bag, a heart belt buckle with a chain, pink bows on the leg warmers and shoes, bows on the stockings. Hairstyle: Very long, loose wavy hair with a center part and thick spiral curls at the ends, no accessories.",
    "img": "images/i1791374015180.jpg",
    "fav": false
@@ -669,7 +674,7 @@
   },
   {
    "id": "i1791374686965",
-   "cat": "c1791369747075",
+   "cat": "c1792782402599",
    "desc": "Main color: Cream / black / gray. Outfit: Cream V-neck button cardigan, a black pleated midi skirt with a wide patent belt, black leather gloves, a silk neck scarf and a beret. Fabric / transparency: The cardigan is a fine ribbed knit, opaque, with small buttons. The skirt is a heavy, matte, finely pleated fabric, opaque. The belt is glossy patent leather. The gloves are smooth leather. The tights are opaque white. The scarf is glossy gray satin. Cutouts / straps: Deep V neckline with the top buttons left open, showing cleavage. The scarf is tied in a bow at the base of the throat. A wide black belt with a large rectangular buckle sits at the high waist. No cutouts. Figure: Full, heavy, round bust; narrow waist under the belt; hips and legs covered by the full skirt. Silhouette: Retro French chic, fitted top with a flared A-line midi skirt. Length: Cardigan ends at the waist, skirt ends at the mid-calf. Sleeves: Long, fitted knit sleeves to the wrists. Footwear: Black patent pointed pumps over white opaque tights. Accessories: Black fuzzy beret, gray satin neck scarf, black leather gloves, wide patent belt. Hairstyle: Very long, loose wavy hair with a center part, the beret worn on top of the head, soft curls at the ends.",
    "img": "images/i1791374686965.jpg",
    "fav": false
@@ -697,7 +702,7 @@
   },
   {
    "id": "i1791374763884",
-   "cat": "c1791813140694",
+   "cat": "c1792782402599",
    "desc": "Main color: Black / white pearl. Outfit: Black tea-length dress with a fitted sweetheart bodice, a wide belt and a full skirt with a sheer hem layer, worn with short black gloves. Fabric / transparency: The bodice and sleeves are matte opaque fabric. The skirt is a dense matte fabric, opaque, with a sheer tulle underlayer that hangs below it as a thin transparent edge. The gloves are smooth opaque fabric. The tights are opaque white. Cutouts / straps: Sweetheart neckline with a soft cleavage dip, no straps. A thin black belt with a flat rectangular buckle sits at the waist. No skin cutouts. Figure: Full, round bust; narrow waist emphasized by the belt; hips hidden under the full skirt. Silhouette: Retro 50s tea dress, fitted on top and wide and airy below. Length: Skirt ends at the mid-calf. Sleeves: Short gathered sleeves. Footwear: Black patent pointed pumps with bows on the toes, over opaque white tights. Accessories: Single-strand pearl necklace, pearl earrings, black headband with a bow, black gloves with small decorative buckles. Hairstyle: Half-up with a black fabric headband and a bow on the left side at the top, the rest long and loose with thick spiral curls at the front.",
    "img": "images/i1791374763884.jpg",
    "fav": false
@@ -1082,7 +1087,7 @@
   },
   {
    "id": "i1791533544215",
-   "cat": "c1791813140694",
+   "cat": "c1791814494130",
    "desc": "Main color: Red / cream / white / gold. Outfit: Strapless red corset dress with gold frog-button knot closures and a black gem drop, a large red satin bow with a rose at the waist, and a high-low tiered ruffle skirt trimmed with white lace. Fabric / transparency: Glossy satin, layered lace trim, sheer lace underlayers, pearl chains. Cutouts / straps: Strapless sweetheart neckline with bare shoulders, detached sleeves, a long hanging sash with small gold bows on a gold chain, pearl strands draped across the waist. Figure: Full bust, narrow waist, soft hips, bare legs in front. Silhouette: Romantic and voluminous, short front and a long train at the back. Length: Mini at the front, floor-length train at the back. Sleeves: Detached wide red sleeves with white ruffle layers, bows and pearl cuffs. Footwear: Red bow-front Mary Janes with ankle ribbons, white lace ankle socks. Accessories: Red ribbon choker with a black gem brooch, red bow hairpin with gold beaded sticks, cream gloves with pearl bracelets, pearl chains, lace-edged train. Hairstyle: High ponytail with a swept front, curled face-framing strands and loose ringlet curls at the sides.",
    "img": "images/i1791533544215.jpg",
    "fav": false
@@ -1117,7 +1122,7 @@
   },
   {
    "id": "i1791533867044",
-   "cat": "c1791813140694",
+   "cat": "c1791814494130",
    "desc": "Main color: Red / white / gold / cream. Outfit: Ornate red long coat with a ruffled shoulder capelet and a gold-embroidered floral collar, over a white diamond-quilted vest with gold buttons and slim white trousers with pleated flared hems. Fabric / transparency: Glossy red satin-velvet coat, torn gold brocade lining, quilted cotton vest, pleated white chiffon trouser flares. Cutouts / straps: High collar with a red triangle gem, gold chain draped at the neck, gold cross ornaments on the sleeves, a long red diamond-patterned stole with gold trim hanging at the front, a ragged gold-edged hem. Figure: Full bust, narrow waist, long slim legs. Silhouette: Regal clerical-inspired long coat with a slim lower body. Length: Floor-length coat, full-length trousers. Sleeves: Wide long sleeves with double-layer white ruffled cuffs. Footwear: Dark red pointed heels. Accessories: Red gloves, gold floral embroidery on the collar, gold chain at the collar, gold cross-shaped sleeve ornaments, gold four-point star studs down the coat front, a red-and-gold diamond-patterned stole. Hairstyle: Center-parted loose hair with soft curled face-framing strands and gentle waves.",
    "img": "images/i1791533867044.jpg",
    "fav": false
@@ -1320,7 +1325,7 @@
   },
   {
    "id": "i1791810768522",
-   "cat": "c1791370419407",
+   "cat": "c1791370427205",
    "desc": "Main color: Black / crimson / silver / white. Outfit: Oversized long black coat with a red lining, black waistcoat, white shirt, red necktie and wide high-waisted trousers. Fabric / transparency: Matte wool-like tailoring, satin crimson lining with dark stain-like patterns, crisp cotton shirt. Cutouts / straps: Deep open collar, harness straps with chains over the waistcoat, belt with a silver buckle. Figure: Full bust, narrow waist, long legs. Silhouette: Dramatic gothic tailoring with exaggerated shoulders and a long flowing coat. Length: Floor-sweeping coat with full-length trousers. Sleeves: Long coat sleeves with studded cuffs and white shirt cuffs. Footwear: Black polished pointed shoes with silver-and-red gem details. Accessories: Choker with a thin ruby pendant chain, red drop earrings, silver star-shaped spiked brooches with ruby centers on the shoulders and thigh, hanging chains with crimson crystal drops, silver rings, long dark red nails. Hairstyle: Very long voluminous spiral curls with a swept side part and face-framing ringlets.",
    "img": "images/i1791810768522.jpg",
    "fav": false
@@ -1621,7 +1626,7 @@
   },
   {
    "id": "i1791826511119",
-   "cat": "c1791370419407",
+   "cat": "c1791370427205",
    "desc": "Main color: Black / antique gold, with pastel pink. Outfit: A black tailored double-breasted peplum blazer with exaggerated structured angular shoulders, a plunging lapel neckline, gold buttons and a gold brooch, a thin black choker with a fine gold chain draped at the shoulder, a long black high-waisted gathered skirt with gold piping lines and a very high slit, and long cape-like back panels trailing to the floor. Fabric / transparency: Matte structured wool or crepe tailoring, gathered satin-like skirt, gold piping trim. Nothing sheer. Cutouts / straps: Deep plunging lapel neckline, high front slit. Figure: Very full bust, tightly cinched waist, long slender legs. Silhouette: Strong architectural shoulders, nipped waist with peplum, narrow column skirt, long trailing panels forming a train. Length: Floor-length with a trailing hem and a thigh-high slit. Sleeves: Long voluminous balloon sleeves gathered into fitted cuffs with gold buttons. Footwear: Black patent pointed stiletto pumps. Accessories: Gold sunburst brooch on the lapel, fine gold chain at the shoulder, black choker, small gold earrings, black pointed nails. Hairstyle: Long pastel-pink hair in a low side ponytail with a black tie, loose waves and side-swept bangs. Face: Pale skin, pale blue eyes, pink lips, soft blush, a composed elegant expression.",
    "img": "images/i1791826511119.jpg",
    "fav": false
@@ -1635,7 +1640,7 @@
   },
   {
    "id": "i1791826540997",
-   "cat": "c1791305756137",
+   "cat": "c1792782402599",
    "desc": "Main color: Black / cream newsprint / brown, with pastel pink. Outfit: A wrap-style black velvet jacket with a wide cream sailor collar trimmed in brown, a peplum waist with a gold ring buckle and belt, a draped black velvet asymmetrical skirt with a brown-trimmed edge opening onto a cascading ruffled underskirt printed like old newspaper, one sleeve in black velvet and the other in newspaper-print fabric with a white cuff, and a black velvet beret with a gold star pin. Fabric / transparency: Crushed velvet, cotton printed with vintage newspaper text and engraving motifs, sheer black tights, patent leather. Cutouts / straps: Deep V neckline cut by the wrap collar, cleavage visible. Figure: Full bust, narrow waist, rounded hips, long legs. Silhouette: Fitted wrap bodice with peplum, hobble-style draped skirt with a flared handkerchief hem. Length: Ankle-length at the side, slit revealing the legs. Sleeves: Asymmetric: a long fitted black velvet sleeve on one side, a puffed newspaper-print sleeve with a white buttoned cuff on the other. Footwear: Black patent pointed stiletto ankle boots with a buckle strap, over sheer black tights. Accessories: Black satin gloves, gold teardrop pendant necklace, pearl drop earrings, gold-ring belt buckle, star hair clip. Hairstyle: Very long pastel-pink hair in voluminous spiral curls under the beret. Face: Pale skin, bright aqua-blue eyes, pink lips, blush, a gentle smile.",
    "img": "images/i1791826540997.jpg",
    "fav": false
@@ -1649,7 +1654,7 @@
   },
   {
    "id": "i1791826578307",
-   "cat": "c1791813140694",
+   "cat": "c1791370419407",
    "desc": "Main color: White / charcoal black / pale grey. Outfit: A high-collar white lace-front blouse with frilled and buttoned bib, cold-shoulder lace ruffle shoulder caps with black ribbon bows, oversized sleeves with black bow ties, a high-waisted black pinstripe pinafore-style pencil skirt with a black tie ribbon at the waist, and a layered white lace and ruffle hem. Fabric / transparency: Cotton lace and chiffon blouse, wool-like pinstripe fabric, tiered white petticoat ruffles, patent leather bow and shoes. Cutouts / straps: Shoulder straps of the pinafore, none else. Figure: Very full bust, tiny waist, wide hips, short curvy build. Silhouette: Hourglass pinafore with extreme bust emphasis, long narrow skirt flaring at the ruffled hem. Length: Calf-length skirt with frills to the ankle. Sleeves: Wide flared bell sleeves with ruffled hems, gathered cuffs with black ribbon bows. Footwear: Black patent platform Mary Janes with ankle straps. Accessories: Large glossy black patent bow at the shoulder, small black bow in the hair, black ribbon ties on the sleeves. Hairstyle: Pastel-pink hair in a high neat top bun with a black bow and a few loose wisps. Face: Pale porcelain skin, pale blue eyes, pink-brown lips, rosy blush, a placid doll-like expression.",
    "img": "images/i1791826578307.jpg",
    "fav": false
@@ -1670,7 +1675,7 @@
   },
   {
    "id": "i1791826637884",
-   "cat": "c1791305756137",
+   "cat": "c1792782402599",
    "desc": "Main color: Black / cream newsprint / brown, with pastel pink and a red accent. Outfit: The same wrap-style black velvet jacket with a wide cream sailor collar as in outfit 19 but with a more open plunging neckline, a gold ring belt, a draped black velvet skirt with a cascading newspaper-print underskirt, a one-sided newspaper-print puffed sleeve, and black gloves, without the beret. Fabric / transparency: Crushed velvet, cotton newsprint, sheer black tights, patent leather. Cutouts / straps: Very deep V neckline showing cleavage. Figure: Very full bust, narrow waist, rounded hips, long legs. Silhouette: Fitted wrap peplum jacket, draped hobble skirt with handkerchief hem. Length: Ankle-length with a leg-revealing side drape. Sleeves: One long fitted velvet sleeve, one puffed newspaper-print sleeve with a white cuff. Footwear: Black patent pointed stiletto ankle boots. Accessories: Red bead necklace with a silver key pendant, silver drop earrings, black satin gloves, gold ring belt. Hairstyle: Very long pastel-pink hair in loose waves with side-swept bangs and a small rose clip. Face: Pale skin, light-blue eyes, soft pink lips, blush, a gentle smile.",
    "img": "images/i1791826637884.jpg",
    "fav": false
@@ -1691,7 +1696,7 @@
   },
   {
    "id": "i1791826687065",
-   "cat": "c1791813140694",
+   "cat": "c1791827068250",
    "desc": "Main color: Burgundy / ivory / black. Outfit: A strapless burgundy pinstriped velvet corset with side lacing and long black ribbons, a very fluffy off-the-shoulder ivory ruffle-lace sleeve shrug, ivory ruffled bloomers with bunny-motif embroidery, burgundy fishnet tights, and long burgundy velvet opera gloves. Fabric / transparency: Pinstriped velvet, layered cotton and chiffon lace ruffles, translucent fishnets, velvet gloves and shoes. Cutouts / straps: Strapless neckline with bare shoulders, deep cleavage, side lace-up panels. Figure: Extremely voluptuous exaggerated bust, tiny waist, wide hips, long legs. Silhouette: Corseted body, huge ruffled sleeves forming a wide cloud, short puffed shorts, long mesh legs. Length: Corset to the hips, bloomers at the upper thigh, fishnets to the ankle. Sleeves: Wide ruffled off-shoulder tiers of ivory lace over the upper arms with long velvet gloves. Footwear: Burgundy velvet platform Mary Janes with black ribbon ankle ties and ruffled lace socks. Accessories: Ivory lace choker with a gold-and-pearl cross pendant, pearl and lace hair ribbon, pearl drop earrings, long black ribbons hanging from the corset. Hairstyle: Long pale pink-lavender hair in soft waves with a lace ribbon on the side. Face: Very pale porcelain skin, light-blue eyes, muted pink lips, rosy blush, a melancholy doll-like expression.",
    "img": "images/i1791826687065.jpg",
    "fav": false
@@ -1803,7 +1808,7 @@
   },
   {
    "id": "i1792780176914",
-   "cat": "c1791370419407",
+   "cat": "c1792782402599",
    "desc": "Main color: Black / ivory / gold. Outfit: Black halter-neck vest-style top with a deep plunging neckline and front button placket, with a gold metallic scarf hanging from the neck down the front. High-waisted black pinstripe flared wide-leg trousers with a front slit and floor-length trailing hems. A white oversized shirt-jacket is pulled off the shoulders and slipped down to the elbows. Black belt with a gold buckle and draped gold chains. Figure: Full bust with deep cleavage; narrow waist; wide hips; slim shoulders and arms. Silhouette: Fitted top with long, flowing flared trousers and a loose off-shoulder layer. Length: Top ends at the waist; trousers full-length with a trailing hem. Sleeves: Long, loose white sleeves with gold buttoned cuffs, pushed down off the shoulders. Footwear: Black patent pointed stiletto pumps. Accessories: Gold pendant necklace, long gold drop earrings, thin gold bangles, a large glossy black bow hair accessory. Hairstyle: Side-swept loose voluminous curls, with a large black bow on one side.",
    "img": "images/i1792780176914.jpg",
    "fav": false
@@ -1817,7 +1822,7 @@
   },
   {
    "id": "i1792780238559",
-   "cat": "c1791370419407",
+   "cat": "c1792782402599",
    "desc": "Main color: Cream / black / gold. Outfit: Fitted cream ribbed-knit turtleneck, tucked into high-waisted cream wide-leg trousers with front slits at the hems and long trailing legs. Black studded belt with a gold buckle, with a black-and-cream marbled-print silk scarf tied at the waist and hanging down to the floor. Figure: Very full, round bust under the fitted knit; narrow waist; wide hips; slim arms. Silhouette: Fitted top with a high waist and long, flowing flared trousers. Length: Top ends at the waist; trousers full-length, pooling at the floor. Sleeves: Long fitted sleeves. Footwear: Cream pointed stiletto pumps. Accessories: Round black sunglasses pushed up on top of the head, a long thin gold lariat necklace with small bead details, wide gold cuff bracelets over the sleeves, a long printed silk scarf at the waist. Hairstyle: Loose voluminous curls, with round black sunglasses worn on top of the head like a headband.",
    "img": "images/i1792780238559.jpg",
    "fav": false
