@@ -141,6 +141,12 @@ dialog{border:1px solid var(--bd);box-shadow:0 20px 60px rgba(0,0,0,.45)}
 .nb div{font-size:13px;line-height:1.35;color:var(--mut)}.nb div strong{display:block;font-size:14px;color:var(--tx)}
 .nb button{margin-left:auto;flex:none;width:28px;height:28px;padding:0;border-radius:50%;background:var(--card);color:var(--mut);font-size:13px}
 
+/* описание персонажа */
+.cd{background:var(--card);border:1px solid var(--bd);border-left:4px solid var(--ac);border-radius:14px;padding:12px 14px 4px;margin-top:14px}
+.cd .ct{font-size:14px;line-height:1.5;white-space:pre-wrap;word-break:break-word;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer}
+.cd.open .ct{display:block;-webkit-line-clamp:unset}
+.cd .cr{display:flex;justify-content:space-between;gap:12px}
+#chDesc{min-height:120px}
 /* темы */
 body[data-pal="got"]{--bg:#17121a;--card:#241c28;--tx:#efe6ee;--mut:#9d8fa3;--ac:#c23a63;--ac2:#33232f;--bd:#3d2f44;--on:#fff;color-scheme:dark}
 body[data-sty="mag"]{--sh0:none}
@@ -229,6 +235,7 @@ body[data-sty="mag"] .ch span{text-transform:uppercase;letter-spacing:1px;font-s
   <input type="file" id="chFile" accept="image/*" onchange="chPrev.src=URL.createObjectURL(this.files[0])">
   <img id="chPrev" alt="">
   <p class="note">Обложка по желанию. Лучше вертикальное фото.</p>
+  <textarea id="chDesc" rows="5" placeholder="Описание: теги внешности, анкета, любые заметки…" oninput="fitCh()"></textarea>
   <div class="row"><button onclick="saveCh()">Сохранить</button><button class="ghost" onclick="dCh.close()">Отмена</button></div>
   <div class="row" id="chDelRow"><button class="ghost" onclick="delCh()"><svg class="i"><use href="#i-trash"/></svg> Удалить персонажа</button></div>
 </dialog>
@@ -374,7 +381,7 @@ function render(){
     $('title').textContent=charName(charId);
     const cs=catsOf(charId);
     const top=`<div class="cb"><button class="ghost" onclick="go('chars')">${ICON('back')} Персонажи</button><button class="ghost ed" onclick="openCh('${charId}')">${ICON('edit')} Изменить</button>${selBtn()}</div>`;
-    m.innerHTML=top+(cs.length?cs.map(c=>{const its=S.items.filter(i=>i.cat===c.id);return `<section class="sh"><div class="hd"><h2>${esc(c.name)}</h2><button class="lk" onclick="go('cat','${c.id}')">Все (${its.length})</button></div>${ban(c.id,its)}<div class="rw">${addTile(c.id)}${its.map(tile).join('')}</div></section>`}).join('')+`<button class="newshelf ed" onclick="addCat()">${ICON('plus')} Новая полка</button>`
+    m.innerHTML=top+charDesc(S.chars.find(x=>x.id===charId))+(cs.length?cs.map(c=>{const its=S.items.filter(i=>i.cat===c.id);return `<section class="sh"><div class="hd"><h2>${esc(c.name)}</h2><button class="lk" onclick="go('cat','${c.id}')">Все (${its.length})</button></div>${ban(c.id,its)}<div class="rw">${addTile(c.id)}${its.map(tile).join('')}</div></section>`}).join('')+`<button class="newshelf ed" onclick="addCat()">${ICON('plus')} Новая полка</button>`
      :`<div class="empty" style="margin-top:40px">Пока нет ни одной полки.<button class="ed" onclick="addCat()">${ICON('plus')} Создать полку</button></div>`);
   }
 }
@@ -386,14 +393,25 @@ function openCh(id){
   $('chName').value=c?c.name:'';$('chFile').value='';
   if(c&&c.img)$('chPrev').src=c.img;else $('chPrev').removeAttribute('src');
   $('chDelRow').hidden=!c;
-  dCh.showModal();
+  $('chDesc').value=c&&c.desc?c.desc:'';
+  dCh.showModal();fitCh();
+}
+function fitCh(){const t=$('chDesc');t.style.height='auto';t.style.height=Math.max(120,t.scrollHeight)+'px'}
+let cdOpen=false;
+const charDesc=c=>c&&c.desc?`<div class="cd${cdOpen?' open':''}"><div class="ct" onclick="toggleCd()">${esc(c.desc)}</div><div class="cr"><button class="lk" onclick="toggleCd()">${cdOpen?'Свернуть':'Развернуть'}</button><button class="lk" onclick="copyChDesc()">${ICON('copy')} Копировать</button></div></div>`:'';
+function toggleCd(){cdOpen=!cdOpen;render()}
+async function copyChDesc(){
+  const c=S.chars.find(x=>x.id===charId),t=c&&c.desc?c.desc:'';if(!t)return toast('Описания пока нет');
+  try{await navigator.clipboard.writeText(t)}catch(e){try{const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()}catch(_){return toast('Не вышло, выдели текст и скопируй вручную')}}
+  toast('Описание скопировано');
 }
 function saveCh(){
   const name=$('chName').value.trim();if(!name)return toast('Введи имя');
+  const desc=$('chDesc').value.trim();
   const f=$('chFile').files[0];
   const done=img=>{
-    if(chEdit){const c=S.chars.find(x=>x.id===chEdit);c.name=name;if(img!==undefined)c.img=img}
-    else S.chars.push({id:'ch'+Date.now(),name,img:img||''});
+    if(chEdit){const c=S.chars.find(x=>x.id===chEdit);c.name=name;c.desc=desc;if(img!==undefined)c.img=img}
+    else S.chars.push({id:'ch'+Date.now(),name,desc,img:img||''});
     commit();dCh.close();render();
   };
   if(f)shrink(f,700,done);else done();
@@ -513,7 +531,7 @@ async function push(){
       let img=c.img||'';
       if(img.startsWith('data:image/jpeg')){img='images/'+c.id+'.jpg';toast('Загружаю обложку '+c.name+'…');await put(img,c.img.split(',')[1],'Cover '+c.id);cpaths[c.id]=img}
       else if(img.startsWith('data:'))img='';
-      out.chars.push({id:c.id,name:c.name,img});
+      out.chars.push({id:c.id,name:c.name,desc:c.desc||'',img});
     }
     for(const i of S.items){
       let img=i.img;
