@@ -119,7 +119,7 @@
   },
   {
    "id": "c1791831184970",
-   "name": "потом чет рассортирую",
+   "name": "хз че это кому надо",
    "char": "ch1791830474154"
   },
   {
@@ -136,6 +136,16 @@
    "id": "c1793029435363",
    "name": "хз",
    "char": "ch1793029421158"
+  },
+  {
+   "id": "c1793029550173",
+   "name": "Asian",
+   "char": "ch1791830474154"
+  },
+  {
+   "id": "c1793029586184",
+   "name": "Gothic",
+   "char": "ch1791830474154"
   }
  ],
  "items": [
@@ -1743,13 +1753,6 @@
    "fav": false
   },
   {
-   "id": "i1791830738574",
-   "cat": "c1791830577434",
-   "desc": "Main color: White / black / charcoal gray / silver. Outfit: Oversized white floor-length trench coat with broad lapels and large pockets, black high-neck ruffled blouse, tailored black trousers, and fitted suspender-style waist. Fabric / transparency: Smooth white coat fabric, matte black tailoring, soft ruffles, glossy leather accessories. Cutouts / straps: Black suspenders with silver buckles, structured waistband, oversized lapels, buttoned cuffs. Figure: Defined waist, elongated legs. Silhouette: Dramatic oversized coat contrasting with fitted inner layers. Length: Floor-length trailing coat, full-length trousers. Sleeves: Wide oversized sleeves with buttoned cuffs. Footwear: Glossy black pointed-toe heels. Accessories: Black leather gloves, clipboard, silver buckles and buttons. Hairstyle: Long platinum-white hair with straight bangs and soft waves.",
-   "img": "images/i1791830738574.jpg",
-   "fav": false
-  },
-  {
    "id": "i1791830751741",
    "cat": "c1791830577434",
    "desc": "Main color: Black / white / gray / silver. Outfit: Crisp white button-up shirt, fitted black waistcoat, black high-neck undershirt, and high-waisted charcoal-gray wide-leg trousers with deep pleats. Fabric / transparency: White cotton, structured matte suiting, flowing gray fabric, polished leather. Cutouts / straps: Deep V-shaped vest neckline, waistcoat buttons, high waistband with circular silver buckle. Figure: Defined waist, elongated legs. Silhouette: Clean tailored upper body with dramatically wide trousers. Length: Full-length trousers. Sleeves: White shirt sleeves rolled below the elbows. Footwear: Black polished lace-up Oxford shoes. Accessories: Circular silver belt buckle, minimal jewelry. Hairstyle: Very long platinum-white hair, straight bangs, soft waves over the shoulders.",
@@ -1765,14 +1768,14 @@
   },
   {
    "id": "i1791831192516",
-   "cat": "c1791831184970",
+   "cat": "c1793029586184",
    "desc": "Main color: Black / ivory / silver. Outfit: Victorian maid-inspired gown with a fitted black bodice, ivory ruffled bib, layered lace trim, puffed black sleeves, and a voluminous ivory floor-length skirt framed by black fabric panels. Fabric / transparency: Matte black satin, ivory cotton, delicate lace, layered ruffles. Cutouts / straps: Fitted bodice with decorative lace-up detailing and thin black ribbon bows. Figure: Defined waist, full bell-shaped skirt. Silhouette: Romantic, elaborate Victorian gothic. Length: Floor-length. Sleeves: Black puff sleeves with fitted forearms and ivory ruffled cuffs. Footwear: Black Mary Jane heels with ankle straps. Accessories: Ivory frilled bonnet, black ribbon bows, lace collar, decorative apron-like front panel. Hairstyle: Long platinum-white wavy hair with straight bangs and loose curls.",
    "img": "images/i1791831192516.jpg",
    "fav": false
   },
   {
    "id": "i1791831220288",
-   "cat": "c1791831184970",
+   "cat": "c1793029586184",
    "desc": "Main color: Black / charcoal gray / silver. Outfit: Short black gothic dress with a fitted waist, large satin bow at the collar, ruffled bodice, voluminous sheer sleeves, pleated miniskirt, and a long translucent gray overskirt. Fabric / transparency: Sheer black chiffon, glossy satin, transparent gray tulle, layered ruffles. Cutouts / straps: Fitted waist sash, decorative neckline brooch, layered skirt panels. Figure: Defined waist, short flared skirt. Silhouette: Delicate gothic doll aesthetic with dramatic trailing fabric. Length: Above-knee dress with a floor-length sheer overskirt. Sleeves: Voluminous translucent bishop sleeves with ruffled cuffs. Footwear: Black lace-up ankle boots with chunky heels. Accessories: Black satin bow, silver jeweled brooch, ruffled wrist cuffs. Hairstyle: Long platinum-white hair with straight bangs and loose flowing waves",
    "img": "images/i1791831220288.jpg",
    "fav": false
@@ -1786,7 +1789,7 @@
   },
   {
    "id": "i1791831256387",
-   "cat": "c1791831184970",
+   "cat": "c1793029550173",
    "desc": "Main color: Ivory / black / silver. Outfit: Elegant ivory Chinese-inspired qipao with a high mandarin collar, delicate floral embroidery, fitted silhouette, short cap sleeves, and long black lace side panels over a flowing ivory underlayer. Fabric / transparency: Ivory embroidered silk, translucent layered fabric, intricate black floral lace. Cutouts / straps: Traditional knotted frog closures at the collar and upper chest, high side slits with black lace inserts. Figure: Fitted waist, long streamlined silhouette. Silhouette: Refined, elegant, fusion of traditional Chinese fashion and gothic romanticism. Length: Ankle-length with a long flowing underlayer. Sleeves: Short cap sleeves with clean edges. Footwear: Black pointed-toe heeled ankle boots. Accessories: Black lace wrist cuffs, silver frog closures, delicate embroidered details. Hairstyle: Extremely long platinum-white hair with straight bangs and flowing waves.",
    "img": "images/i1791831256387.jpg",
    "fav": false
@@ -1800,14 +1803,14 @@
   },
   {
    "id": "i1791831892149",
-   "cat": "c1791831184970",
+   "cat": "c1793029550173",
    "desc": "Main color: Black / purple / gold. Outfit: Cropped double-breasted black jacket over a purple ribbed turtleneck, fitted black flared trousers, and dramatic oversized cape sleeves with purple lining. Fabric / transparency: Matte black suiting, ribbed purple knit, flowing cape fabric, gold metallic hardware. Cutouts / straps: Cropped jacket exposing the waist, gold shoulder chains, decorative buttons. Silhouette: Structured upper body, fitted hips, flared trouser legs, wide draped sleeves. Length: Cropped jacket, full-length trousers. Sleeves: Extra-wide cape sleeves lined in purple, white ruffled cuffs. Footwear: Black pointed-toe heels. Accessories: Gold chains, dangling tassels, gold buttons, long pointed black nails. Hairstyle: Long straight platinum-white hair with blunt bangs.",
    "img": "images/i1791831892149.jpg",
    "fav": false
   },
   {
    "id": "i1791831916901",
-   "cat": "c1791831184970",
+   "cat": "c1793029550173",
    "desc": "Main color: Ivory / black / charcoal gray. Outfit: Traditional Japanese-inspired ensemble with a black high-neck inner top, oversized ivory kimono-style robe with wide sleeves, charcoal pleated hakama-style skirt, and a broad black obi tied into a large bow at the waist. Fabric / transparency: Flowing ivory fabric, matte black inner layer, structured dark pleated fabric. Cutouts / straps: Crossed neckline, wide obi belt, oversized open sleeves. Silhouette: Elegant, flowing and layered, with a defined waist and broad draped sleeves. Length: Ankle-length skirt with long kimono sleeves. Sleeves: Extra-wide kimono sleeves with deep folds. Footwear: Black heeled ankle boots. Accessories: Large black obi bow, minimal dark jewelry. Hairstyle: Long platinum-white hair with soft bangs and flowing waves.",
    "img": "images/i1791831916901.jpg",
    "fav": false
